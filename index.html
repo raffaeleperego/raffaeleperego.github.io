@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raffaele Perego — Efficient IR & Sustainable AI · ISTI-CNR</title>
+<meta name="description" content="Raffaele Perego is a Research Director at ISTI-CNR, Pisa, and head of the High Performance Computing Laboratory. Research on efficient information retrieval, learning to rank, sustainable AI and large-scale data analysis.">
+<meta name="author" content="Raffaele Perego">
+<link rel="canonical" href="https://raffaeleperego.github.io/">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Raffaele Perego — ISTI-CNR">
+<meta property="og:description" content="Efficient information retrieval, sustainable AI and large-scale data analysis. Head of the HPC Lab at ISTI-CNR, Pisa.">
+<meta property="og:url" content="https://raffaeleperego.github.io/">
+<meta property="og:image" content="https://raffaeleperego.github.io/assets/img/profile.jpg">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Raffaele Perego",
+  "jobTitle": "Research Director",
+  "url": "https://raffaeleperego.github.io/",
+  "image": "https://raffaeleperego.github.io/assets/img/profile.jpg",
+  "email": "mailto:raffaele.perego@isti.cnr.it",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Istituto di Scienza e Tecnologie dell'Informazione \"A. Faedo\" (ISTI), Consiglio Nazionale delle Ricerche",
+    "url": "https://www.isti.cnr.it/"
+  },
+  "knowsAbout": ["Information Retrieval", "Efficient Information Retrieval", "Learning to Rank", "Sustainable Artificial Intelligence", "Large-scale Data Analysis", "Web Search", "High Performance Computing"],
+  "sameAs": [
+    "https://dblp.org/pid/p/RaffaelePerego.html",
+    "https://scholar.google.com/citations?user=T371ouoAAAAJ",
+    "https://orcid.org/0000-0001-7189-4724",
+    "https://hpc.isti.cnr.it/"
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">Raffaele Perego</a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#research">Research</a>
+      <a href="#lab">Lab</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============================ HERO ============================ -->
+<section class="hero wrap">
+  <div class="hero-text">
+    <p class="eyebrow">HPC Lab · ISTI-CNR · Pisa</p>
+    <h1>Search and AI that are <em>fast</em>, <em>frugal</em>, and built to scale.</h1>
+    <p class="lede">
+      I am a Research Director at the Institute of Information Science and Technologies
+      (ISTI) of the Italian National Research Council in Pisa, where I lead the
+      <a href="https://hpc.isti.cnr.it/">High Performance Computing Laboratory</a>.
+      My research is about making information retrieval and AI systems efficient:
+      faster ranking, leaner representations, lower energy, without giving up quality.
+    </p>
+    <dl class="stats" aria-label="At a glance">
+      <div><dt id="stat-total">—</dt><dd>Publications</dd></div>
+      <div><dt id="stat-a">—</dt><dd>A/A* conference papers</dd></div>
+      <div><dt id="stat-years">—</dt><dd>Years of research</dd></div>
+      <div><dt id="stat-awards">—</dt><dd>Awards &amp; honors</dd></div>
+    </dl>
+    <div class="cta">
+      <a class="btn btn-primary" href="#publications">Publications</a>
+      <a class="btn" href="https://scholar.google.com/citations?user=T371ouoAAAAJ">Google Scholar ↗</a>
+    </div>
+  </div>
+  <figure class="hero-card">
+    <img src="assets/img/profile.jpg" alt="Portrait of Raffaele Perego" width="640" height="640">
+    <figcaption>
+      <strong>Raffaele Perego</strong>
+      <span>Research Director · Head of HPC Lab</span>
+      <span>ISTI-CNR, Pisa</span>
+    </figcaption>
+  </figure>
+</section>
+
+<!-- ========================== RESEARCH ========================== -->
+<section id="research" class="section wrap">
+  <p class="eyebrow">Research</p>
+  <h2>Three questions I keep coming back to</h2>
+  <div class="themes">
+    <article class="theme">
+      <span class="theme-num">01</span>
+      <h3>How fast can a search engine rank, and at what cost?</h3>
+      <p>Efficient query processing, learning to rank with tree ensembles, compressed indexes,
+        and efficient dense and learned-sparse retrieval for neural and RAG pipelines.</p>
+      <ul class="theme-papers" data-topic="efficient-ir"></ul>
+      <a class="more" href="#publications" data-filter-topic="efficient-ir">Papers on efficient IR →</a>
+    </article>
+    <article class="theme">
+      <span class="theme-num">02</span>
+      <h3>Can AI be accurate and sustainable at the same time?</h3>
+      <p>Energy-aware ranking and inference, model compression, hardware acceleration on
+        FPGAs and GPUs, and reducing the footprint of representations used by neural models.</p>
+      <ul class="theme-papers" data-topic="sustainable-ai"></ul>
+      <a class="more" href="#publications" data-filter-topic="sustainable-ai">Papers on sustainable AI →</a>
+    </article>
+    <article class="theme">
+      <span class="theme-num">03</span>
+      <h3>What do large-scale data say about how people search and move?</h3>
+      <p>Query log mining, conversational search and query performance prediction,
+        recommendation, and analysis of mobility and spatio-temporal data.</p>
+      <ul class="theme-papers" data-topic="web-mining"></ul>
+      <a class="more" href="#publications" data-filter-topic="web-mining">Papers on data analysis →</a>
+    </article>
+  </div>
+</section>
+
+<!-- ============================ LAB ============================= -->
+<section id="lab" class="section wrap">
+  <div class="split">
+    <div>
+      <p class="eyebrow">The lab</p>
+      <h2>High Performance Computing Laboratory</h2>
+      <p>
+        The HPC Lab at ISTI-CNR develops scalable data management and information retrieval
+        methods for computationally and data-intensive applications, from indexing,
+        retrieval and semantic enrichment to large-scale analytics, distributed processing
+        and AI-based decision support. We build systems that work under real-world constraints:
+        large data volumes, low latency, limited resources, distributed infrastructures and
+        privacy-aware processing.
+      </p>
+      <ul class="lines">
+        <li><strong>Efficient, distributed and resource-aware AI.</strong> Compression, quantization, distillation, caching and adaptive inference for LLMs and agentic applications across cloud, edge and device.</li>
+        <li><strong>Efficient information retrieval and search.</strong> Indexing and querying of dense and sparse embeddings, vector search, ranking, re-ranking and RAG pipelines.</li>
+        <li><strong>Cloud-edge continuum.</strong> Decentralized, AI-enhanced orchestration, service placement and scheduling across heterogeneous infrastructures.</li>
+        <li><strong>Mobility, social data and semantic enrichment.</strong> Semantic trajectories, urban dynamics and LLM-based understanding of text and social media.</li>
+      </ul>
+      <a class="btn" href="https://hpc.isti.cnr.it/">Visit the lab website ↗</a>
+    </div>
+    <aside class="people">
+      <h3>People</h3>
+      <p class="people-group">Researchers</p>
+      <p class="people-list">Chiara Renso · Franco Maria Nardini · Cristina Ioana Muntean · Salvatore Trani · Emanuele Carlini · Hanna Kavalionak · Massimo Coppola · Davide Rucci · Chiara Pugliese · Lorenzo Gabrielli · Maddalena Amendola · Vincenzo Paparella</p>
+      <p class="people-group">Ph.D. students</p>
+      <p class="people-list">Nelson A. R. de Almeida Passos · Silvio Martinico · Claudia Nanula · Antonino Vaccarella · Lanpei Li · Ajla Rustemi · Francesco Benocci · Joaquim Mbasa Molo · William Jones Beckhauser · Marco Alessio · Saul Urso · Andrea Giuseppe Di Francesco</p>
+      <p class="people-group">Research associates</p>
+      <p class="people-list">Salvatore Orlando · Rossano Venturini · Ophir Frieder · Claudio Lucchese · Fabrizio Silvestri · Nicola Tonellotto · Giulio Ermanno Pibiri · Fabio Pinelli · Patrizio Dazzi · Giovanni Trappolini</p>
+      <a class="more" href="https://hpc.isti.cnr.it/our-team/">Full team and alumni →</a>
+    </aside>
+  </div>
+</section>
+
+<!-- ========================== PROJECTS ========================== -->
+<section id="projects" class="section wrap">
+  <p class="eyebrow">Projects</p>
+  <h2>Ongoing projects</h2>
+  <div class="cards">
+    <article class="card"><h3>MUSIT</h3><p>Turning heterogeneous tracking-sensor data into complete, semantically enriched trajectories for mobility monitoring.</p></article>
+    <article class="card"><h3>ENRESFOOD</h3><p>An AI-powered dashboard that helps food-chain actors detect safety and security threats early.</p></article>
+    <article class="card"><h3>RenAI</h3><p>An end-to-end, trustworthy generative-AI ecosystem for science within the European Open Science Cloud.</p></article>
+    <article class="card"><h3>FarmHeroes</h3><p>Research, AI and creative tools to support generational renewal in European agriculture.</p></article>
+  </div>
+  <h3 class="subhead">Recently concluded</h3>
+  <ul class="tags">
+    <li>EFRA</li><li>FAIR</li><li>SoBigData RI PPP</li><li>EDGELESS</li><li>SoBigData.it</li>
+    <li>CAMEO</li><li>SoBigData++</li><li>CHARITY</li><li>NAVIGATOR</li>
+  </ul>
+  <a class="more" href="https://hpc.isti.cnr.it/projects/">All lab projects →</a>
+</section>
+
+<!-- ======================== PUBLICATIONS ======================== -->
+<section id="publications" class="section wrap">
+  <div class="pub-head">
+    <div>
+      <p class="eyebrow">Publications</p>
+      <h2>Papers</h2>
+    </div>
+    <p class="pub-meta">From <a href="https://dblp.org/pid/p/RaffaelePerego.html">DBLP</a>, last updated <span id="pub-updated">—</span>.
+      Also on <a href="https://scholar.google.com/citations?user=T371ouoAAAAJ">Google Scholar</a>.</p>
+  </div>
+
+  <div class="filters">
+    <label class="search">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="m21 21-4.3-4.3M11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg>
+      <input id="pub-search" type="search" placeholder="Search title, author, venue…" autocomplete="off">
+    </label>
+    <div class="filter-row" role="group" aria-label="Type" id="type-filters"></div>
+    <div class="filter-row topics" role="group" aria-label="Topic" id="topic-filters"></div>
+  </div>
+
+  <p class="pub-count" id="pub-count" aria-live="polite"></p>
+  <div id="pub-list" class="pub-list"></div>
+  <button id="pub-more" class="btn more-btn" type="button" hidden>Show more</button>
+</section>
+
+<!-- =========================== AWARDS =========================== -->
+<section id="awards" class="section wrap">
+  <p class="eyebrow">Awards</p>
+  <h2>Awards &amp; recognition</h2>
+  <ol class="timeline">
+    <li><span class="t-year">2026</span><div><span class="t-badge">Best Paper · Honorable Mention</span><p class="t-title">When Reducing Representations Improves Performance</p><p class="t-meta">ECIR 2026 · with G. Faggioli, N. Ferro, A. Pasin, N. Tonellotto</p></div></li>
+    <li><span class="t-year">2023</span><div><span class="t-badge">Best Paper · Honorable Mention</span><p class="t-title">A Geometric Framework for Query Performance Prediction in Conversational Search</p><p class="t-meta">ACM SIGIR 2023 · with G. Faggioli, N. Ferro, C. I. Muntean, N. Tonellotto</p></div></li>
+    <li><span class="t-year">2022</span><div><span class="t-badge">Best Industry-Impact Paper</span><p class="t-title">Ensemble Model Compression for Fast and Energy-Efficient Ranking on FPGAs</p><p class="t-meta">ECIR 2022 · with V. Gil-Costa, F. Loor, R. Molina, F. M. Nardini, S. Trani</p></div></li>
+    <li><span class="t-year">2016</span><div><span class="t-badge">Best Student Paper</span><p class="t-title">SEL: A Unified Algorithm for Entity Linking and Saliency Detection</p><p class="t-meta">ACM DocEng 2016 · with S. Trani, D. Ceccarelli, C. Lucchese, S. Orlando</p></div></li>
+    <li><span class="t-year">2015</span><div><span class="t-badge">Best Paper</span><p class="t-title">QuickScorer: a Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees</p><p class="t-meta">ACM SIGIR 2015 · with C. Lucchese, F. M. Nardini, S. Orlando, N. Tonellotto, R. Venturini. Also selected as a Notable Article in Computing 2015 by ACM Computing Reviews.</p></div></li>
+    <li><span class="t-year">2014</span><div><span class="t-badge">Research award</span><p class="t-title">Yahoo Faculty Research and Engagement Program (FREP)</p><p class="t-meta">Using query logs to recommend mobile apps to users</p></div></li>
+    <li><span class="t-year">2014</span><div><span class="t-badge">Best Demo Paper</span><p class="t-title">TripBuilder: A Tool for Recommending Sightseeing Tours</p><p class="t-meta">ECIR 2014 · with I. Brilhante, J. A. Macedo, F. M. Nardini, C. Renso</p></div></li>
+    <li><span class="t-year">2013</span><div><span class="t-badge">Notable Article</span><p class="t-title">Discovering Tasks from Search Engine Query Logs</p><p class="t-meta">ACM TOIS · selected by ACM Computing Reviews · with C. Lucchese, S. Orlando, F. Silvestri, G. Tolomei</p></div></li>
+    <li><span class="t-year">2011</span><div><span class="t-badge">Best Paper · Runner-up</span><p class="t-title">Identifying Task-based Sessions in Search Engine Query Logs</p><p class="t-meta">ACM WSDM 2011 · with C. Lucchese, S. Orlando, F. Silvestri, G. Tolomei</p></div></li>
+    <li><span class="t-year">2010</span><div><span class="t-badge">Best Paper · Runner-up</span><p class="t-title">Mining Top-K Patterns from Binary Datasets in Presence of Noise</p><p class="t-meta">SIAM SDM 2010 · with C. Lucchese, S. Orlando</p></div></li>
+  </ol>
+</section>
+
+<!-- =========================== CONTACT ========================== -->
+<section id="contact" class="section wrap">
+  <p class="eyebrow">Contact</p>
+  <h2>Get in touch</h2>
+  <div class="contact">
+    <div class="contact-block">
+      <h3>Office</h3>
+      <address>
+        Istituto di Scienza e Tecnologie dell'Informazione "A. Faedo" (ISTI)<br>
+        Consiglio Nazionale delle Ricerche<br>
+        Area della Ricerca di Pisa<br>
+        Via G. Moruzzi 1, 56126 Pisa, Italy
+      </address>
+    </div>
+    <div class="contact-block">
+      <h3>Reach me</h3>
+      <p><a href="mailto:raffaele.perego@isti.cnr.it">raffaele.perego@isti.cnr.it</a></p>
+      <p>+39 050 315 2993</p>
+    </div>
+    <div class="contact-block">
+      <h3>Profiles</h3>
+      <ul class="links">
+        <li><a href="https://scholar.google.com/citations?user=T371ouoAAAAJ">Google Scholar</a></li>
+        <li><a href="https://dblp.org/pid/p/RaffaelePerego.html">DBLP</a></li>
+        <li><a href="https://orcid.org/0000-0001-7189-4724">ORCID</a></li>
+        <li><a href="https://hpc.isti.cnr.it/">HPC Lab</a></li>
+        <li><a href="https://www.isti.cnr.it/">ISTI-CNR</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer wrap">
+  <p>© Raffaele Perego · ISTI-CNR, Pisa</p>
+  <p><a href="#top">Back to top ↑</a></p>
+</footer>
+
+<script src="assets/js/publications-data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+# Research topics. Each paper is tagged with every topic whose patterns
+# (case-insensitive regex) match its title or venue. A paper matching
+# nothing gets "misc". Order here is the order of the filter chips.
+# Per-paper additions go in data/overrides.yml under `topics:`.
+
+topics:
+  - slug: efficient-ir
+    label: Efficient IR
+    patterns:
+      - '\bindex(es|ing)?\b'
+      - '\bcompress'
+      - '\bcach(e|es|ing)\b'
+      - '\bquery processing\b'
+      - '\befficien'
+      - '\bpruning\b'
+      - '\bquickscorer\b'
+      - '\bfast\b'
+      - '\blatency\b'
+      - '\bscal(able|ability|ing)\b'
+      - '\bdistributed (search|retrieval|ir|web search)'
+      - '\bsearch engines?\b'
+      - '\bpartition'
+      - '\bcollection selection\b'
+      - '\bnearest.neighbo'
+      - '\bhnsw\b|\bvector search\b|\bquantiz'
+
+  - slug: ltr
+    label: Learning to Rank
+    patterns:
+      - '\blearning.to.rank\b'
+      - '\branking\b'
+      - '\brank(er|ers)?\b'
+      - '\bregression trees\b|\btree ensembles?\b|\bensembles? of\b|\bforests?\b'
+      - '\blambdamart\b'
+
+  - slug: neural-ir
+    label: Neural IR & LLMs
+    patterns:
+      - '\bneural\b'
+      - '\bdense\b'
+      - '\blearned sparse\b|\bsparse (retrieval|representations?)\b|\bsplade\b'
+      - '\bembeddings?\b'
+      - '\btransformers?\b|\bbert\b'
+      - '\b(large )?language models?\b|\bllms?\b'
+      - '\bretrieval.augmented\b|\brag\b'
+      - '\brepresentations?\b'
+      - '\bquery performance prediction\b|\bqpp\b'
+
+  - slug: conversational
+    label: Conversational Search
+    patterns:
+      - '\bconversation'
+      - '\butterance'
+      - '\bdialog'
+
+  - slug: sustainable-ai
+    label: Sustainable AI & Hardware
+    patterns:
+      - '\benergy\b'
+      - '\bpower\b'
+      - '\bgreen\b'
+      - '\bsustainab'
+      - '\bfpgas?\b'
+      - '\bgpus?\b'
+      - '\bcarbon\b'
+      - '\bsimd\b|\bmulti.?core\b'
+
+  - slug: web-mining
+    label: Query Logs & Web Mining
+    patterns:
+      - '\bquery logs?\b'
+      - '\bquery (suggestion|recommendation|reformulation|expansion)'
+      - '\bsessions?\b'
+      - '\btasks?\b'
+      - '\bweb (search|mining|usage)\b'
+      - '\busers?\b'
+      - '\bclick'
+      - '\bentit(y|ies)\b'
+      - '\bsemantic\b'
+      - '\btwitter\b|\btweets?\b|\bsocial\b'
+      - '\bwikipedia\b'
+
+  - slug: recsys
+    label: Recommender Systems
+    patterns:
+      - '\brecommend'
+      - '\bpersonali[sz]'
+      - '\btour(s|ism|ist)?\b|\bitinerar|\bpoints? of interest\b|\bpoi\b'
+
+  - slug: mobility
+    label: Mobility & Spatial Data
+    patterns:
+      - '\btrajector'
+      - '\bmobility\b'
+      - '\bspatio.?temporal\b|\bspatial\b|\bgeo(graph|spatial|tag|locat|-)'
+      - '\btraffic\b|\bvehic|\btaxi\b|\btransport'
+      - '\burban\b|\bcity\b|\bcities\b'
+
+  - slug: data-mining
+    label: Data Mining
+    patterns:
+      - '\bfrequent (item ?sets?|patterns?)\b'
+      - '\bitemsets?\b'
+      - '\bassociation rules?\b'
+      - '\bpattern mining\b|\bmining\b'
+      - '\bclustering\b'
+      - '\bdata analytics\b|\bbig data\b'
+
+  - slug: hpc
+    label: Parallel & Distributed Systems
+    patterns:
+      - '\bparallel'
+      - '\bdistributed\b'
+      - '\bgrid\b'
+      - '\bcloud\b|\bedge\b|\bfog\b|\bserverless\b'
+      - '\bclusters?\b'
+      - '\bmpi\b|\bhpf\b|\bopenmp\b'
+      - '\bload balanc'
+      - '\bscheduling\b|\borchestrat'
+      - '\bpeer.to.peer\b|\bp2p\b'
+      - '\bmessage passing\b'
+      - '\bdata.parallel\b'
+      - '\bresource'

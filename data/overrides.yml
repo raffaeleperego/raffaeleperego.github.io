@@ -1,0 +1,38 @@
+# Hand fixes applied by scripts/build_publications.py.
+# Keys are DBLP keys without the "DBLP:" prefix (e.g. conf/sigir/LuccheseNOP0V15).
+
+# Entries to hide (not papers, duplicates, misattributions).
+drop: []
+
+# Force a type: a_conf | q1 | conf | journal | workshop | book | edited | preprint
+type: {}
+
+# Shown under the "Selected" filter (award papers are selected automatically).
+selected: []
+
+# Award label shown as a ribbon on the paper.
+awards:
+  conf/ecir/PasinFFPT26: Best Paper Honorable Mention, ECIR 2026
+  conf/sigir/Faggioli0M0T23: Best Paper Honorable Mention, SIGIR 2023
+  conf/ecir/Gil-CostaLMNPT22: Best Industry-Impact Paper, ECIR 2022
+  conf/doceng/TraniCLOP16: Best Student Paper, DocEng 2016
+  conf/sigir/LuccheseNOPTV15: Best Paper, SIGIR 2015
+  conf/ecir/BrilhanteMNPR14: Best Demo Paper, ECIR 2014
+  journals/tois/LuccheseOPST13: Notable Article in Computing 2013, ACM Computing Reviews
+  conf/wsdm/LuccheseOPST11: Best Paper Runner-up, WSDM 2011
+  conf/sdm/LuccheseOP10: Best Paper Runner-up, SDM 2010
+
+# Extra topic slugs for a paper (see data/topics.yml).
+topics: {}
+
+# Papers in neither DBLP nor OpenAlex yet (e.g. just accepted).
+# The build warns when DBLP catches up, so you can delete the entry.
+# Recent papers that OpenAlex already has are added automatically;
+# hide a wrong one with `drop:` using its id, e.g. W7225073442.
+extra: []
+#  - title: "My Accepted Paper"
+#    authors: [Raffaele Perego, Someone Else]
+#    year: 2026
+#    venue: sigir            # venue id as in venues.yml
+#    venue_full: "Proc. ACM SIGIR 2026"
+#    url: https://doi.org/...
