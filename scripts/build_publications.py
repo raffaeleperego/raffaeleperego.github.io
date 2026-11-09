@@ -450,7 +450,8 @@ def main() -> int:
 # new URL and is fetched at once.
 # --------------------------------------------------------------------------
 
-BUSTED = ["assets/css/style.css", "assets/js/site.js", "assets/js/publications-data.js"]
+BUSTED = ["assets/css/style.css", "assets/js/site.js", "assets/js/publications-data.js",
+          "assets/img/profile.jpg", "assets/img/favicon.png"]
 
 
 def bump_cache_busters() -> None:
