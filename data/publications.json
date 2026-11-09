@@ -2,7 +2,7 @@
  "generated": "2026-11-09",
  "stats": {
   "total": 252,
-  "a_conf": 80,
+  "a_conf": 81,
   "q1": 34,
   "first_year": 1992,
   "years_active": 34
@@ -200,7 +200,7 @@
     "Raffaele Perego"
    ],
    "year": 2026,
-   "type": "conf",
+   "type": "a_conf",
    "venue": "ICWSM",
    "venue_full": "Proceedings of the International AAAI Conference on Web and Social Media",
    "url": "https://doi.org/10.1609/icwsm.v20i1.42627",

@@ -40,6 +40,7 @@ a_conferences:
   - emnlp
   - naacl
   - mm           # ACM Multimedia
+  - icwsm
   # Parallel and distributed computing
   - ipps         # IPDPS
   - europar
