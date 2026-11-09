@@ -101,6 +101,74 @@
  ],
  "publications": [
   {
+   "key": "journals/tois/FaggioliFPT26",
+   "title": "Getting off the DIME: Dimension Pruning via Dimension Importance Estimation for Dense Information Retrieval",
+   "authors": [
+    "Guglielmo Faggioli",
+    "Nicola Ferro",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2026,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/3765619",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "neural-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/tois/AmendolaPP26",
+   "title": "Leveraging Topic Specificity and Social Relationships for Expert Finding in Community Question Answering Platforms",
+   "authors": [
+    "Maddalena Amendola",
+    "Andrea Passarella",
+    "Raffaele Perego"
+   ],
+   "year": 2026,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/3793531",
+   "arxiv": "2407.04018",
+   "topics": [
+    "recsys",
+    "social"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/tois/DattaFFGMPT26",
+   "title": "Projection-Displacement-Based Query Performance Prediction for Embedded Space of Dense Retrievers",
+   "authors": [
+    "Suchana Datta",
+    "Guglielmo Faggioli",
+    "Nicola Ferro",
+    "Debasis Ganguly",
+    "Cristina Ioana Muntean",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2026,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/3765617",
+   "arxiv": "",
+   "topics": [
+    "neural-ir",
+    "qpp-eval"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "openalex:W7225077833",
    "title": "Conformal Prediction for Statistically Reliable LLM-as-a-Judge in Recommender Systems",
    "authors": [
@@ -233,29 +301,6 @@
    "award": "Best Paper Honorable Mention, ECIR 2026"
   },
   {
-   "key": "conf/edbt/AmendolaPPR26",
-   "title": "Spatial RAG for Big Data-Driven Urban Itinerary Recommendation",
-   "authors": [
-    "Maddalena Amendola",
-    "Chiara Pugliese",
-    "Raffaele Perego",
-    "Chiara Renso"
-   ],
-   "year": 2026,
-   "type": "workshop",
-   "venue": "EDBT",
-   "venue_full": "Proceedings of the Workshops of the EDBT/ICDT 2026 Joint Conference co-located with the EDBT/ICDT 2025 Joint Conference, Tampere, Finland, March 24, 2026",
-   "url": "https://ceur-ws.org/Vol-4192/BMDA-paper4.pdf",
-   "arxiv": "",
-   "topics": [
-    "neural-ir",
-    "recsys",
-    "mobility"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "openalex:W7162309682",
    "title": "Gender Disparities in StackOverflow’s Community-Based Question Answering: A Matter of Quantity Versus Quality",
    "authors": [
@@ -279,69 +324,24 @@
    "award": ""
   },
   {
-   "key": "journals/tois/FaggioliFPT26",
-   "title": "Getting off the DIME: Dimension Pruning via Dimension Importance Estimation for Dense Information Retrieval",
-   "authors": [
-    "Guglielmo Faggioli",
-    "Nicola Ferro",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2026,
-   "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/3765619",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "neural-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tois/AmendolaPP26",
-   "title": "Leveraging Topic Specificity and Social Relationships for Expert Finding in Community Question Answering Platforms",
+   "key": "conf/edbt/AmendolaPPR26",
+   "title": "Spatial RAG for Big Data-Driven Urban Itinerary Recommendation",
    "authors": [
     "Maddalena Amendola",
-    "Andrea Passarella",
-    "Raffaele Perego"
-   ],
-   "year": 2026,
-   "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/3793531",
-   "arxiv": "2407.04018",
-   "topics": [
-    "recsys",
-    "social"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tois/DattaFFGMPT26",
-   "title": "Projection-Displacement-Based Query Performance Prediction for Embedded Space of Dense Retrievers",
-   "authors": [
-    "Suchana Datta",
-    "Guglielmo Faggioli",
-    "Nicola Ferro",
-    "Debasis Ganguly",
-    "Cristina Ioana Muntean",
+    "Chiara Pugliese",
     "Raffaele Perego",
-    "Nicola Tonellotto"
+    "Chiara Renso"
    ],
    "year": 2026,
-   "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/3765617",
+   "type": "workshop",
+   "venue": "EDBT",
+   "venue_full": "Proceedings of the Workshops of the EDBT/ICDT 2026 Joint Conference co-located with the EDBT/ICDT 2025 Joint Conference, Tampere, Finland, March 24, 2026",
+   "url": "https://ceur-ws.org/Vol-4192/BMDA-paper4.pdf",
    "arxiv": "",
    "topics": [
     "neural-ir",
-    "qpp-eval"
+    "recsys",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -366,189 +366,6 @@
    "topics": [
     "efficient-ir",
     "neural-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/ccgrid/LettichCNPT25",
-   "title": "Power- and Fragmentation-Aware Online Scheduling for GPU Datacenters",
-   "authors": [
-    "Francesco Lettich",
-    "Emanuele Carlini",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Salvatore Trani"
-   ],
-   "year": 2025,
-   "type": "a_conf",
-   "venue": "CCGRID",
-   "venue_full": "25th IEEE International Symposium on Cluster, Cloud and Internet Computing, CCGrid 2025, Tromsø, Norway, 19-22 May 2025",
-   "url": "https://doi.org/10.1109/CCGRID64434.2025.00015",
-   "arxiv": "2412.17484",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/ecir/FaggioliFPT25",
-   "title": "Query Performance Prediction Using Dimension Importance Estimators",
-   "authors": [
-    "Guglielmo Faggioli",
-    "Nicola Ferro",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2025,
-   "type": "a_conf",
-   "venue": "ECIR",
-   "venue_full": "Advances in Information Retrieval - 47th European Conference on Information Retrieval, ECIR 2025, Lucca, Italy, April 6-10, 2025, Proceedings, Part II",
-   "url": "https://doi.org/10.1007/978-3-031-88711-6\\_13",
-   "arxiv": "",
-   "topics": [
-    "neural-ir",
-    "qpp-eval"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/access/RocchiettiRNMPF25",
-   "title": "ChatGPT Versus Modest Large Language Models: An Extensive Study on Benefits and Drawbacks for Conversational Search",
-   "authors": [
-    "Guido Rocchietti",
-    "Cosimo Rulli",
-    "Franco Maria Nardini",
-    "Cristina Ioana Muntean",
-    "Raffaele Perego",
-    "Ophir Frieder"
-   ],
-   "year": 2025,
-   "type": "journal",
-   "venue": "IEEE Access",
-   "venue_full": "IEEE Access",
-   "url": "https://doi.org/10.1109/ACCESS.2025.3529741",
-   "arxiv": "",
-   "topics": [
-    "neural-ir",
-    "conversational"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/iir/AlessioMNFFFMNNPSV25",
-   "title": "A Dataset for Joint Conversational Search and Recommendation",
-   "authors": [
-    "Marco Alessio",
-    "Simone Merlo",
-    "Tommaso Di Noia",
-    "Guglielmo Faggioli",
-    "Marco Ferrante",
-    "Nicola Ferro",
-    "Cristina Ioana Muntean",
-    "Franco Maria Nardini",
-    "Fedelucio Narducci",
-    "Raffaele Perego",
-    "Giuseppe Santucci",
-    "Nicola Viterbo"
-   ],
-   "year": 2025,
-   "type": "workshop",
-   "venue": "IIR",
-   "venue_full": "Proceedings of the 15th Italian Information Retrieval Workshop (IIR 2025), Cagliari, Italy, September 3-5, 2025",
-   "url": "https://ceur-ws.org/Vol-4026/paper8.pdf",
-   "arxiv": "",
-   "topics": [
-    "conversational",
-    "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/iir/FaggioliFPT25",
-   "title": "Counterfactual Dimension Importance Estimation (CoDIME) for Dense Information Retrieval",
-   "authors": [
-    "Guglielmo Faggioli",
-    "Nicola Ferro",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2025,
-   "type": "workshop",
-   "venue": "IIR",
-   "venue_full": "Proceedings of the 15th Italian Information Retrieval Workshop (IIR 2025), Cagliari, Italy, September 3-5, 2025",
-   "url": "https://ceur-ws.org/Vol-4026/paper16.pdf",
-   "arxiv": "",
-   "topics": [
-    "neural-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/iir/KaselaPP25",
-   "title": "PARK: Personalized Academic Retrieval with Knowledge-graphs",
-   "authors": [
-    "Pranav Kasela",
-    "Gabriella Pasi",
-    "Raffaele Perego"
-   ],
-   "year": 2025,
-   "type": "workshop",
-   "venue": "IIR",
-   "venue_full": "Proceedings of the 15th Italian Information Retrieval Workshop (IIR 2025), Cagliari, Italy, September 3-5, 2025",
-   "url": "https://ceur-ws.org/Vol-4026/paper1.pdf",
-   "arxiv": "2507.13910",
-   "topics": [
-    "recsys",
-    "entities"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/is/KaselaPP25",
-   "title": "PARK: Personalized academic retrieval with knowledge-graphs",
-   "authors": [
-    "Pranav Kasela",
-    "Gabriella Pasi",
-    "Raffaele Perego"
-   ],
-   "year": 2025,
-   "type": "q1",
-   "venue": "Inf. Syst.",
-   "venue_full": "Inf. Syst.",
-   "url": "https://doi.org/10.1016/J.IS.2025.102574",
-   "arxiv": "",
-   "topics": [
-    "recsys",
-    "entities"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sebd/FaggioliFPT25",
-   "title": "A Dimension Importance Estimation-based Framework for Query Performance Prediction",
-   "authors": [
-    "Guglielmo Faggioli",
-    "Nicola Ferro",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2025,
-   "type": "workshop",
-   "venue": "SEBD",
-   "venue_full": "Proceedings of the 33nd Symposium on Advanced Database Systems, SEBD 2025, Ischia, Italy, June 16th to 19th, 2025",
-   "url": "https://ceur-ws.org/Vol-4182/paper27.pdf",
-   "arxiv": "",
-   "topics": [
-    "neural-ir",
-    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -655,6 +472,51 @@
    "award": ""
   },
   {
+   "key": "journals/tois/LuccheseNOPV25",
+   "title": "Explainable, Effective, and Efficient Learning-to-Rank Models Using ILMART",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Alberto Veneri"
+   ],
+   "year": 2025,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/3733232",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/ecir/FaggioliFPT25",
+   "title": "Query Performance Prediction Using Dimension Importance Estimators",
+   "authors": [
+    "Guglielmo Faggioli",
+    "Nicola Ferro",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2025,
+   "type": "a_conf",
+   "venue": "ECIR",
+   "venue_full": "Advances in Information Retrieval - 47th European Conference on Information Retrieval, ECIR 2025, Lucca, Italy, April 6-10, 2025, Proceedings, Part II",
+   "url": "https://doi.org/10.1007/978-3-031-88711-6\\_13",
+   "arxiv": "",
+   "topics": [
+    "neural-ir",
+    "qpp-eval"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/gis/PuglieseA0R25",
    "title": "A Spatially-Grounded Conversational Planner for Personalized Urban Itineraries",
    "authors": [
@@ -678,24 +540,162 @@
    "award": ""
   },
   {
-   "key": "journals/tois/LuccheseNOPV25",
-   "title": "Explainable, Effective, and Efficient Learning-to-Rank Models Using ILMART",
+   "key": "conf/ccgrid/LettichCNPT25",
+   "title": "Power- and Fragmentation-Aware Online Scheduling for GPU Datacenters",
    "authors": [
-    "Claudio Lucchese",
+    "Francesco Lettich",
+    "Emanuele Carlini",
     "Franco Maria Nardini",
-    "Salvatore Orlando",
     "Raffaele Perego",
-    "Alberto Veneri"
+    "Salvatore Trani"
+   ],
+   "year": 2025,
+   "type": "a_conf",
+   "venue": "CCGRID",
+   "venue_full": "25th IEEE International Symposium on Cluster, Cloud and Internet Computing, CCGrid 2025, Tromsø, Norway, 19-22 May 2025",
+   "url": "https://doi.org/10.1109/CCGRID64434.2025.00015",
+   "arxiv": "2412.17484",
+   "topics": [
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/is/KaselaPP25",
+   "title": "PARK: Personalized academic retrieval with knowledge-graphs",
+   "authors": [
+    "Pranav Kasela",
+    "Gabriella Pasi",
+    "Raffaele Perego"
    ],
    "year": 2025,
    "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/3733232",
+   "venue": "Inf. Syst.",
+   "venue_full": "Inf. Syst.",
+   "url": "https://doi.org/10.1016/J.IS.2025.102574",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "ltr"
+    "recsys",
+    "entities"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/access/RocchiettiRNMPF25",
+   "title": "ChatGPT Versus Modest Large Language Models: An Extensive Study on Benefits and Drawbacks for Conversational Search",
+   "authors": [
+    "Guido Rocchietti",
+    "Cosimo Rulli",
+    "Franco Maria Nardini",
+    "Cristina Ioana Muntean",
+    "Raffaele Perego",
+    "Ophir Frieder"
+   ],
+   "year": 2025,
+   "type": "journal",
+   "venue": "IEEE Access",
+   "venue_full": "IEEE Access",
+   "url": "https://doi.org/10.1109/ACCESS.2025.3529741",
+   "arxiv": "",
+   "topics": [
+    "neural-ir",
+    "conversational"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/iir/AlessioMNFFFMNNPSV25",
+   "title": "A Dataset for Joint Conversational Search and Recommendation",
+   "authors": [
+    "Marco Alessio",
+    "Simone Merlo",
+    "Tommaso Di Noia",
+    "Guglielmo Faggioli",
+    "Marco Ferrante",
+    "Nicola Ferro",
+    "Cristina Ioana Muntean",
+    "Franco Maria Nardini",
+    "Fedelucio Narducci",
+    "Raffaele Perego",
+    "Giuseppe Santucci",
+    "Nicola Viterbo"
+   ],
+   "year": 2025,
+   "type": "workshop",
+   "venue": "IIR",
+   "venue_full": "Proceedings of the 15th Italian Information Retrieval Workshop (IIR 2025), Cagliari, Italy, September 3-5, 2025",
+   "url": "https://ceur-ws.org/Vol-4026/paper8.pdf",
+   "arxiv": "",
+   "topics": [
+    "conversational",
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/iir/FaggioliFPT25",
+   "title": "Counterfactual Dimension Importance Estimation (CoDIME) for Dense Information Retrieval",
+   "authors": [
+    "Guglielmo Faggioli",
+    "Nicola Ferro",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2025,
+   "type": "workshop",
+   "venue": "IIR",
+   "venue_full": "Proceedings of the 15th Italian Information Retrieval Workshop (IIR 2025), Cagliari, Italy, September 3-5, 2025",
+   "url": "https://ceur-ws.org/Vol-4026/paper16.pdf",
+   "arxiv": "",
+   "topics": [
+    "neural-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/iir/KaselaPP25",
+   "title": "PARK: Personalized Academic Retrieval with Knowledge-graphs",
+   "authors": [
+    "Pranav Kasela",
+    "Gabriella Pasi",
+    "Raffaele Perego"
+   ],
+   "year": 2025,
+   "type": "workshop",
+   "venue": "IIR",
+   "venue_full": "Proceedings of the 15th Italian Information Retrieval Workshop (IIR 2025), Cagliari, Italy, September 3-5, 2025",
+   "url": "https://ceur-ws.org/Vol-4026/paper1.pdf",
+   "arxiv": "2507.13910",
+   "topics": [
+    "recsys",
+    "entities"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sebd/FaggioliFPT25",
+   "title": "A Dimension Importance Estimation-based Framework for Query Performance Prediction",
+   "authors": [
+    "Guglielmo Faggioli",
+    "Nicola Ferro",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2025,
+   "type": "workshop",
+   "venue": "SEBD",
+   "venue_full": "Proceedings of the 33nd Symposium on Advanced Database Systems, SEBD 2025, Ischia, Italy, June 16th to 19th, 2025",
+   "url": "https://ceur-ws.org/Vol-4182/paper27.pdf",
+   "arxiv": "",
+   "topics": [
+    "neural-ir",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -791,6 +791,48 @@
    "award": ""
   },
   {
+   "key": "conf/sigir/Faggioli00T24",
+   "title": "Dimension Importance Estimation for Dense Information Retrieval",
+   "authors": [
+    "Guglielmo Faggioli",
+    "Nicola Ferro",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2024,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2024, Washington DC, USA, July 14-18, 2024",
+   "url": "https://doi.org/10.1145/3626772.3657691",
+   "arxiv": "",
+   "topics": [
+    "neural-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/www/KaselaBP024",
+   "title": "SE-PQA: Personalized Community Question Answering",
+   "authors": [
+    "Pranav Kasela",
+    "Marco Braga",
+    "Gabriella Pasi",
+    "Raffaele Perego"
+   ],
+   "year": 2024,
+   "type": "a_conf",
+   "venue": "WWW",
+   "venue_full": "Companion Proceedings of the ACM on Web Conference 2024, WWW 2024, Singapore, Singapore, May 13-17, 2024",
+   "url": "https://doi.org/10.1145/3589335.3651445",
+   "arxiv": "2306.16261",
+   "topics": [
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/cikm/BusolinLN00T24",
    "title": "Early Exit Strategies for Approximate k-NN Search in Dense Retrieval",
    "authors": [
@@ -851,6 +893,31 @@
    "arxiv": "2503.02674",
    "topics": [
     "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/tweb/FriederMMNPT24",
+   "title": "Caching Historical Embeddings in Conversational Search",
+   "authors": [
+    "Ophir Frieder",
+    "Ida Mele",
+    "Cristina Ioana Muntean",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2024,
+   "type": "q1",
+   "venue": "TWEB",
+   "venue_full": "ACM Trans. Web",
+   "url": "https://doi.org/10.1145/3578519",
+   "arxiv": "2211.14155",
+   "topics": [
+    "efficient-ir",
+    "neural-ir",
+    "conversational"
    ],
    "selected": false,
    "award": ""
@@ -1037,73 +1104,6 @@
    "award": ""
   },
   {
-   "key": "conf/sigir/Faggioli00T24",
-   "title": "Dimension Importance Estimation for Dense Information Retrieval",
-   "authors": [
-    "Guglielmo Faggioli",
-    "Nicola Ferro",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2024,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2024, Washington DC, USA, July 14-18, 2024",
-   "url": "https://doi.org/10.1145/3626772.3657691",
-   "arxiv": "",
-   "topics": [
-    "neural-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tweb/FriederMMNPT24",
-   "title": "Caching Historical Embeddings in Conversational Search",
-   "authors": [
-    "Ophir Frieder",
-    "Ida Mele",
-    "Cristina Ioana Muntean",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2024,
-   "type": "q1",
-   "venue": "TWEB",
-   "venue_full": "ACM Trans. Web",
-   "url": "https://doi.org/10.1145/3578519",
-   "arxiv": "2211.14155",
-   "topics": [
-    "efficient-ir",
-    "neural-ir",
-    "conversational"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/www/KaselaBP024",
-   "title": "SE-PQA: Personalized Community Question Answering",
-   "authors": [
-    "Pranav Kasela",
-    "Marco Braga",
-    "Gabriella Pasi",
-    "Raffaele Perego"
-   ],
-   "year": 2024,
-   "type": "a_conf",
-   "venue": "WWW",
-   "venue_full": "Companion Proceedings of the ACM on Web Conference 2024, WWW 2024, Singapore, Singapore, May 13-17, 2024",
-   "url": "https://doi.org/10.1145/3589335.3651445",
-   "arxiv": "2306.16261",
-   "topics": [
-    "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "journals/corr/abs-2407-05335",
    "title": "Understanding and Addressing Gender Bias in Expert Finding Task",
    "authors": [
@@ -1123,6 +1123,29 @@
    ],
    "selected": false,
    "award": ""
+  },
+  {
+   "key": "conf/sigir/Faggioli0M0T23",
+   "title": "A Geometric Framework for Query Performance Prediction in Conversational Search",
+   "authors": [
+    "Guglielmo Faggioli",
+    "Nicola Ferro",
+    "Cristina Ioana Muntean",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2023,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2023, Taipei, Taiwan, July 23-27, 2023",
+   "url": "https://doi.org/10.1145/3539618.3591625",
+   "arxiv": "",
+   "topics": [
+    "conversational",
+    "qpp-eval"
+   ],
+   "selected": true,
+   "award": "Best Paper Honorable Mention, SIGIR 2023"
   },
   {
    "key": "conf/cikm/LuccheseMN00V23",
@@ -1165,6 +1188,182 @@
    "arxiv": "2306.12165",
    "topics": [
     "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/edbt/Lucchese00V23",
+   "title": "GAM Forest Explanation",
+   "authors": [
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Alberto Veneri"
+   ],
+   "year": 2023,
+   "type": "a_conf",
+   "venue": "EDBT",
+   "venue_full": "Proceedings 26th International Conference on Extending Database Technology, EDBT 2023, Ioannina, Greece, March 28-31, 2023",
+   "url": "https://doi.org/10.48786/EDBT.2023.14",
+   "arxiv": "",
+   "topics": [
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/gis/KoutroumanisDRN23",
+   "title": "TrajParquet: A Trajectory-Oriented Column File Format for Mobility Data Lakes",
+   "authors": [
+    "Nikolaos Koutroumanis",
+    "Christos Doulkeridis",
+    "Chiara Renso",
+    "Mirco Nanni",
+    "Raffaele Perego"
+   ],
+   "year": 2023,
+   "type": "a_conf",
+   "venue": "SIGSPATIAL",
+   "venue_full": "Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems, SIGSPATIAL 2023, Hamburg, Germany, November 13-16, 2023",
+   "url": "https://doi.org/10.1145/3589132.3625623",
+   "arxiv": "",
+   "topics": [
+    "mobility"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/osnm/AmendolaPP23",
+   "title": "Social search: Retrieving information in Online Social platforms - A survey",
+   "authors": [
+    "Maddalena Amendola",
+    "Andrea Passarella",
+    "Raffaele Perego"
+   ],
+   "year": 2023,
+   "type": "q1",
+   "venue": "OSNEM",
+   "venue_full": "Online Soc. Networks Media",
+   "url": "https://doi.org/10.1016/J.OSNEM.2023.100254",
+   "arxiv": "2209.14369",
+   "topics": [
+    "social"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/access/BusolinLNOPT23",
+   "title": "Early Exit Strategies for Learning-to-Rank Cascades",
+   "authors": [
+    "Francesco Busolin",
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Salvatore Trani"
+   ],
+   "year": 2023,
+   "type": "journal",
+   "venue": "IEEE Access",
+   "venue_full": "IEEE Access",
+   "url": "https://doi.org/10.1109/ACCESS.2023.3331088",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir-ap/KaselaP023",
+   "title": "SE-PEF: a Resource for Personalized Expert Finding",
+   "authors": [
+    "Pranav Kasela",
+    "Gabriella Pasi",
+    "Raffaele Perego"
+   ],
+   "year": 2023,
+   "type": "conf",
+   "venue": "SIGIR-AP",
+   "venue_full": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region, SIGIR-AP 2023, Beijing, China, November 26-28, 2023",
+   "url": "https://doi.org/10.1145/3624918.3625335",
+   "arxiv": "2309.11686",
+   "topics": [
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/webi/RocchiettiFMN023",
+   "title": "Commonsense Injection in Conversational Systems: An Adaptable Framework for Query Expansion",
+   "authors": [
+    "Guido Rocchietti",
+    "Ophir Frieder",
+    "Cristina Ioana Muntean",
+    "Franco Maria Nardini",
+    "Raffaele Perego"
+   ],
+   "year": 2023,
+   "type": "conf",
+   "venue": "WI",
+   "venue_full": "IEEE International Conference on Web Intelligence and Intelligent Agent Technology, WI-IAT 2023, Venice, Italy, October 26-29, 2023",
+   "url": "https://doi.org/10.1109/WI-IAT59888.2023.00013",
+   "arxiv": "",
+   "topics": [
+    "conversational",
+    "query-logs"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/webi/GalimzhanovaMN023",
+   "title": "Rewriting Conversational Utterances with Instructed Large Language Models",
+   "authors": [
+    "Elnara Galimzhanova",
+    "Cristina Ioana Muntean",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Guido Rocchietti"
+   ],
+   "year": 2023,
+   "type": "conf",
+   "venue": "WI",
+   "venue_full": "IEEE International Conference on Web Intelligence and Intelligent Agent Technology, WI-IAT 2023, Venice, Italy, October 26-29, 2023",
+   "url": "https://doi.org/10.1109/WI-IAT59888.2023.00014",
+   "arxiv": "2410.07797",
+   "topics": [
+    "neural-ir",
+    "conversational"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/iir/Faggioli0M0T23",
+   "title": "A Spatial Approach to Predict Performance of Conversational Search Systems",
+   "authors": [
+    "Guglielmo Faggioli",
+    "Nicola Ferro",
+    "Cristina Ioana Muntean",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2023,
+   "type": "workshop",
+   "venue": "IIR",
+   "venue_full": "Proceedings of the 13th Italian Information Retrieval Workshop (IIR 2023), Pisa, Italy, June 8-9, 2023",
+   "url": "https://ceur-ws.org/Vol-3448/paper-07.pdf",
+   "arxiv": "",
+   "topics": [
+    "conversational",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -1232,200 +1431,46 @@
    "award": ""
   },
   {
-   "key": "conf/edbt/Lucchese00V23",
-   "title": "GAM Forest Explanation",
+   "key": "conf/sigir/LuccheseN00V22",
+   "title": "ILMART: Interpretable Ranking with Constrained LambdaMART",
    "authors": [
     "Claudio Lucchese",
+    "Franco Maria Nardini",
     "Salvatore Orlando",
     "Raffaele Perego",
     "Alberto Veneri"
    ],
-   "year": 2023,
-   "type": "a_conf",
-   "venue": "EDBT",
-   "venue_full": "Proceedings 26th International Conference on Extending Database Technology, EDBT 2023, Ioannina, Greece, March 28-31, 2023",
-   "url": "https://doi.org/10.48786/EDBT.2023.14",
-   "arxiv": "",
-   "topics": [
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/access/BusolinLNOPT23",
-   "title": "Early Exit Strategies for Learning-to-Rank Cascades",
-   "authors": [
-    "Francesco Busolin",
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Salvatore Trani"
-   ],
-   "year": 2023,
-   "type": "journal",
-   "venue": "IEEE Access",
-   "venue_full": "IEEE Access",
-   "url": "https://doi.org/10.1109/ACCESS.2023.3331088",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/iir/Faggioli0M0T23",
-   "title": "A Spatial Approach to Predict Performance of Conversational Search Systems",
-   "authors": [
-    "Guglielmo Faggioli",
-    "Nicola Ferro",
-    "Cristina Ioana Muntean",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2023,
-   "type": "workshop",
-   "venue": "IIR",
-   "venue_full": "Proceedings of the 13th Italian Information Retrieval Workshop (IIR 2023), Pisa, Italy, June 8-9, 2023",
-   "url": "https://ceur-ws.org/Vol-3448/paper-07.pdf",
-   "arxiv": "",
-   "topics": [
-    "conversational",
-    "mobility"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/osnm/AmendolaPP23",
-   "title": "Social search: Retrieving information in Online Social platforms - A survey",
-   "authors": [
-    "Maddalena Amendola",
-    "Andrea Passarella",
-    "Raffaele Perego"
-   ],
-   "year": 2023,
-   "type": "q1",
-   "venue": "OSNEM",
-   "venue_full": "Online Soc. Networks Media",
-   "url": "https://doi.org/10.1016/J.OSNEM.2023.100254",
-   "arxiv": "2209.14369",
-   "topics": [
-    "social"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sigir/Faggioli0M0T23",
-   "title": "A Geometric Framework for Query Performance Prediction in Conversational Search",
-   "authors": [
-    "Guglielmo Faggioli",
-    "Nicola Ferro",
-    "Cristina Ioana Muntean",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2023,
+   "year": 2022,
    "type": "a_conf",
    "venue": "SIGIR",
-   "venue_full": "Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2023, Taipei, Taiwan, July 23-27, 2023",
-   "url": "https://doi.org/10.1145/3539618.3591625",
-   "arxiv": "",
+   "venue_full": "SIGIR '22: The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, Madrid, Spain, July 11 - 15, 2022",
+   "url": "https://doi.org/10.1145/3477495.3531840",
+   "arxiv": "2206.00473",
    "topics": [
-    "conversational",
-    "qpp-eval"
-   ],
-   "selected": true,
-   "award": "Best Paper Honorable Mention, SIGIR 2023"
-  },
-  {
-   "key": "conf/sigir-ap/KaselaP023",
-   "title": "SE-PEF: a Resource for Personalized Expert Finding",
-   "authors": [
-    "Pranav Kasela",
-    "Gabriella Pasi",
-    "Raffaele Perego"
-   ],
-   "year": 2023,
-   "type": "conf",
-   "venue": "SIGIR-AP",
-   "venue_full": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region, SIGIR-AP 2023, Beijing, China, November 26-28, 2023",
-   "url": "https://doi.org/10.1145/3624918.3625335",
-   "arxiv": "2309.11686",
-   "topics": [
-    "recsys"
+    "ltr"
    ],
    "selected": false,
    "award": ""
   },
   {
-   "key": "conf/gis/KoutroumanisDRN23",
-   "title": "TrajParquet: A Trajectory-Oriented Column File Format for Mobility Data Lakes",
+   "key": "conf/sigir/DatoMN0T22",
+   "title": "The Istella22 Dataset: Bridging Traditional and Neural Learning to Rank Evaluation",
    "authors": [
-    "Nikolaos Koutroumanis",
-    "Christos Doulkeridis",
-    "Chiara Renso",
-    "Mirco Nanni",
-    "Raffaele Perego"
-   ],
-   "year": 2023,
-   "type": "a_conf",
-   "venue": "SIGSPATIAL",
-   "venue_full": "Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems, SIGSPATIAL 2023, Hamburg, Germany, November 13-16, 2023",
-   "url": "https://doi.org/10.1145/3589132.3625623",
-   "arxiv": "",
-   "topics": [
-    "mobility"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/webi/RocchiettiFMN023",
-   "title": "Commonsense Injection in Conversational Systems: An Adaptable Framework for Query Expansion",
-   "authors": [
-    "Guido Rocchietti",
-    "Ophir Frieder",
-    "Cristina Ioana Muntean",
-    "Franco Maria Nardini",
-    "Raffaele Perego"
-   ],
-   "year": 2023,
-   "type": "conf",
-   "venue": "WI",
-   "venue_full": "IEEE International Conference on Web Intelligence and Intelligent Agent Technology, WI-IAT 2023, Venice, Italy, October 26-29, 2023",
-   "url": "https://doi.org/10.1109/WI-IAT59888.2023.00013",
-   "arxiv": "",
-   "topics": [
-    "conversational",
-    "query-logs"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/webi/GalimzhanovaMN023",
-   "title": "Rewriting Conversational Utterances with Instructed Large Language Models",
-   "authors": [
-    "Elnara Galimzhanova",
-    "Cristina Ioana Muntean",
+    "Domenico Dato",
+    "Sean MacAvaney",
     "Franco Maria Nardini",
     "Raffaele Perego",
-    "Guido Rocchietti"
+    "Nicola Tonellotto"
    ],
-   "year": 2023,
-   "type": "conf",
-   "venue": "WI",
-   "venue_full": "IEEE International Conference on Web Intelligence and Intelligent Agent Technology, WI-IAT 2023, Venice, Italy, October 26-29, 2023",
-   "url": "https://doi.org/10.1109/WI-IAT59888.2023.00014",
-   "arxiv": "2410.07797",
+   "year": 2022,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "SIGIR '22: The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, Madrid, Spain, July 11 - 15, 2022",
+   "url": "https://doi.org/10.1145/3477495.3531740",
+   "arxiv": "",
    "topics": [
-    "neural-ir",
-    "conversational"
+    "ltr",
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -1475,6 +1520,73 @@
    ],
    "selected": true,
    "award": "Best Industry-Impact Paper, ECIR 2022"
+  },
+  {
+   "key": "journals/jnca/ValerioNPP22",
+   "title": "Dynamic hard pruning of Neural Networks at the edge of the internet",
+   "authors": [
+    "Lorenzo Valerio",
+    "Franco Maria Nardini",
+    "Andrea Passarella",
+    "Raffaele Perego"
+   ],
+   "year": 2022,
+   "type": "q1",
+   "venue": "JNCA",
+   "venue_full": "J. Netw. Comput. Appl.",
+   "url": "https://doi.org/10.1016/J.JNCA.2021.103330",
+   "arxiv": "2011.08545",
+   "topics": [
+    "efficient-ir",
+    "neural-ir",
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/tgis/SouzaRPB22",
+   "title": "MAT-Index: An index for fast multiple aspect trajectory similarity measuring",
+   "authors": [
+    "Ana Paula Ramos de Souza",
+    "Chiara Renso",
+    "Raffaele Perego",
+    "Vania Bogorny"
+   ],
+   "year": 2022,
+   "type": "journal",
+   "venue": "Trans. GIS",
+   "venue_full": "Trans. GIS",
+   "url": "https://doi.org/10.1111/TGIS.12889",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "mobility"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/trec/MeleMN0T22",
+   "title": "Context Propagation in Conversational Search Utterances Participation of the CNR Team in CAsT 2022",
+   "authors": [
+    "Ida Mele",
+    "Cristina Ioana Muntean",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2022,
+   "type": "conf",
+   "venue": "TREC",
+   "venue_full": "Proceedings of the Thirty-First Text REtrieval Conference, TREC 2022, online, November 15-19, 2022",
+   "url": "https://trec.nist.gov/pubs/trec31/papers/CNR.C.pdf",
+   "arxiv": "",
+   "topics": [
+    "conversational"
+   ],
+   "selected": false,
+   "award": ""
   },
   {
    "key": "conf/iir/DatoMN0T22",
@@ -1544,29 +1656,6 @@
    "award": ""
   },
   {
-   "key": "journals/jnca/ValerioNPP22",
-   "title": "Dynamic hard pruning of Neural Networks at the edge of the internet",
-   "authors": [
-    "Lorenzo Valerio",
-    "Franco Maria Nardini",
-    "Andrea Passarella",
-    "Raffaele Perego"
-   ],
-   "year": 2022,
-   "type": "q1",
-   "venue": "JNCA",
-   "venue_full": "J. Netw. Comput. Appl.",
-   "url": "https://doi.org/10.1016/J.JNCA.2021.103330",
-   "arxiv": "2011.08545",
-   "topics": [
-    "efficient-ir",
-    "neural-ir",
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/sebd/CarliniCDL0RT22",
    "title": "A Federated Cloud Solution for Transnational Mobility Data Sharing",
    "authors": [
@@ -1615,182 +1704,91 @@
    "award": ""
   },
   {
-   "key": "conf/sigir/LuccheseN00V22",
-   "title": "ILMART: Interpretable Ranking with Constrained LambdaMART",
+   "key": "conf/sigir/FaggioliF00T21",
+   "title": "Hierarchical Dependence-aware Evaluation Measures for Conversational Search",
    "authors": [
+    "Guglielmo Faggioli",
+    "Marco Ferrante",
+    "Nicola Ferro",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2021,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "SIGIR '21: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, Virtual Event, Canada, July 11-15, 2021",
+   "url": "https://doi.org/10.1145/3404835.3463090",
+   "arxiv": "",
+   "topics": [
+    "conversational",
+    "qpp-eval"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir/BusolinLN00T21",
+   "title": "Learning Early Exit Strategies for Additive Ranking Ensembles",
+   "authors": [
+    "Francesco Busolin",
     "Claudio Lucchese",
     "Franco Maria Nardini",
     "Salvatore Orlando",
     "Raffaele Perego",
-    "Alberto Veneri"
+    "Salvatore Trani"
    ],
-   "year": 2022,
+   "year": 2021,
    "type": "a_conf",
    "venue": "SIGIR",
-   "venue_full": "SIGIR '22: The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, Madrid, Spain, July 11 - 15, 2022",
-   "url": "https://doi.org/10.1145/3477495.3531840",
-   "arxiv": "2206.00473",
+   "venue_full": "SIGIR '21: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, Virtual Event, Canada, July 11-15, 2021",
+   "url": "https://doi.org/10.1145/3404835.3463088",
+   "arxiv": "2105.02568",
    "topics": [
+    "efficient-ir",
     "ltr"
    ],
    "selected": false,
    "award": ""
   },
   {
-   "key": "conf/sigir/DatoMN0T22",
-   "title": "The Istella22 Dataset: Bridging Traditional and Neural Learning to Rank Evaluation",
+   "key": "journals/tois/MunteanNPTF21",
+   "title": "Weighting Passages Enhances Accuracy",
    "authors": [
-    "Domenico Dato",
-    "Sean MacAvaney",
+    "Cristina Ioana Muntean",
     "Franco Maria Nardini",
     "Raffaele Perego",
-    "Nicola Tonellotto"
+    "Nicola Tonellotto",
+    "Ophir Frieder"
    ],
-   "year": 2022,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "SIGIR '22: The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, Madrid, Spain, July 11 - 15, 2022",
-   "url": "https://doi.org/10.1145/3477495.3531740",
+   "year": 2021,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/3428687",
    "arxiv": "",
    "topics": [
-    "ltr",
     "neural-ir"
    ],
    "selected": false,
    "award": ""
   },
   {
-   "key": "journals/tgis/SouzaRPB22",
-   "title": "MAT-Index: An index for fast multiple aspect trajectory similarity measuring",
+   "key": "journals/tkde/PeregoPV21",
+   "title": "Compressed Indexes for Fast Search of Semantic Data",
    "authors": [
-    "Ana Paula Ramos de Souza",
-    "Chiara Renso",
     "Raffaele Perego",
-    "Vania Bogorny"
+    "Giulio Ermanno Pibiri",
+    "Rossano Venturini"
    ],
-   "year": 2022,
-   "type": "journal",
-   "venue": "Trans. GIS",
-   "venue_full": "Trans. GIS",
-   "url": "https://doi.org/10.1111/TGIS.12889",
-   "arxiv": "",
+   "year": 2021,
+   "type": "q1",
+   "venue": "TKDE",
+   "venue_full": "IEEE Trans. Knowl. Data Eng.",
+   "url": "https://doi.org/10.1109/TKDE.2020.2966609",
+   "arxiv": "1904.07619",
    "topics": [
     "efficient-ir",
-    "mobility"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/trec/MeleMN0T22",
-   "title": "Context Propagation in Conversational Search Utterances Participation of the CNR Team in CAsT 2022",
-   "authors": [
-    "Ida Mele",
-    "Cristina Ioana Muntean",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2022,
-   "type": "conf",
-   "venue": "TREC",
-   "venue_full": "Proceedings of the Thirty-First Text REtrieval Conference, TREC 2022, online, November 15-19, 2022",
-   "url": "https://trec.nist.gov/pubs/trec31/papers/CNR.C.pdf",
-   "arxiv": "",
-   "topics": [
-    "conversational"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/bracis/SantosSPSARB21",
-   "title": "A Co-occurrence Based Approach for Mining Overlapped Co-clusters in Binary Data",
-   "authors": [
-    "Yuri Santa Rosa Nassar dos Santos",
-    "Rafael de Santiago",
-    "Raffaele Perego",
-    "Matheus Henrique Schaly",
-    "Luis Otávio Alvares",
-    "Chiara Renso",
-    "Vania Bogorny"
-   ],
-   "year": 2021,
-   "type": "conf",
-   "venue": "BRACIS",
-   "venue_full": "Intelligent Systems - 10th Brazilian Conference, BRACIS 2021, Virtual Event, November 29 - December 3, 2021, Proceedings, Part I",
-   "url": "https://doi.org/10.1007/978-3-030-91702-9\\_25",
-   "arxiv": "",
-   "topics": [
-    "data-mining"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/ecir/2021-1",
-   "title": "Advances in Information Retrieval - 43rd European Conference on IR Research, ECIR 2021, Virtual Event, March 28 - April 1, 2021, Proceedings, Part I",
-   "authors": [
-    "Djoerd Hiemstra",
-    "Marie-Francine Moens",
-    "Josiane Mothe",
-    "Raffaele Perego",
-    "Martin Potthast",
-    "Fabrizio Sebastiani"
-   ],
-   "year": 2021,
-   "type": "edited",
-   "venue": "ECIR",
-   "venue_full": "Lecture Notes in Computer Science",
-   "url": "https://doi.org/10.1007/978-3-030-72113-8",
-   "arxiv": "",
-   "topics": [
-    "misc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/ecir/2021-2",
-   "title": "Advances in Information Retrieval - 43rd European Conference on IR Research, ECIR 2021, Virtual Event, March 28 - April 1, 2021, Proceedings, Part II",
-   "authors": [
-    "Djoerd Hiemstra",
-    "Marie-Francine Moens",
-    "Josiane Mothe",
-    "Raffaele Perego",
-    "Martin Potthast",
-    "Fabrizio Sebastiani"
-   ],
-   "year": 2021,
-   "type": "edited",
-   "venue": "ECIR",
-   "venue_full": "Lecture Notes in Computer Science",
-   "url": "https://doi.org/10.1007/978-3-030-72240-1",
-   "arxiv": "",
-   "topics": [
-    "misc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/hpdc/CarliniDL0R21",
-   "title": "Cloud and Data Federation in MobiDataLab",
-   "authors": [
-    "Emanuele Carlini",
-    "Patrizio Dazzi",
-    "Francesco Lettich",
-    "Raffaele Perego",
-    "Chiara Renso"
-   ],
-   "year": 2021,
-   "type": "workshop",
-   "venue": "HPDC",
-   "venue_full": "FRAME@HPDC 2021: Proceedings of the 1st Workshop on Flexible Resource and Application Management on the Edge, Virtual Event, Sweden, 25 June, 2021",
-   "url": "https://doi.org/10.1145/3452369.3463819",
-   "arxiv": "",
-   "topics": [
-    "hpc"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -1812,31 +1810,6 @@
    "topics": [
     "efficient-ir",
     "entities"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/is/MagalhaesLMN0RT21",
-   "title": "Speed prediction in large and dynamic traffic sensor networks",
-   "authors": [
-    "Regis Pires Magalhães",
-    "Francesco Lettich",
-    "José Antônio Fernandes de Macêdo",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Chiara Renso",
-    "Roberto Trani"
-   ],
-   "year": 2021,
-   "type": "q1",
-   "venue": "Inf. Syst.",
-   "venue_full": "Inf. Syst.",
-   "url": "https://doi.org/10.1016/J.IS.2019.101444",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -1890,6 +1863,55 @@
    "award": ""
   },
   {
+   "key": "journals/is/MagalhaesLMN0RT21",
+   "title": "Speed prediction in large and dynamic traffic sensor networks",
+   "authors": [
+    "Regis Pires Magalhães",
+    "Francesco Lettich",
+    "José Antônio Fernandes de Macêdo",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Chiara Renso",
+    "Roberto Trani"
+   ],
+   "year": 2021,
+   "type": "q1",
+   "venue": "Inf. Syst.",
+   "venue_full": "Inf. Syst.",
+   "url": "https://doi.org/10.1016/J.IS.2019.101444",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "mobility"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/bracis/SantosSPSARB21",
+   "title": "A Co-occurrence Based Approach for Mining Overlapped Co-clusters in Binary Data",
+   "authors": [
+    "Yuri Santa Rosa Nassar dos Santos",
+    "Rafael de Santiago",
+    "Raffaele Perego",
+    "Matheus Henrique Schaly",
+    "Luis Otávio Alvares",
+    "Chiara Renso",
+    "Vania Bogorny"
+   ],
+   "year": 2021,
+   "type": "conf",
+   "venue": "BRACIS",
+   "venue_full": "Intelligent Systems - 10th Brazilian Conference, BRACIS 2021, Virtual Event, November 29 - December 3, 2021, Proceedings, Part I",
+   "url": "https://doi.org/10.1007/978-3-030-91702-9\\_25",
+   "arxiv": "",
+   "topics": [
+    "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/sac/VarlamisSBACR0V21",
    "title": "A novel similarity measure for multiple aspect trajectory clustering",
    "authors": [
@@ -1910,96 +1932,6 @@
    "arxiv": "",
    "topics": [
     "mobility"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sigir/FaggioliF00T21",
-   "title": "Hierarchical Dependence-aware Evaluation Measures for Conversational Search",
-   "authors": [
-    "Guglielmo Faggioli",
-    "Marco Ferrante",
-    "Nicola Ferro",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2021,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "SIGIR '21: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, Virtual Event, Canada, July 11-15, 2021",
-   "url": "https://doi.org/10.1145/3404835.3463090",
-   "arxiv": "",
-   "topics": [
-    "conversational",
-    "qpp-eval"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sigir/BusolinLN00T21",
-   "title": "Learning Early Exit Strategies for Additive Ranking Ensembles",
-   "authors": [
-    "Francesco Busolin",
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Salvatore Trani"
-   ],
-   "year": 2021,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "SIGIR '21: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, Virtual Event, Canada, July 11-15, 2021",
-   "url": "https://doi.org/10.1145/3404835.3463088",
-   "arxiv": "2105.02568",
-   "topics": [
-    "efficient-ir",
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tkde/PeregoPV21",
-   "title": "Compressed Indexes for Fast Search of Semantic Data",
-   "authors": [
-    "Raffaele Perego",
-    "Giulio Ermanno Pibiri",
-    "Rossano Venturini"
-   ],
-   "year": 2021,
-   "type": "q1",
-   "venue": "TKDE",
-   "venue_full": "IEEE Trans. Knowl. Data Eng.",
-   "url": "https://doi.org/10.1109/TKDE.2020.2966609",
-   "arxiv": "1904.07619",
-   "topics": [
-    "efficient-ir",
-    "entities"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tois/MunteanNPTF21",
-   "title": "Weighting Passages Enhances Accuracy",
-   "authors": [
-    "Cristina Ioana Muntean",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Nicola Tonellotto",
-    "Ophir Frieder"
-   ],
-   "year": 2021,
-   "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/3428687",
-   "arxiv": "",
-   "topics": [
-    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -2027,90 +1959,69 @@
    "award": ""
   },
   {
-   "key": "journals/eswa/MatosMLMRPN20",
-   "title": "Leveraging feature selection to detect potential tax fraudsters",
+   "key": "conf/hpdc/CarliniDL0R21",
+   "title": "Cloud and Data Federation in MobiDataLab",
    "authors": [
-    "Tales Matos",
-    "José A. F. de Macêdo",
+    "Emanuele Carlini",
+    "Patrizio Dazzi",
     "Francesco Lettich",
-    "José Maria Monteiro",
-    "Chiara Renso",
     "Raffaele Perego",
-    "Franco Maria Nardini"
+    "Chiara Renso"
    ],
-   "year": 2020,
-   "type": "q1",
-   "venue": "ESWA",
-   "venue_full": "Expert Syst. Appl.",
-   "url": "https://doi.org/10.1016/J.ESWA.2019.113128",
-   "arxiv": "",
-   "topics": [
-    "data-mining"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/ir/FerroLMP20",
-   "title": "Boosting learning to rank with user dynamics and continuation methods",
-   "authors": [
-    "Nicola Ferro",
-    "Claudio Lucchese",
-    "Maria Maistro",
-    "Raffaele Perego"
-   ],
-   "year": 2020,
-   "type": "journal",
-   "venue": "Inf. Retr. J.",
-   "venue_full": "Inf. Retr. J.",
-   "url": "https://doi.org/10.1007/S10791-019-09366-9",
-   "arxiv": "",
-   "topics": [
-    "ltr",
-    "query-logs"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/ipm/MeleTFP20",
-   "title": "Topical result caching in web search engines",
-   "authors": [
-    "Ida Mele",
-    "Nicola Tonellotto",
-    "Ophir Frieder",
-    "Raffaele Perego"
-   ],
-   "year": 2020,
-   "type": "q1",
-   "venue": "IP&M",
-   "venue_full": "Inf. Process. Manag.",
-   "url": "https://doi.org/10.1016/J.IPM.2019.102193",
-   "arxiv": "2001.03010",
-   "topics": [
-    "efficient-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sebd/0001LM020",
-   "title": "Improving Learning to Rank By Leveraging User Dynamics and Continuation Methods",
-   "authors": [
-    "Nicola Ferro",
-    "Claudio Lucchese",
-    "Maria Maistro",
-    "Raffaele Perego"
-   ],
-   "year": 2020,
+   "year": 2021,
    "type": "workshop",
-   "venue": "SEBD",
-   "venue_full": "Proceedings of the 28th Italian Symposium on Advanced Database Systems, Villasimius, Sud Sardegna, Italy (virtual due to Covid-19 pandemic), June 21-24, 2020",
-   "url": "https://ceur-ws.org/Vol-2646/42-paper.pdf",
+   "venue": "HPDC",
+   "venue_full": "FRAME@HPDC 2021: Proceedings of the 1st Workshop on Flexible Resource and Application Management on the Edge, Virtual Event, Sweden, 25 June, 2021",
+   "url": "https://doi.org/10.1145/3452369.3463819",
    "arxiv": "",
    "topics": [
-    "ltr",
-    "query-logs"
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/ecir/2021-1",
+   "title": "Advances in Information Retrieval - 43rd European Conference on IR Research, ECIR 2021, Virtual Event, March 28 - April 1, 2021, Proceedings, Part I",
+   "authors": [
+    "Djoerd Hiemstra",
+    "Marie-Francine Moens",
+    "Josiane Mothe",
+    "Raffaele Perego",
+    "Martin Potthast",
+    "Fabrizio Sebastiani"
+   ],
+   "year": 2021,
+   "type": "edited",
+   "venue": "ECIR",
+   "venue_full": "Lecture Notes in Computer Science",
+   "url": "https://doi.org/10.1007/978-3-030-72113-8",
+   "arxiv": "",
+   "topics": [
+    "misc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/ecir/2021-2",
+   "title": "Advances in Information Retrieval - 43rd European Conference on IR Research, ECIR 2021, Virtual Event, March 28 - April 1, 2021, Proceedings, Part II",
+   "authors": [
+    "Djoerd Hiemstra",
+    "Marie-Francine Moens",
+    "Josiane Mothe",
+    "Raffaele Perego",
+    "Martin Potthast",
+    "Fabrizio Sebastiani"
+   ],
+   "year": 2021,
+   "type": "edited",
+   "venue": "ECIR",
+   "venue_full": "Lecture Notes in Computer Science",
+   "url": "https://doi.org/10.1007/978-3-030-72240-1",
+   "arxiv": "",
+   "topics": [
+    "misc"
    ],
    "selected": false,
    "award": ""
@@ -2232,6 +2143,73 @@
    "award": ""
   },
   {
+   "key": "journals/ipm/MeleTFP20",
+   "title": "Topical result caching in web search engines",
+   "authors": [
+    "Ida Mele",
+    "Nicola Tonellotto",
+    "Ophir Frieder",
+    "Raffaele Perego"
+   ],
+   "year": 2020,
+   "type": "q1",
+   "venue": "IP&M",
+   "venue_full": "Inf. Process. Manag.",
+   "url": "https://doi.org/10.1016/J.IPM.2019.102193",
+   "arxiv": "2001.03010",
+   "topics": [
+    "efficient-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/eswa/MatosMLMRPN20",
+   "title": "Leveraging feature selection to detect potential tax fraudsters",
+   "authors": [
+    "Tales Matos",
+    "José A. F. de Macêdo",
+    "Francesco Lettich",
+    "José Maria Monteiro",
+    "Chiara Renso",
+    "Raffaele Perego",
+    "Franco Maria Nardini"
+   ],
+   "year": 2020,
+   "type": "q1",
+   "venue": "ESWA",
+   "venue_full": "Expert Syst. Appl.",
+   "url": "https://doi.org/10.1016/J.ESWA.2019.113128",
+   "arxiv": "",
+   "topics": [
+    "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/ir/FerroLMP20",
+   "title": "Boosting learning to rank with user dynamics and continuation methods",
+   "authors": [
+    "Nicola Ferro",
+    "Claudio Lucchese",
+    "Maria Maistro",
+    "Raffaele Perego"
+   ],
+   "year": 2020,
+   "type": "journal",
+   "venue": "Inf. Retr. J.",
+   "venue_full": "Inf. Retr. J.",
+   "url": "https://doi.org/10.1007/S10791-019-09366-9",
+   "arxiv": "",
+   "topics": [
+    "ltr",
+    "query-logs"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "journals/sigir/HiemstraMPS20",
    "title": "Transitioning the information retrieval literature to a fully open access model",
    "authors": [
@@ -2298,24 +2276,23 @@
    "award": ""
   },
   {
-   "key": "journals/ipm/LiraMOPRT19",
-   "title": "Event attendance classification in social media",
+   "key": "conf/sebd/0001LM020",
+   "title": "Improving Learning to Rank By Leveraging User Dynamics and Continuation Methods",
    "authors": [
-    "Vinicius Monteiro de Lira",
-    "Craig Macdonald",
-    "Iadh Ounis",
-    "Raffaele Perego",
-    "Chiara Renso",
-    "Valéria Cesário Times"
+    "Nicola Ferro",
+    "Claudio Lucchese",
+    "Maria Maistro",
+    "Raffaele Perego"
    ],
-   "year": 2019,
-   "type": "q1",
-   "venue": "IP&M",
-   "venue_full": "Inf. Process. Manag.",
-   "url": "https://doi.org/10.1016/J.IPM.2018.11.001",
+   "year": 2020,
+   "type": "workshop",
+   "venue": "SEBD",
+   "venue_full": "Proceedings of the 28th Italian Symposium on Advanced Database Systems, Villasimius, Sud Sardegna, Italy (virtual due to Covid-19 pandemic), June 21-24, 2020",
+   "url": "https://ceur-ws.org/Vol-2646/42-paper.pdf",
    "arxiv": "",
    "topics": [
-    "social"
+    "ltr",
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -2344,6 +2321,29 @@
    "award": ""
   },
   {
+   "key": "journals/ipm/LiraMOPRT19",
+   "title": "Event attendance classification in social media",
+   "authors": [
+    "Vinicius Monteiro de Lira",
+    "Craig Macdonald",
+    "Iadh Ounis",
+    "Raffaele Perego",
+    "Chiara Renso",
+    "Valéria Cesário Times"
+   ],
+   "year": 2019,
+   "type": "q1",
+   "venue": "IP&M",
+   "venue_full": "Inf. Process. Manag.",
+   "url": "https://doi.org/10.1016/J.IPM.2018.11.001",
+   "arxiv": "",
+   "topics": [
+    "social"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "journals/tpds/LettichLNOPTV19",
    "title": "Parallel Traversal of Large Ensembles of Decision Trees",
    "authors": [
@@ -2365,6 +2365,28 @@
     "efficient-ir",
     "ltr",
     "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir/LuccheseN00T18",
+   "title": "Selective Gradient Boosting for Effective Learning to Rank",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Salvatore Orlando",
+    "Salvatore Trani"
+   ],
+   "year": 2018,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval, SIGIR 2018, Ann Arbor, MI, USA, July 08-12, 2018",
+   "url": "https://doi.org/10.1145/3209978.3210048",
+   "arxiv": "",
+   "topics": [
+    "ltr"
    ],
    "selected": false,
    "award": ""
@@ -2409,6 +2431,76 @@
    "topics": [
     "efficient-ir",
     "query-logs"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/tist/LuccheseNOPST18",
+   "title": "X-CLEaVER: Learning Ranking Ensembles by Growing and Pruning Trees",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Fabrizio Silvestri",
+    "Salvatore Trani"
+   ],
+   "year": 2018,
+   "type": "q1",
+   "venue": "TIST",
+   "venue_full": "ACM Trans. Intell. Syst. Technol.",
+   "url": "https://doi.org/10.1145/3205453",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/osnm/ValcarceBMNPR18",
+   "title": "Item-driven group formation",
+   "authors": [
+    "Daniel Valcarce",
+    "Igo Ramalho Brilhante",
+    "José A. F. de Macêdo",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Chiara Renso"
+   ],
+   "year": 2018,
+   "type": "q1",
+   "venue": "OSNEM",
+   "venue_full": "Online Soc. Networks Media",
+   "url": "https://doi.org/10.1016/J.OSNEM.2018.10.002",
+   "arxiv": "",
+   "topics": [
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/tits/LiraPRRT18",
+   "title": "Boosting Ride Sharing With Alternative Destinations",
+   "authors": [
+    "Vinicius Monteiro de Lira",
+    "Raffaele Perego",
+    "Chiara Renso",
+    "Salvatore Rinzivillo",
+    "Valéria Cesário Times"
+   ],
+   "year": 2018,
+   "type": "q1",
+   "venue": "T-ITS",
+   "venue_full": "IEEE Trans. Intell. Transp. Syst.",
+   "url": "https://doi.org/10.1109/TITS.2018.2836395",
+   "arxiv": "",
+   "topics": [
+    "recsys",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -2497,51 +2589,6 @@
    "award": ""
   },
   {
-   "key": "journals/osnm/ValcarceBMNPR18",
-   "title": "Item-driven group formation",
-   "authors": [
-    "Daniel Valcarce",
-    "Igo Ramalho Brilhante",
-    "José A. F. de Macêdo",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Chiara Renso"
-   ],
-   "year": 2018,
-   "type": "q1",
-   "venue": "OSNEM",
-   "venue_full": "Online Soc. Networks Media",
-   "url": "https://doi.org/10.1016/J.OSNEM.2018.10.002",
-   "arxiv": "",
-   "topics": [
-    "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sigir/LuccheseN00T18",
-   "title": "Selective Gradient Boosting for Effective Learning to Rank",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Salvatore Orlando",
-    "Salvatore Trani"
-   ],
-   "year": 2018,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval, SIGIR 2018, Ann Arbor, MI, USA, July 08-12, 2018",
-   "url": "https://doi.org/10.1145/3209978.3210048",
-   "arxiv": "",
-   "topics": [
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "journals/sigir/FerroFGKCDDEGGK18",
    "title": "The Dagstuhl Perspectives Workshop on Performance Modeling and Prediction",
    "authors": [
@@ -2618,277 +2665,6 @@
    "venue": "SP",
    "venue_full": "A Comprehensive Guide Through the Italian Database Research Over the Last 25 Years",
    "url": "https://doi.org/10.1007/978-3-319-61893-7\\_24",
-   "arxiv": "",
-   "topics": [
-    "recsys",
-    "mobility"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tits/LiraPRRT18",
-   "title": "Boosting Ride Sharing With Alternative Destinations",
-   "authors": [
-    "Vinicius Monteiro de Lira",
-    "Raffaele Perego",
-    "Chiara Renso",
-    "Salvatore Rinzivillo",
-    "Valéria Cesário Times"
-   ],
-   "year": 2018,
-   "type": "q1",
-   "venue": "T-ITS",
-   "venue_full": "IEEE Trans. Intell. Transp. Syst.",
-   "url": "https://doi.org/10.1109/TITS.2018.2836395",
-   "arxiv": "",
-   "topics": [
-    "recsys",
-    "mobility"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tist/LuccheseNOPST18",
-   "title": "X-CLEaVER: Learning Ranking Ensembles by Growing and Pruning Trees",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Fabrizio Silvestri",
-    "Salvatore Trani"
-   ],
-   "year": 2018,
-   "type": "q1",
-   "venue": "TIST",
-   "venue_full": "ACM Trans. Intell. Syst. Technol.",
-   "url": "https://doi.org/10.1145/3205453",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/asunam/LiraMOPRT17",
-   "title": "Exploring Social Media for Event Attendance",
-   "authors": [
-    "Vinicius Monteiro de Lira",
-    "Craig Macdonald",
-    "Iadh Ounis",
-    "Raffaele Perego",
-    "Chiara Renso",
-    "Valéria Cesário Times"
-   ],
-   "year": 2017,
-   "type": "conf",
-   "venue": "ASONAM",
-   "venue_full": "Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2017, Sydney, Australia, July 31 - August 03, 2017",
-   "url": "https://doi.org/10.1145/3110025.3110080",
-   "arxiv": "",
-   "topics": [
-    "social"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/ictir/FerroLMP17",
-   "title": "LEARning Next gEneration Rankers (LEARNER 2017)",
-   "authors": [
-    "Nicola Ferro",
-    "Claudio Lucchese",
-    "Maria Maistro",
-    "Raffaele Perego"
-   ],
-   "year": 2017,
-   "type": "conf",
-   "venue": "ICTIR",
-   "venue_full": "Proceedings of the ACM SIGIR International Conference on Theory of Information Retrieval, ICTIR 2017, Amsterdam, The Netherlands, October 1-4, 2017",
-   "url": "https://doi.org/10.1145/3121050.3121110",
-   "arxiv": "",
-   "topics": [
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/ictir/2017learner",
-   "title": "Proceedings of the 1st International Workshop on LEARning Next gEneration Rankers co-located with the 3rd ACM International Conference on the Theory of Information Retrieval (ICTIR 2017), Amsterdam, The Netherlands, October 1, 2017",
-   "authors": [
-    "Nicola Ferro",
-    "Claudio Lucchese",
-    "Maria Maistro",
-    "Raffaele Perego"
-   ],
-   "year": 2017,
-   "type": "edited",
-   "venue": "ICTIR",
-   "venue_full": "CEUR Workshop Proceedings",
-   "url": "https://ceur-ws.org/Vol-2007",
-   "arxiv": "",
-   "topics": [
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/ictir/LuccheseNPT17",
-   "title": "The Impact of Negative Samples on Learning to Rank",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Salvatore Trani"
-   ],
-   "year": 2017,
-   "type": "workshop",
-   "venue": "ICTIR",
-   "venue_full": "Proceedings of the 1st International Workshop on LEARning Next gEneration Rankers co-located with the 3rd ACM International Conference on the Theory of Information Retrieval (ICTIR 2017), Amsterdam, The Netherlands, October 1, 2017",
-   "url": "https://ceur-ws.org/Vol-2007/LEARNER2017\\_short\\_1.pdf",
-   "arxiv": "",
-   "topics": [
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/ieeehpcs/LettichLNOPTV17",
-   "title": "Multicore/Manycore Parallel Traversal of Large Forests of Regression Trees",
-   "authors": [
-    "Francesco Lettich",
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Nicola Tonellotto",
-    "Rossano Venturini"
-   ],
-   "year": 2017,
-   "type": "conf",
-   "venue": "IEEEHPCS",
-   "venue_full": "2017 International Conference on High Performance Computing & Simulation, HPCS 2017, Genoa, Italy, July 17-21, 2017",
-   "url": "https://doi.org/10.1109/HPCS.2017.154",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr",
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/iir/2017",
-   "title": "Proceedings of the 8th Italian Information Retrieval Workshop, Lugano, Switzerland, June 05-07, 2017",
-   "authors": [
-    "Fabio Crestani",
-    "Tommaso Di Noia",
-    "Raffaele Perego"
-   ],
-   "year": 2017,
-   "type": "edited",
-   "venue": "IIR",
-   "venue_full": "CEUR Workshop Proceedings",
-   "url": "https://ceur-ws.org/Vol-1911",
-   "arxiv": "",
-   "topics": [
-    "misc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/osnm/ColettoELMN0R17",
-   "title": "Perception of social phenomena through the multidimensional analysis of online social networks",
-   "authors": [
-    "Mauro Coletto",
-    "Andrea Esuli",
-    "Claudio Lucchese",
-    "Cristina Ioana Muntean",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Chiara Renso"
-   ],
-   "year": 2017,
-   "type": "q1",
-   "venue": "OSNEM",
-   "venue_full": "Online Soc. Networks Media",
-   "url": "https://doi.org/10.1016/J.OSNEM.2017.03.001",
-   "arxiv": "",
-   "topics": [
-    "social"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/parco/MeoniPT17",
-   "title": "Popularity-Based Caching of CMS Datasets",
-   "authors": [
-    "Marco Meoni",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2017,
-   "type": "conf",
-   "venue": "PARCO",
-   "venue_full": "Parallel Computing is Everywhere, Proceedings of the International Conference on Parallel Computing, ParCo 2017, 12-15 September 2017, Bologna, Italy",
-   "url": "https://doi.org/10.3233/978-1-61499-843-3-221",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/pkdd/LuccheseN0PTV17",
-   "title": "QuickScorer: Efficient Traversal of Large Ensembles of Decision Trees",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Nicola Tonellotto",
-    "Rossano Venturini"
-   ],
-   "year": 2017,
-   "type": "conf",
-   "venue": "PKDD",
-   "venue_full": "Machine Learning and Knowledge Discovery in Databases - European Conference, ECML PKDD 2017, Skopje, Macedonia, September 18-22, 2017, Proceedings, Part III",
-   "url": "https://doi.org/10.1007/978-3-319-71273-4\\_36",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sac/LacerdaMBRP17",
-   "title": "Exploiting photo location and direction for clustering-based points-of-interest discovery",
-   "authors": [
-    "Yuri Almeida Lacerda",
-    "Leandro Balby Marinho",
-    "Cláudio de Souza Baptista",
-    "Chiara Renso",
-    "Raffaele Perego"
-   ],
-   "year": 2017,
-   "type": "conf",
-   "venue": "SAC",
-   "venue_full": "Proceedings of the Symposium on Applied Computing, SAC 2017, Marrakech, Morocco, April 3-7, 2017",
-   "url": "https://doi.org/10.1145/3019612.3019679",
    "arxiv": "",
    "topics": [
     "recsys",
@@ -2980,6 +2756,371 @@
    "venue": "SIGIR",
    "venue_full": "Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval, Shinjuku, Tokyo, Japan, August 7-11, 2017",
    "url": "https://doi.org/10.1145/3077136.3080725",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/osnm/ColettoELMN0R17",
+   "title": "Perception of social phenomena through the multidimensional analysis of online social networks",
+   "authors": [
+    "Mauro Coletto",
+    "Andrea Esuli",
+    "Claudio Lucchese",
+    "Cristina Ioana Muntean",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Chiara Renso"
+   ],
+   "year": 2017,
+   "type": "q1",
+   "venue": "OSNEM",
+   "venue_full": "Online Soc. Networks Media",
+   "url": "https://doi.org/10.1016/J.OSNEM.2017.03.001",
+   "arxiv": "",
+   "topics": [
+    "social"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/asunam/LiraMOPRT17",
+   "title": "Exploring Social Media for Event Attendance",
+   "authors": [
+    "Vinicius Monteiro de Lira",
+    "Craig Macdonald",
+    "Iadh Ounis",
+    "Raffaele Perego",
+    "Chiara Renso",
+    "Valéria Cesário Times"
+   ],
+   "year": 2017,
+   "type": "conf",
+   "venue": "ASONAM",
+   "venue_full": "Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2017, Sydney, Australia, July 31 - August 03, 2017",
+   "url": "https://doi.org/10.1145/3110025.3110080",
+   "arxiv": "",
+   "topics": [
+    "social"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/ictir/FerroLMP17",
+   "title": "LEARning Next gEneration Rankers (LEARNER 2017)",
+   "authors": [
+    "Nicola Ferro",
+    "Claudio Lucchese",
+    "Maria Maistro",
+    "Raffaele Perego"
+   ],
+   "year": 2017,
+   "type": "conf",
+   "venue": "ICTIR",
+   "venue_full": "Proceedings of the ACM SIGIR International Conference on Theory of Information Retrieval, ICTIR 2017, Amsterdam, The Netherlands, October 1-4, 2017",
+   "url": "https://doi.org/10.1145/3121050.3121110",
+   "arxiv": "",
+   "topics": [
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/ieeehpcs/LettichLNOPTV17",
+   "title": "Multicore/Manycore Parallel Traversal of Large Forests of Regression Trees",
+   "authors": [
+    "Francesco Lettich",
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Nicola Tonellotto",
+    "Rossano Venturini"
+   ],
+   "year": 2017,
+   "type": "conf",
+   "venue": "IEEEHPCS",
+   "venue_full": "2017 International Conference on High Performance Computing & Simulation, HPCS 2017, Genoa, Italy, July 17-21, 2017",
+   "url": "https://doi.org/10.1109/HPCS.2017.154",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr",
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/parco/MeoniPT17",
+   "title": "Popularity-Based Caching of CMS Datasets",
+   "authors": [
+    "Marco Meoni",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2017,
+   "type": "conf",
+   "venue": "PARCO",
+   "venue_full": "Parallel Computing is Everywhere, Proceedings of the International Conference on Parallel Computing, ParCo 2017, 12-15 September 2017, Bologna, Italy",
+   "url": "https://doi.org/10.3233/978-1-61499-843-3-221",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/pkdd/LuccheseN0PTV17",
+   "title": "QuickScorer: Efficient Traversal of Large Ensembles of Decision Trees",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Nicola Tonellotto",
+    "Rossano Venturini"
+   ],
+   "year": 2017,
+   "type": "conf",
+   "venue": "PKDD",
+   "venue_full": "Machine Learning and Knowledge Discovery in Databases - European Conference, ECML PKDD 2017, Skopje, Macedonia, September 18-22, 2017, Proceedings, Part III",
+   "url": "https://doi.org/10.1007/978-3-319-71273-4\\_36",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sac/LacerdaMBRP17",
+   "title": "Exploiting photo location and direction for clustering-based points-of-interest discovery",
+   "authors": [
+    "Yuri Almeida Lacerda",
+    "Leandro Balby Marinho",
+    "Cláudio de Souza Baptista",
+    "Chiara Renso",
+    "Raffaele Perego"
+   ],
+   "year": 2017,
+   "type": "conf",
+   "venue": "SAC",
+   "venue_full": "Proceedings of the Symposium on Applied Computing, SAC 2017, Marrakech, Morocco, April 3-7, 2017",
+   "url": "https://doi.org/10.1145/3019612.3019679",
+   "arxiv": "",
+   "topics": [
+    "recsys",
+    "mobility"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/ictir/LuccheseNPT17",
+   "title": "The Impact of Negative Samples on Learning to Rank",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Salvatore Trani"
+   ],
+   "year": 2017,
+   "type": "workshop",
+   "venue": "ICTIR",
+   "venue_full": "Proceedings of the 1st International Workshop on LEARning Next gEneration Rankers co-located with the 3rd ACM International Conference on the Theory of Information Retrieval (ICTIR 2017), Amsterdam, The Netherlands, October 1, 2017",
+   "url": "https://ceur-ws.org/Vol-2007/LEARNER2017\\_short\\_1.pdf",
+   "arxiv": "",
+   "topics": [
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/ictir/2017learner",
+   "title": "Proceedings of the 1st International Workshop on LEARning Next gEneration Rankers co-located with the 3rd ACM International Conference on the Theory of Information Retrieval (ICTIR 2017), Amsterdam, The Netherlands, October 1, 2017",
+   "authors": [
+    "Nicola Ferro",
+    "Claudio Lucchese",
+    "Maria Maistro",
+    "Raffaele Perego"
+   ],
+   "year": 2017,
+   "type": "edited",
+   "venue": "ICTIR",
+   "venue_full": "CEUR Workshop Proceedings",
+   "url": "https://ceur-ws.org/Vol-2007",
+   "arxiv": "",
+   "topics": [
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/iir/2017",
+   "title": "Proceedings of the 8th Italian Information Retrieval Workshop, Lugano, Switzerland, June 05-07, 2017",
+   "authors": [
+    "Fabio Crestani",
+    "Tommaso Di Noia",
+    "Raffaele Perego"
+   ],
+   "year": 2017,
+   "type": "edited",
+   "venue": "IIR",
+   "venue_full": "CEUR Workshop Proceedings",
+   "url": "https://ceur-ws.org/Vol-1911",
+   "arxiv": "",
+   "topics": [
+    "misc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir/LuccheseNOPTV16",
+   "title": "Exploiting CPU SIMD Extensions to Speed-up Document Scoring with Tree Ensembles",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Nicola Tonellotto",
+    "Rossano Venturini"
+   ],
+   "year": 2016,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
+   "url": "https://doi.org/10.1145/2911451.2914758",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir/ColettoLOP16",
+   "title": "Polarized User and Topic Tracking in Twitter",
+   "authors": [
+    "Mauro Coletto",
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego"
+   ],
+   "year": 2016,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
+   "url": "https://doi.org/10.1145/2911451.2914716",
+   "arxiv": "1610.08686",
+   "topics": [
+    "social"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir/LuccheseNOPST16",
+   "title": "Post-Learning Optimization of Tree Ensembles for Efficient Ranking",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Fabrizio Silvestri",
+    "Salvatore Trani"
+   ],
+   "year": 2016,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
+   "url": "https://doi.org/10.1145/2911451.2914763",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir/LiraRPRT16",
+   "title": "The ComeWithMe System for Searching and Ranking Activity-Based Carpooling Rides",
+   "authors": [
+    "Vinicius Monteiro de Lira",
+    "Chiara Renso",
+    "Raffaele Perego",
+    "Salvatore Rinzivillo",
+    "Valéria Cesário Times"
+   ],
+   "year": 2016,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
+   "url": "https://doi.org/10.1145/2911451.2911459",
+   "arxiv": "",
+   "topics": [
+    "recsys",
+    "mobility"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/tois/DatoLNOPTV16",
+   "title": "Fast Ranking with Additive Ensembles of Oblivious and Non-Oblivious Regression Trees",
+   "authors": [
+    "Domenico Dato",
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Nicola Tonellotto",
+    "Rossano Venturini"
+   ],
+   "year": 2016,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/2987380",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/ipm/CapanniniLNOPT16",
+   "title": "Quality versus efficiency in document scoring with learning-to-rank models",
+   "authors": [
+    "Gabriele Capannini",
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2016,
+   "type": "q1",
+   "venue": "IP&M",
+   "venue_full": "Inf. Process. Manag.",
+   "url": "https://doi.org/10.1016/J.IPM.2016.05.004",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -3096,6 +3237,49 @@
    "topics": [
     "efficient-ir",
     "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/mdm/BrilhanteMNPR16",
+   "title": "Group Finder: An Item-Driven Group Formation Framework",
+   "authors": [
+    "Igo Ramalho Brilhante",
+    "José Antônio Fernandes de Macêdo",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Chiara Renso"
+   ],
+   "year": 2016,
+   "type": "conf",
+   "venue": "MDM",
+   "venue_full": "IEEE 17th International Conference on Mobile Data Management, MDM 2016, Porto, Portugal, June 13-16, 2016",
+   "url": "https://doi.org/10.1109/MDM.2016.16",
+   "arxiv": "",
+   "topics": [
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/sigir/AgostiARP16",
+   "title": "Data-Driven Information Retrieval",
+   "authors": [
+    "Maristella Agosti",
+    "Omar Alonso",
+    "Maarten de Rijke",
+    "Raffaele Perego"
+   ],
+   "year": 2016,
+   "type": "journal",
+   "venue": "SIGIR Forum",
+   "venue_full": "SIGIR Forum",
+   "url": "https://doi.org/10.1145/3053408.3053410",
+   "arxiv": "",
+   "topics": [
+    "misc"
    ],
    "selected": false,
    "award": ""
@@ -3219,52 +3403,6 @@
    "award": ""
   },
   {
-   "key": "journals/ipm/CapanniniLNOPT16",
-   "title": "Quality versus efficiency in document scoring with learning-to-rank models",
-   "authors": [
-    "Gabriele Capannini",
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2016,
-   "type": "q1",
-   "venue": "IP&M",
-   "venue_full": "Inf. Process. Manag.",
-   "url": "https://doi.org/10.1016/J.IPM.2016.05.004",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/mdm/BrilhanteMNPR16",
-   "title": "Group Finder: An Item-Driven Group Formation Framework",
-   "authors": [
-    "Igo Ramalho Brilhante",
-    "José Antônio Fernandes de Macêdo",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Chiara Renso"
-   ],
-   "year": 2016,
-   "type": "conf",
-   "venue": "MDM",
-   "venue_full": "IEEE 17th International Conference on Mobile Data Management, MDM 2016, Porto, Portugal, June 13-16, 2016",
-   "url": "https://doi.org/10.1109/MDM.2016.16",
-   "arxiv": "",
-   "topics": [
-    "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/sebd/LiraRTRP16",
    "title": "Activity-based Carpooling with ComeWithMe",
    "authors": [
@@ -3312,75 +3450,6 @@
    "award": ""
   },
   {
-   "key": "conf/sigir/LuccheseNOPTV16",
-   "title": "Exploiting CPU SIMD Extensions to Speed-up Document Scoring with Tree Ensembles",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Nicola Tonellotto",
-    "Rossano Venturini"
-   ],
-   "year": 2016,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
-   "url": "https://doi.org/10.1145/2911451.2914758",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sigir/ColettoLOP16",
-   "title": "Polarized User and Topic Tracking in Twitter",
-   "authors": [
-    "Mauro Coletto",
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 2016,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
-   "url": "https://doi.org/10.1145/2911451.2914716",
-   "arxiv": "1610.08686",
-   "topics": [
-    "social"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sigir/LuccheseNOPST16",
-   "title": "Post-Learning Optimization of Tree Ensembles for Efficient Ranking",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Fabrizio Silvestri",
-    "Salvatore Trani"
-   ],
-   "year": 2016,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
-   "url": "https://doi.org/10.1145/2911451.2914763",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/sigir/2016",
    "title": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
    "authors": [
@@ -3403,54 +3472,9 @@
    "award": ""
   },
   {
-   "key": "conf/sigir/LiraRPRT16",
-   "title": "The ComeWithMe System for Searching and Ranking Activity-Based Carpooling Rides",
+   "key": "conf/sigir/LuccheseNOPTV15",
+   "title": "QuickScorer: A Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees",
    "authors": [
-    "Vinicius Monteiro de Lira",
-    "Chiara Renso",
-    "Raffaele Perego",
-    "Salvatore Rinzivillo",
-    "Valéria Cesário Times"
-   ],
-   "year": 2016,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
-   "url": "https://doi.org/10.1145/2911451.2911459",
-   "arxiv": "",
-   "topics": [
-    "recsys",
-    "mobility"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/sigir/AgostiARP16",
-   "title": "Data-Driven Information Retrieval",
-   "authors": [
-    "Maristella Agosti",
-    "Omar Alonso",
-    "Maarten de Rijke",
-    "Raffaele Perego"
-   ],
-   "year": 2016,
-   "type": "journal",
-   "venue": "SIGIR Forum",
-   "venue_full": "SIGIR Forum",
-   "url": "https://doi.org/10.1145/3053408.3053410",
-   "arxiv": "",
-   "topics": [
-    "misc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tois/DatoLNOPTV16",
-   "title": "Fast Ranking with Additive Ensembles of Oblivious and Non-Oblivious Regression Trees",
-   "authors": [
-    "Domenico Dato",
     "Claudio Lucchese",
     "Franco Maria Nardini",
     "Salvatore Orlando",
@@ -3458,15 +3482,59 @@
     "Nicola Tonellotto",
     "Rossano Venturini"
    ],
-   "year": 2016,
-   "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/2987380",
+   "year": 2015,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015",
+   "url": "https://doi.org/10.1145/2766462.2767733",
    "arxiv": "",
    "topics": [
     "efficient-ir",
     "ltr"
+   ],
+   "selected": true,
+   "award": "Best Paper, SIGIR 2015"
+  },
+  {
+   "key": "conf/sigir/LuccheseNOPT15",
+   "title": "Speeding up Document Ranking with Rank-based Features",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2015,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015",
+   "url": "https://doi.org/10.1145/2766462.2767776",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/ipm/BrilhanteMNPR15",
+   "title": "On planning sightseeing tours with TripBuilder",
+   "authors": [
+    "Igo Ramalho Brilhante",
+    "José Antônio Fernandes de Macêdo",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Chiara Renso"
+   ],
+   "year": 2015,
+   "type": "q1",
+   "venue": "IP&M",
+   "venue_full": "Inf. Process. Manag.",
+   "url": "https://doi.org/10.1016/J.IPM.2014.10.003",
+   "arxiv": "",
+   "topics": [
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -3487,6 +3555,52 @@
    "arxiv": "",
    "topics": [
     "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/ijhpcn/FrancescoNGOPT15",
+   "title": "MIDAS: a cloud platform for SOA testing as a service",
+   "authors": [
+    "Alberto De Francesco",
+    "Claudia Di Napoli",
+    "Maurizio Giordano",
+    "Giuseppe Ottaviano",
+    "Raffaele Perego",
+    "Nicola Tonellotto"
+   ],
+   "year": 2015,
+   "type": "journal",
+   "venue": "IJHPCN",
+   "venue_full": "Int. J. High Perform. Comput. Netw.",
+   "url": "https://doi.org/10.1504/IJHPCN.2015.071254",
+   "arxiv": "",
+   "topics": [
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/sigspatial/BrilhanteMNPR15",
+   "title": "Planning sightseeing tours using crowdsensed trajectories",
+   "authors": [
+    "Igo Ramalho Brilhante",
+    "José Antônio Fernandes de Macêdo",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Chiara Renso"
+   ],
+   "year": 2015,
+   "type": "journal",
+   "venue": "SIGSPATIAL Sp.",
+   "venue_full": "ACM SIGSPATIAL Special",
+   "url": "https://doi.org/10.1145/2782759.2782769",
+   "arxiv": "",
+   "topics": [
+    "recsys",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -3531,26 +3645,6 @@
    "arxiv": "",
    "topics": [
     "entities"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/iir/2015",
-   "title": "Proceedings of the 6th Italian Information Retrieval Workshop, Cagliari, Italy, May 25-26, 2015",
-   "authors": [
-    "Paolo Boldi",
-    "Raffaele Perego",
-    "Fabrizio Sebastiani"
-   ],
-   "year": 2015,
-   "type": "edited",
-   "venue": "IIR",
-   "venue_full": "CEUR Workshop Proceedings",
-   "url": "https://ceur-ws.org/Vol-1404",
-   "arxiv": "",
-   "topics": [
-    "misc"
    ],
    "selected": false,
    "award": ""
@@ -3603,115 +3697,41 @@
    "award": ""
   },
   {
-   "key": "journals/ijhpcn/FrancescoNGOPT15",
-   "title": "MIDAS: a cloud platform for SOA testing as a service",
+   "key": "conf/iir/2015",
+   "title": "Proceedings of the 6th Italian Information Retrieval Workshop, Cagliari, Italy, May 25-26, 2015",
    "authors": [
-    "Alberto De Francesco",
-    "Claudia Di Napoli",
-    "Maurizio Giordano",
-    "Giuseppe Ottaviano",
+    "Paolo Boldi",
     "Raffaele Perego",
-    "Nicola Tonellotto"
+    "Fabrizio Sebastiani"
    ],
    "year": 2015,
-   "type": "journal",
-   "venue": "IJHPCN",
-   "venue_full": "Int. J. High Perform. Comput. Netw.",
-   "url": "https://doi.org/10.1504/IJHPCN.2015.071254",
+   "type": "edited",
+   "venue": "IIR",
+   "venue_full": "CEUR Workshop Proceedings",
+   "url": "https://ceur-ws.org/Vol-1404",
    "arxiv": "",
    "topics": [
-    "hpc"
+    "misc"
    ],
    "selected": false,
    "award": ""
   },
   {
-   "key": "journals/ipm/BrilhanteMNPR15",
-   "title": "On planning sightseeing tours with TripBuilder",
+   "key": "journals/tkde/LuccheseOP14",
+   "title": "A Unifying Framework for Mining Approximate Top- \\textbackslash(k\\textbackslash) Binary Patterns",
    "authors": [
-    "Igo Ramalho Brilhante",
-    "José Antônio Fernandes de Macêdo",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Chiara Renso"
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego"
    ],
-   "year": 2015,
+   "year": 2014,
    "type": "q1",
-   "venue": "IP&M",
-   "venue_full": "Inf. Process. Manag.",
-   "url": "https://doi.org/10.1016/J.IPM.2014.10.003",
+   "venue": "TKDE",
+   "venue_full": "IEEE Trans. Knowl. Data Eng.",
+   "url": "https://doi.org/10.1109/TKDE.2013.181",
    "arxiv": "",
    "topics": [
-    "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sigir/LuccheseNOPTV15",
-   "title": "QuickScorer: A Fast Algorithm to Rank Documents with Additive Ensembles of Regression Trees",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Nicola Tonellotto",
-    "Rossano Venturini"
-   ],
-   "year": 2015,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015",
-   "url": "https://doi.org/10.1145/2766462.2767733",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
-   ],
-   "selected": true,
-   "award": "Best Paper, SIGIR 2015"
-  },
-  {
-   "key": "conf/sigir/LuccheseNOPT15",
-   "title": "Speeding up Document Ranking with Rank-based Features",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Nicola Tonellotto"
-   ],
-   "year": 2015,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, Santiago, Chile, August 9-13, 2015",
-   "url": "https://doi.org/10.1145/2766462.2767776",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/sigspatial/BrilhanteMNPR15",
-   "title": "Planning sightseeing tours using crowdsensed trajectories",
-   "authors": [
-    "Igo Ramalho Brilhante",
-    "José Antônio Fernandes de Macêdo",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Chiara Renso"
-   ],
-   "year": 2015,
-   "type": "journal",
-   "venue": "SIGSPATIAL Sp.",
-   "venue_full": "ACM SIGSPATIAL Special",
-   "url": "https://doi.org/10.1145/2782759.2782769",
-   "arxiv": "",
-   "topics": [
-    "recsys",
-    "mobility"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -3734,29 +3754,6 @@
    "arxiv": "",
    "topics": [
     "entities"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "books/crc/p/LuccheseMPSVV14",
-   "title": "Recommender Systems",
-   "authors": [
-    "Claudio Lucchese",
-    "Cristina Ioana Muntean",
-    "Raffaele Perego",
-    "Fabrizio Silvestri",
-    "Hossein Vahabi",
-    "Rossano Venturini"
-   ],
-   "year": 2014,
-   "type": "book",
-   "venue": "CRC",
-   "venue_full": "Mining User Generated Content",
-   "url": "https://doi.org/10.1201/B16413-16",
-   "arxiv": "",
-   "topics": [
-    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -3829,46 +3826,49 @@
    "award": ""
   },
   {
-   "key": "journals/tkde/LuccheseOP14",
-   "title": "A Unifying Framework for Mining Approximate Top- \\textbackslash(k\\textbackslash) Binary Patterns",
+   "key": "books/crc/p/LuccheseMPSVV14",
+   "title": "Recommender Systems",
    "authors": [
     "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego"
+    "Cristina Ioana Muntean",
+    "Raffaele Perego",
+    "Fabrizio Silvestri",
+    "Hossein Vahabi",
+    "Rossano Venturini"
    ],
    "year": 2014,
-   "type": "q1",
-   "venue": "TKDE",
-   "venue_full": "IEEE Trans. Knowl. Data Eng.",
-   "url": "https://doi.org/10.1109/TKDE.2013.181",
+   "type": "book",
+   "venue": "CRC",
+   "venue_full": "Mining User Generated Content",
+   "url": "https://doi.org/10.1201/B16413-16",
    "arxiv": "",
    "topics": [
-    "data-mining"
+    "recsys"
    ],
    "selected": false,
    "award": ""
   },
   {
-   "key": "conf/cikm/CeccarelliLOPT13a",
-   "title": "Dexter: an open source framework for entity linking",
+   "key": "journals/tois/LuccheseOPST13",
+   "title": "Discovering tasks from search engine query logs",
    "authors": [
-    "Diego Ceccarelli",
     "Claudio Lucchese",
     "Salvatore Orlando",
     "Raffaele Perego",
-    "Salvatore Trani"
+    "Fabrizio Silvestri",
+    "Gabriele Tolomei"
    ],
    "year": 2013,
-   "type": "workshop",
-   "venue": "CIKM",
-   "venue_full": "ESAIR'13, Proceedings of the Sixth International Workshop on Exploiting Semantic Annotations in Information Retrieval, co-located with CIKM 2013, San Francisco, CA, USA, October 28, 2013",
-   "url": "https://doi.org/10.1145/2513204.2513212",
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/2493175.2493179",
    "arxiv": "",
    "topics": [
-    "entities"
+    "query-logs"
    ],
-   "selected": false,
-   "award": ""
+   "selected": true,
+   "award": "Notable Article in Computing 2013, ACM Computing Reviews"
   },
   {
    "key": "conf/cikm/CeccarelliLOPT13",
@@ -3963,28 +3963,6 @@
    "award": ""
   },
   {
-   "key": "conf/iir/CeccarelliGLNP13",
-   "title": "On Suggesting Entities as Web Search Queries",
-   "authors": [
-    "Diego Ceccarelli",
-    "Sergiu Gordea",
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Raffaele Perego"
-   ],
-   "year": 2013,
-   "type": "workshop",
-   "venue": "IIR",
-   "venue_full": "Proceedings of the 4th Italian Information Retrieval Workshop, Pisa, Italy, January 16-17, 2013",
-   "url": "https://ceur-ws.org/Vol-964/paper6.pdf",
-   "arxiv": "",
-   "topics": [
-    "entities"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/riao/LuccheseOPST13",
    "title": "Modeling and predicting the task-by-task behavior of search engine users",
    "authors": [
@@ -4055,26 +4033,72 @@
    "award": ""
   },
   {
-   "key": "journals/tois/LuccheseOPST13",
-   "title": "Discovering tasks from search engine query logs",
+   "key": "conf/cikm/CeccarelliLOPT13a",
+   "title": "Dexter: an open source framework for entity linking",
    "authors": [
+    "Diego Ceccarelli",
     "Claudio Lucchese",
     "Salvatore Orlando",
     "Raffaele Perego",
-    "Fabrizio Silvestri",
-    "Gabriele Tolomei"
+    "Salvatore Trani"
    ],
    "year": 2013,
-   "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/2493175.2493179",
+   "type": "workshop",
+   "venue": "CIKM",
+   "venue_full": "ESAIR'13, Proceedings of the Sixth International Workshop on Exploiting Semantic Annotations in Information Retrieval, co-located with CIKM 2013, San Francisco, CA, USA, October 28, 2013",
+   "url": "https://doi.org/10.1145/2513204.2513212",
    "arxiv": "",
    "topics": [
-    "query-logs"
+    "entities"
    ],
-   "selected": true,
-   "award": "Notable Article in Computing 2013, ACM Computing Reviews"
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/iir/CeccarelliGLNP13",
+   "title": "On Suggesting Entities as Web Search Queries",
+   "authors": [
+    "Diego Ceccarelli",
+    "Sergiu Gordea",
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Raffaele Perego"
+   ],
+   "year": 2013,
+   "type": "workshop",
+   "venue": "IIR",
+   "venue_full": "Proceedings of the 4th Italian Information Retrieval Workshop, Pisa, Italy, January 16-17, 2013",
+   "url": "https://ceur-ws.org/Vol-964/paper6.pdf",
+   "arxiv": "",
+   "topics": [
+    "entities"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir/BonchiPSVV12",
+   "title": "Efficient query recommendations in the long tail via center-piece subgraphs",
+   "authors": [
+    "Francesco Bonchi",
+    "Raffaele Perego",
+    "Fabrizio Silvestri",
+    "Hossein Vahabi",
+    "Rossano Venturini"
+   ],
+   "year": 2012,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "The 35th International ACM SIGIR conference on research and development in Information Retrieval, SIGIR '12, Portland, OR, USA, August 12-16, 2012",
+   "url": "https://doi.org/10.1145/2348283.2348332",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "query-logs",
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
   },
   {
    "key": "conf/cikm/BlancoCLPS12",
@@ -4166,8 +4190,30 @@
    "award": ""
   },
   {
-   "key": "conf/sigir/BonchiPSVV12",
-   "title": "Efficient query recommendations in the long tail via center-piece subgraphs",
+   "key": "conf/www/CapanniniNPS11",
+   "title": "Efficient diversification of search results using query logs",
+   "authors": [
+    "Gabriele Capannini",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2011,
+   "type": "a_conf",
+   "venue": "WWW",
+   "venue_full": "Proceedings of the 20th International Conference on World Wide Web, WWW 2011, Hyderabad, India, March 28 - April 1, 2011 (Companion Volume)",
+   "url": "https://doi.org/10.1145/1963192.1963202",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "query-logs"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/www/BonchiPSVV11",
+   "title": "Recommendations for the long tail by term-query graph",
    "authors": [
     "Francesco Bonchi",
     "Raffaele Perego",
@@ -4175,16 +4221,58 @@
     "Hossein Vahabi",
     "Rossano Venturini"
    ],
-   "year": 2012,
+   "year": 2011,
    "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "The 35th International ACM SIGIR conference on research and development in Information Retrieval, SIGIR '12, Portland, OR, USA, August 12-16, 2012",
-   "url": "https://doi.org/10.1145/2348283.2348332",
+   "venue": "WWW",
+   "venue_full": "Proceedings of the 20th International Conference on World Wide Web, WWW 2011, Hyderabad, India, March 28 - April 1, 2011 (Companion Volume)",
+   "url": "https://doi.org/10.1145/1963192.1963201",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
     "query-logs",
     "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/wsdm/LuccheseOPST11",
+   "title": "Identifying task-based sessions in search engine query logs",
+   "authors": [
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Fabrizio Silvestri",
+    "Gabriele Tolomei"
+   ],
+   "year": 2011,
+   "type": "a_conf",
+   "venue": "WSDM",
+   "venue_full": "Proceedings of the Fourth International Conference on Web Search and Web Data Mining, WSDM 2011, Hong Kong, China, February 9-12, 2011",
+   "url": "https://doi.org/10.1145/1935826.1935875",
+   "arxiv": "",
+   "topics": [
+    "query-logs"
+   ],
+   "selected": true,
+   "award": "Best Paper Runner-up, WSDM 2011"
+  },
+  {
+   "key": "journals/pvldb/CapanniniNPS11",
+   "title": "Efficient Diversification of Web Search Results",
+   "authors": [
+    "Gabriele Capannini",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2011,
+   "type": "a_conf",
+   "venue": "PVLDB",
+   "venue_full": "Proc. VLDB Endow.",
+   "url": "https://doi.org/10.14778/1988776.1988781",
+   "arxiv": "1105.4255",
+   "topics": [
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4275,20 +4363,20 @@
    "award": ""
   },
   {
-   "key": "journals/pvldb/CapanniniNPS11",
-   "title": "Efficient Diversification of Web Search Results",
+   "key": "journals/tois/PuppinSPB10",
+   "title": "Tuning the capacity of search engines: Load-driven routing and incremental caching to reduce and balance the load",
    "authors": [
-    "Gabriele Capannini",
-    "Franco Maria Nardini",
+    "Diego Puppin",
+    "Fabrizio Silvestri",
     "Raffaele Perego",
-    "Fabrizio Silvestri"
+    "Ricardo Baeza-Yates"
    ],
-   "year": 2011,
-   "type": "a_conf",
-   "venue": "PVLDB",
-   "venue_full": "Proc. VLDB Endow.",
-   "url": "https://doi.org/10.14778/1988776.1988781",
-   "arxiv": "1105.4255",
+   "year": 2010,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/1740592.1740593",
+   "arxiv": "",
    "topics": [
     "efficient-ir"
    ],
@@ -4296,92 +4384,24 @@
    "award": ""
   },
   {
-   "key": "conf/wsdm/LuccheseOPST11",
-   "title": "Identifying task-based sessions in search engine query logs",
+   "key": "conf/sdm/LuccheseOP10",
+   "title": "Mining Top-K Patterns from Binary Datasets in Presence of Noise",
    "authors": [
     "Claudio Lucchese",
     "Salvatore Orlando",
-    "Raffaele Perego",
-    "Fabrizio Silvestri",
-    "Gabriele Tolomei"
-   ],
-   "year": 2011,
-   "type": "a_conf",
-   "venue": "WSDM",
-   "venue_full": "Proceedings of the Fourth International Conference on Web Search and Web Data Mining, WSDM 2011, Hong Kong, China, February 9-12, 2011",
-   "url": "https://doi.org/10.1145/1935826.1935875",
-   "arxiv": "",
-   "topics": [
-    "query-logs"
-   ],
-   "selected": true,
-   "award": "Best Paper Runner-up, WSDM 2011"
-  },
-  {
-   "key": "conf/www/CapanniniNPS11",
-   "title": "Efficient diversification of search results using query logs",
-   "authors": [
-    "Gabriele Capannini",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Fabrizio Silvestri"
-   ],
-   "year": 2011,
-   "type": "a_conf",
-   "venue": "WWW",
-   "venue_full": "Proceedings of the 20th International Conference on World Wide Web, WWW 2011, Hyderabad, India, March 28 - April 1, 2011 (Companion Volume)",
-   "url": "https://doi.org/10.1145/1963192.1963202",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "query-logs"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/www/BonchiPSVV11",
-   "title": "Recommendations for the long tail by term-query graph",
-   "authors": [
-    "Francesco Bonchi",
-    "Raffaele Perego",
-    "Fabrizio Silvestri",
-    "Hossein Vahabi",
-    "Rossano Venturini"
-   ],
-   "year": 2011,
-   "type": "a_conf",
-   "venue": "WWW",
-   "venue_full": "Proceedings of the 20th International Conference on World Wide Web, WWW 2011, Hyderabad, India, March 28 - April 1, 2011 (Companion Volume)",
-   "url": "https://doi.org/10.1145/1963192.1963201",
-   "arxiv": "",
-   "topics": [
-    "query-logs",
-    "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/apweb/LamDPS10",
-   "title": "An Incremental Prefix Filtering Approach for the All Pairs Similarity Search Problem",
-   "authors": [
-    "Hoang Thanh Lam",
-    "Dinh Viet Dung",
-    "Raffaele Perego",
-    "Fabrizio Silvestri"
+    "Raffaele Perego"
    ],
    "year": 2010,
-   "type": "conf",
-   "venue": "APWEB",
-   "venue_full": "Advances in Web Technologies and Applications, Proceedings of the 12th Asia-Pacific Web Conference, APWeb 2010, Busan, Korea, 6-8 April 2010",
-   "url": "https://doi.org/10.1109/APWEB.2010.30",
+   "type": "a_conf",
+   "venue": "SDM",
+   "venue_full": "Proceedings of the SIAM International Conference on Data Mining, SDM 2010, April 29 - May 1, 2010, Columbus, Ohio, USA",
+   "url": "https://doi.org/10.1137/1.9781611972801.15",
    "arxiv": "",
    "topics": [
-    "efficient-ir"
+    "data-mining"
    ],
-   "selected": false,
-   "award": ""
+   "selected": true,
+   "award": "Best Paper Runner-up, SDM 2010"
   },
   {
    "key": "conf/europar/YahyapourPDEB10",
@@ -4407,45 +4427,22 @@
    "award": ""
   },
   {
-   "key": "conf/iat/LuccheseOPST10",
-   "title": "Detecting Task-Based Query Sessions Using Collaborative Knowledge",
+   "key": "conf/apweb/LamDPS10",
+   "title": "An Incremental Prefix Filtering Approach for the All Pairs Similarity Search Problem",
    "authors": [
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Fabrizio Silvestri",
-    "Gabriele Tolomei"
-   ],
-   "year": 2010,
-   "type": "workshop",
-   "venue": "IAT",
-   "venue_full": "Proceedings of the 2010 IEEE/WIC/ACM International Conference on Web Intelligence and International Conference on Intelligent Agent Technology - Workshops, Toronto, Canada, August 31 - September 3, 2010",
-   "url": "https://doi.org/10.1109/WI-IAT.2010.281",
-   "arxiv": "",
-   "topics": [
-    "query-logs"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/iir/BroccoloNPS10",
-   "title": "Refreshing Models to Provide Timely Query Recommendations",
-   "authors": [
-    "Daniele Broccolo",
-    "Franco Maria Nardini",
+    "Hoang Thanh Lam",
+    "Dinh Viet Dung",
     "Raffaele Perego",
     "Fabrizio Silvestri"
    ],
    "year": 2010,
-   "type": "workshop",
-   "venue": "IIR",
-   "venue_full": "IIR 2010 - Proceedings of the First Italian Information Retrieval Workshop, Padua, Italy, January 27-28, 2010",
-   "url": "https://ceur-ws.org/Vol-560/paper21.pdf",
+   "type": "conf",
+   "venue": "APWEB",
+   "venue_full": "Advances in Web Technologies and Applications, Proceedings of the 12th Asia-Pacific Web Conference, APWeb 2010, Busan, Korea, 6-8 April 2010",
+   "url": "https://doi.org/10.1109/APWEB.2010.30",
    "arxiv": "",
    "topics": [
-    "query-logs",
-    "recsys"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4520,48 +4517,6 @@
    "award": ""
   },
   {
-   "key": "conf/sdm/LuccheseOP10",
-   "title": "Mining Top-K Patterns from Binary Datasets in Presence of Noise",
-   "authors": [
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 2010,
-   "type": "a_conf",
-   "venue": "SDM",
-   "venue_full": "Proceedings of the SIAM International Conference on Data Mining, SDM 2010, April 29 - May 1, 2010, Columbus, Ohio, USA",
-   "url": "https://doi.org/10.1137/1.9781611972801.15",
-   "arxiv": "",
-   "topics": [
-    "data-mining"
-   ],
-   "selected": true,
-   "award": "Best Paper Runner-up, SDM 2010"
-  },
-  {
-   "key": "conf/sebd/BaragliaDMPR10",
-   "title": "Gossip Communities: Collaborative Filtering Through Peer-to-Peer Overlays (Extended Abstract)",
-   "authors": [
-    "Ranieri Baraglia",
-    "Patrizio Dazzi",
-    "Matteo Mordacchini",
-    "Raffaele Perego",
-    "Laura Ricci"
-   ],
-   "year": 2010,
-   "type": "workshop",
-   "venue": "SEBD",
-   "venue_full": "Proceedings of the Eighteenth Italian Symposium on Advanced Database Systems, SEBD 2010, Rimini, Italy, June 20-23, 2010",
-   "url": "",
-   "arxiv": "",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/spire/BroccoloFNPS10",
    "title": "Incremental Algorithms for Effective and Efficient Query Recommendation",
    "authors": [
@@ -4581,27 +4536,6 @@
     "efficient-ir",
     "query-logs",
     "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tois/PuppinSPB10",
-   "title": "Tuning the capacity of search engines: Load-driven routing and incremental caching to reduce and balance the load",
-   "authors": [
-    "Diego Puppin",
-    "Fabrizio Silvestri",
-    "Raffaele Perego",
-    "Ricardo Baeza-Yates"
-   ],
-   "year": 2010,
-   "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/1740592.1740593",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4628,6 +4562,95 @@
    "award": ""
   },
   {
+   "key": "conf/iat/LuccheseOPST10",
+   "title": "Detecting Task-Based Query Sessions Using Collaborative Knowledge",
+   "authors": [
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Fabrizio Silvestri",
+    "Gabriele Tolomei"
+   ],
+   "year": 2010,
+   "type": "workshop",
+   "venue": "IAT",
+   "venue_full": "Proceedings of the 2010 IEEE/WIC/ACM International Conference on Web Intelligence and International Conference on Intelligent Agent Technology - Workshops, Toronto, Canada, August 31 - September 3, 2010",
+   "url": "https://doi.org/10.1109/WI-IAT.2010.281",
+   "arxiv": "",
+   "topics": [
+    "query-logs"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/iir/BroccoloNPS10",
+   "title": "Refreshing Models to Provide Timely Query Recommendations",
+   "authors": [
+    "Daniele Broccolo",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2010,
+   "type": "workshop",
+   "venue": "IIR",
+   "venue_full": "IIR 2010 - Proceedings of the First Italian Information Retrieval Workshop, Padua, Italy, January 27-28, 2010",
+   "url": "https://ceur-ws.org/Vol-560/paper21.pdf",
+   "arxiv": "",
+   "topics": [
+    "query-logs",
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sebd/BaragliaDMPR10",
+   "title": "Gossip Communities: Collaborative Filtering Through Peer-to-Peer Overlays (Extended Abstract)",
+   "authors": [
+    "Ranieri Baraglia",
+    "Patrizio Dazzi",
+    "Matteo Mordacchini",
+    "Raffaele Perego",
+    "Laura Ricci"
+   ],
+   "year": 2010,
+   "type": "workshop",
+   "venue": "SEBD",
+   "venue_full": "Proceedings of the Eighteenth Italian Symposium on Advanced Database Systems, SEBD 2010, Rimini, Italy, June 20-23, 2010",
+   "url": "",
+   "arxiv": "",
+   "topics": [
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/www/BaragliaCCFPS09",
+   "title": "Search shortcuts: driving users towards their goals",
+   "authors": [
+    "Ranieri Baraglia",
+    "Fidel Cacheda",
+    "Victor Carneiro",
+    "Vreixo Formoso",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2009,
+   "type": "a_conf",
+   "venue": "WWW",
+   "venue_full": "Proceedings of the 18th International Conference on World Wide Web, WWW 2009, Madrid, Spain, April 20-24, 2009",
+   "url": "https://doi.org/10.1145/1526709.1526862",
+   "arxiv": "",
+   "topics": [
+    "query-logs"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/cikm/BaragliaCDNPS09",
    "title": "Aging effects on query flow graphs for query suggestion",
    "authors": [
@@ -4646,6 +4669,31 @@
    "arxiv": "",
    "topics": [
     "query-logs"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/recsys/BaragliaCCFFPS09",
+   "title": "Search shortcuts: a new approach to the recommendation of queries",
+   "authors": [
+    "Ranieri Baraglia",
+    "Fidel Cacheda",
+    "Victor Carneiro",
+    "Diego Fernández",
+    "Vreixo Formoso",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2009,
+   "type": "a_conf",
+   "venue": "RecSys",
+   "venue_full": "Proceedings of the 2009 ACM Conference on Recommender Systems, RecSys 2009, New York, NY, USA, October 23-25, 2009",
+   "url": "https://doi.org/10.1145/1639714.1639729",
+   "arxiv": "",
+   "topics": [
+    "query-logs",
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -4720,45 +4768,19 @@
    "award": ""
   },
   {
-   "key": "conf/recsys/BaragliaCCFFPS09",
-   "title": "Search shortcuts: a new approach to the recommendation of queries",
+   "key": "conf/wise/LamPQS09",
+   "title": "Entry Pairing in Inverted File",
    "authors": [
-    "Ranieri Baraglia",
-    "Fidel Cacheda",
-    "Victor Carneiro",
-    "Diego Fernández",
-    "Vreixo Formoso",
+    "Hoang Thanh Lam",
     "Raffaele Perego",
+    "Quan Thoi Minh Nguyen",
     "Fabrizio Silvestri"
    ],
    "year": 2009,
-   "type": "a_conf",
-   "venue": "RecSys",
-   "venue_full": "Proceedings of the 2009 ACM Conference on Recommender Systems, RecSys 2009, New York, NY, USA, October 23-25, 2009",
-   "url": "https://doi.org/10.1145/1639714.1639729",
-   "arxiv": "",
-   "topics": [
-    "query-logs",
-    "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sebd/FalchiLOPR09",
-   "title": "Caching Algorithms for Similarity Search",
-   "authors": [
-    "Fabrizio Falchi",
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Fausto Rabitti"
-   ],
-   "year": 2009,
-   "type": "workshop",
-   "venue": "SEBD",
-   "venue_full": "Proceedings of the Seventeenth Italian Symposium on Advanced Database Systems, SEBD 2009, Camogli, Italy, June 21-24, 2009",
-   "url": "",
+   "type": "conf",
+   "venue": "WISE",
+   "venue_full": "Web Information Systems Engineering - WISE 2009, 10th International Conference, Poznan, Poland, October 5-7, 2009. Proceedings",
+   "url": "https://doi.org/10.1007/978-3-642-04409-0\\_50",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -4792,27 +4814,6 @@
    "award": ""
   },
   {
-   "key": "conf/wise/LamPQS09",
-   "title": "Entry Pairing in Inverted File",
-   "authors": [
-    "Hoang Thanh Lam",
-    "Raffaele Perego",
-    "Quan Thoi Minh Nguyen",
-    "Fabrizio Silvestri"
-   ],
-   "year": 2009,
-   "type": "conf",
-   "venue": "WISE",
-   "venue_full": "Web Information Systems Engineering - WISE 2009, 10th International Conference, Poznan, Poland, October 5-7, 2009. Proceedings",
-   "url": "https://doi.org/10.1007/978-3-642-04409-0\\_50",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/wsdm/BaragliaCCFPS09",
    "title": "Search shortcuts using click-through data",
    "authors": [
@@ -4836,24 +4837,23 @@
    "award": ""
   },
   {
-   "key": "conf/www/BaragliaCCFPS09",
-   "title": "Search shortcuts: driving users towards their goals",
+   "key": "conf/sebd/FalchiLOPR09",
+   "title": "Caching Algorithms for Similarity Search",
    "authors": [
-    "Ranieri Baraglia",
-    "Fidel Cacheda",
-    "Victor Carneiro",
-    "Vreixo Formoso",
+    "Fabrizio Falchi",
+    "Claudio Lucchese",
+    "Salvatore Orlando",
     "Raffaele Perego",
-    "Fabrizio Silvestri"
+    "Fausto Rabitti"
    ],
    "year": 2009,
-   "type": "a_conf",
-   "venue": "WWW",
-   "venue_full": "Proceedings of the 18th International Conference on World Wide Web, WWW 2009, Madrid, Spain, April 20-24, 2009",
-   "url": "https://doi.org/10.1145/1526709.1526862",
+   "type": "workshop",
+   "venue": "SEBD",
+   "venue_full": "Proceedings of the Seventeenth Italian Symposium on Advanced Database Systems, SEBD 2009, Camogli, Italy, June 21-24, 2009",
+   "url": "",
    "arxiv": "",
    "topics": [
-    "query-logs"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4878,28 +4878,6 @@
    "arxiv": "0905.4627",
    "topics": [
     "misc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/cikm/FalchiLOPR08",
-   "title": "A metric cache for similarity search",
-   "authors": [
-    "Fabrizio Falchi",
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Fausto Rabitti"
-   ],
-   "year": 2008,
-   "type": "workshop",
-   "venue": "CIKM",
-   "venue_full": "Proceeding of the 2008 ACM Workshop on Large-Scale Distributed Systems for Information Retrieval, LSDS-IR 2008, Napa Valley, California, USA, October 30, 2008",
-   "url": "https://doi.org/10.1145/1458469.1458473",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4947,6 +4925,28 @@
    "award": ""
   },
   {
+   "key": "conf/cikm/FalchiLOPR08",
+   "title": "A metric cache for similarity search",
+   "authors": [
+    "Fabrizio Falchi",
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Fausto Rabitti"
+   ],
+   "year": 2008,
+   "type": "workshop",
+   "venue": "CIKM",
+   "venue_full": "Proceeding of the 2008 ACM Workshop on Large-Scale Distributed Systems for Information Retrieval, LSDS-IR 2008, Napa Valley, California, USA, October 30, 2008",
+   "url": "https://doi.org/10.1145/1458469.1458473",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/sebd/BatkoFLNPRSZ08",
    "title": "Crawling, Indexing, and Similarity Searching Images on the Web",
    "authors": [
@@ -4972,26 +4972,6 @@
    "award": ""
   },
   {
-   "key": "journals/ercim/GennaroPR07",
-   "title": "The SAPIR Project: Executing A/V Complex Queries in Peer-to-Peer Systems",
-   "authors": [
-    "Claudio Gennaro",
-    "Raffaele Perego",
-    "Fausto Rabitti"
-   ],
-   "year": 2007,
-   "type": "journal",
-   "venue": "ERCIM News",
-   "venue_full": "ERCIM News",
-   "url": "http://ercim-news.ercim.eu/the-sapir-project-executing-av-complex-queries-in-peer-to-peer-systems",
-   "arxiv": "",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/icdm/LuccheseOP07",
    "title": "Parallel Mining of Frequent Closed Patterns: Harnessing Modern Computer Architectures",
    "authors": [
@@ -5007,6 +4987,26 @@
    "arxiv": "",
    "topics": [
     "data-mining",
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/ercim/GennaroPR07",
+   "title": "The SAPIR Project: Executing A/V Complex Queries in Peer-to-Peer Systems",
+   "authors": [
+    "Claudio Gennaro",
+    "Raffaele Perego",
+    "Fausto Rabitti"
+   ],
+   "year": 2007,
+   "type": "journal",
+   "venue": "ERCIM News",
+   "venue_full": "ERCIM News",
+   "url": "http://ercim-news.ercim.eu/the-sapir-project-executing-av-complex-queries-in-peer-to-peer-systems",
+   "arxiv": "",
+   "topics": [
     "hpc"
    ],
    "selected": false,
@@ -5057,22 +5057,43 @@
    "award": ""
   },
   {
-   "key": "conf/cikm/2006p2pir",
-   "title": "Proceedings of the international workshop on Information retrieval in peer-to-peer networks, P2PIR '06, Arlington, Virginia, USA, November 11, 2006",
+   "key": "journals/tois/FagniPSO06",
+   "title": "Boosting the performance of Web search engines: Caching and prefetching query results by exploiting historical usage data",
    "authors": [
-    "Ivana Podnar",
+    "Tiziano Fagni",
+    "Raffaele Perego",
     "Fabrizio Silvestri",
-    "Jie Lu",
+    "Salvatore Orlando"
+   ],
+   "year": 2006,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/1125857.1125859",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/tkde/LuccheseOP06",
+   "title": "Fast and Memory Efficient Mining of Frequent Closed Itemsets",
+   "authors": [
+    "Claudio Lucchese",
+    "Salvatore Orlando",
     "Raffaele Perego"
    ],
    "year": 2006,
-   "type": "edited",
-   "venue": "CIKM",
-   "venue_full": "ACM",
-   "url": "https://doi.org/10.1145/1183579",
+   "type": "q1",
+   "venue": "TKDE",
+   "venue_full": "IEEE Trans. Knowl. Data Eng.",
+   "url": "https://doi.org/10.1109/TKDE.2006.10",
    "arxiv": "",
    "topics": [
-    "hpc"
+    "efficient-ir",
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5093,6 +5114,26 @@
    "venue": "ICDE",
    "venue_full": "Proceedings of the 22nd International Conference on Data Engineering, ICDE 2006, 3-8 April 2006, Atlanta, GA, USA",
    "url": "https://doi.org/10.1109/ICDE.2006.42",
+   "arxiv": "",
+   "topics": [
+    "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sdm/LuccheseOP06",
+   "title": "Mining frequent closed itemsets out-of-core",
+   "authors": [
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego"
+   ],
+   "year": 2006,
+   "type": "a_conf",
+   "venue": "SDM",
+   "venue_full": "Proceedings of the Sixth SIAM International Conference on Data Mining, April 20-22, 2006, Bethesda, MD, USA",
+   "url": "https://doi.org/10.1137/1.9781611972764.37",
    "arxiv": "",
    "topics": [
     "data-mining"
@@ -5124,26 +5165,6 @@
    "award": ""
   },
   {
-   "key": "conf/sdm/LuccheseOP06",
-   "title": "Mining frequent closed itemsets out-of-core",
-   "authors": [
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 2006,
-   "type": "a_conf",
-   "venue": "SDM",
-   "venue_full": "Proceedings of the Sixth SIAM International Conference on Data Mining, April 20-22, 2006, Bethesda, MD, USA",
-   "url": "https://doi.org/10.1137/1.9781611972764.37",
-   "arxiv": "",
-   "topics": [
-    "data-mining"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/sebd/LuccheseBGOPT06",
    "title": "On Interactive Pattern Mining from Relational Databases",
    "authors": [
@@ -5167,43 +5188,22 @@
    "award": ""
   },
   {
-   "key": "journals/tkde/LuccheseOP06",
-   "title": "Fast and Memory Efficient Mining of Frequent Closed Itemsets",
+   "key": "conf/cikm/2006p2pir",
+   "title": "Proceedings of the international workshop on Information retrieval in peer-to-peer networks, P2PIR '06, Arlington, Virginia, USA, November 11, 2006",
    "authors": [
-    "Claudio Lucchese",
-    "Salvatore Orlando",
+    "Ivana Podnar",
+    "Fabrizio Silvestri",
+    "Jie Lu",
     "Raffaele Perego"
    ],
    "year": 2006,
-   "type": "q1",
-   "venue": "TKDE",
-   "venue_full": "IEEE Trans. Knowl. Data Eng.",
-   "url": "https://doi.org/10.1109/TKDE.2006.10",
+   "type": "edited",
+   "venue": "CIKM",
+   "venue_full": "ACM",
+   "url": "https://doi.org/10.1145/1183579",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "data-mining"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tois/FagniPSO06",
-   "title": "Boosting the performance of Web search engines: Caching and prefetching query results by exploiting historical usage data",
-   "authors": [
-    "Tiziano Fagni",
-    "Raffaele Perego",
-    "Fabrizio Silvestri",
-    "Salvatore Orlando"
-   ],
-   "year": 2006,
-   "type": "q1",
-   "venue": "TOIS",
-   "venue_full": "ACM Trans. Inf. Syst.",
-   "url": "https://doi.org/10.1145/1125857.1125859",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir"
+    "hpc"
    ],
    "selected": false,
    "award": ""
@@ -5225,6 +5225,26 @@
    "arxiv": "",
    "topics": [
     "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sigir/SilvestriOP04",
+   "title": "Assigning identifiers to documents to enhance the clustering property of fulltext indexes",
+   "authors": [
+    "Fabrizio Silvestri",
+    "Salvatore Orlando",
+    "Raffaele Perego"
+   ],
+   "year": 2004,
+   "type": "a_conf",
+   "venue": "SIGIR",
+   "venue_full": "SIGIR 2004: Proceedings of the 27th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, Sheffield, UK, July 25-29, 2004",
+   "url": "https://doi.org/10.1145/1008992.1009046",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -5268,68 +5288,6 @@
    "topics": [
     "efficient-ir",
     "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/fimi/LuccheseOP04",
-   "title": "DCI Closed: A Fast and Memory Efficient Algorithm to Mine Frequent Closed Itemsets",
-   "authors": [
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 2004,
-   "type": "workshop",
-   "venue": "FIMI",
-   "venue_full": "FIMI '04, Proceedings of the IEEE ICDM Workshop on Frequent Itemset Mining Implementations, Brighton, UK, November 1, 2004",
-   "url": "https://ceur-ws.org/Vol-126/lucchese.pdf",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "data-mining"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/fimi/LuccheseOP04a",
-   "title": "kDCI: on using direct count up to the third iteration",
-   "authors": [
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 2004,
-   "type": "workshop",
-   "venue": "FIMI",
-   "venue_full": "FIMI '04, Proceedings of the IEEE ICDM Workshop on Frequent Itemset Mining Implementations, Brighton, UK, November 1, 2004",
-   "url": "https://ceur-ws.org/Vol-126/kdci.pdf",
-   "arxiv": "",
-   "topics": [
-    "data-mining"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/fimi/LuccheseOPS04",
-   "title": "WebDocs: a real-life huge transactional dataset",
-   "authors": [
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Fabrizio Silvestri"
-   ],
-   "year": 2004,
-   "type": "workshop",
-   "venue": "FIMI",
-   "venue_full": "FIMI '04, Proceedings of the IEEE ICDM Workshop on Frequent Itemset Mining Implementations, Brighton, UK, November 1, 2004",
-   "url": "https://ceur-ws.org/Vol-126/webdocs.pdf",
-   "arxiv": "",
-   "topics": [
-    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5416,6 +5374,68 @@
    "award": ""
   },
   {
+   "key": "conf/fimi/LuccheseOP04",
+   "title": "DCI Closed: A Fast and Memory Efficient Algorithm to Mine Frequent Closed Itemsets",
+   "authors": [
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego"
+   ],
+   "year": 2004,
+   "type": "workshop",
+   "venue": "FIMI",
+   "venue_full": "FIMI '04, Proceedings of the IEEE ICDM Workshop on Frequent Itemset Mining Implementations, Brighton, UK, November 1, 2004",
+   "url": "https://ceur-ws.org/Vol-126/lucchese.pdf",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/fimi/LuccheseOP04a",
+   "title": "kDCI: on using direct count up to the third iteration",
+   "authors": [
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego"
+   ],
+   "year": 2004,
+   "type": "workshop",
+   "venue": "FIMI",
+   "venue_full": "FIMI '04, Proceedings of the IEEE ICDM Workshop on Frequent Itemset Mining Implementations, Brighton, UK, November 1, 2004",
+   "url": "https://ceur-ws.org/Vol-126/kdci.pdf",
+   "arxiv": "",
+   "topics": [
+    "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/fimi/LuccheseOPS04",
+   "title": "WebDocs: a real-life huge transactional dataset",
+   "authors": [
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2004,
+   "type": "workshop",
+   "venue": "FIMI",
+   "venue_full": "FIMI '04, Proceedings of the IEEE ICDM Workshop on Frequent Itemset Mining Implementations, Brighton, UK, November 1, 2004",
+   "url": "https://ceur-ws.org/Vol-126/webdocs.pdf",
+   "arxiv": "",
+   "topics": [
+    "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/sebd/OrlandoPS04",
    "title": "Assigning Document Identifiers to Enhance Compressibility of Fulltext Indices",
    "authors": [
@@ -5428,26 +5448,6 @@
    "venue": "SEBD",
    "venue_full": "Proceedings of the Twelfth Italian Symposium on Advanced Database Systems, SEBD 2004, S. Margherita di Pula, Cagliari, Italy, June 21-23, 2004",
    "url": "",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sigir/SilvestriOP04",
-   "title": "Assigning identifiers to documents to enhance the clustering property of fulltext indexes",
-   "authors": [
-    "Fabrizio Silvestri",
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 2004,
-   "type": "a_conf",
-   "venue": "SIGIR",
-   "venue_full": "SIGIR 2004: Proceedings of the 27th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, Sheffield, UK, July 25-29, 2004",
-   "url": "https://doi.org/10.1145/1008992.1009046",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -5476,23 +5476,23 @@
    "award": ""
   },
   {
-   "key": "conf/fimi/OrlandoLPPS03",
-   "title": "kDCI: a Multi-Strategy Algorithm for Mining Frequent Sets",
+   "key": "conf/www/SilvestriFOPP03",
+   "title": "A Hybrid Strategy for Caching Web Search Engine Results",
    "authors": [
+    "Fabrizio Silvestri",
+    "Tiziano Fagni",
     "Salvatore Orlando",
-    "Claudio Lucchese",
     "Paolo Palmerini",
-    "Raffaele Perego",
-    "Fabrizio Silvestri"
+    "Raffaele Perego"
    ],
    "year": 2003,
-   "type": "workshop",
-   "venue": "FIMI",
-   "venue_full": "FIMI '03, Frequent Itemset Mining Implementations, Proceedings of the ICDM 2003 Workshop on Frequent Itemset Mining Implementations, 19 December 2003, Melbourne, Florida, USA",
-   "url": "https://ceur-ws.org/Vol-90/palmerini.pdf",
+   "type": "a_conf",
+   "venue": "WWW",
+   "venue_full": "Proceedings of the Twelfth International World Wide Web Conference - Posters, WWW 2003, Budapest, Hungary, May 20-24, 2003",
+   "url": "http://www2003.org/cdrom/papers/poster/p156/p156-silvestri.html",
    "arxiv": "",
    "topics": [
-    "data-mining"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -5524,6 +5524,28 @@
    "award": ""
   },
   {
+   "key": "conf/fimi/OrlandoLPPS03",
+   "title": "kDCI: a Multi-Strategy Algorithm for Mining Frequent Sets",
+   "authors": [
+    "Salvatore Orlando",
+    "Claudio Lucchese",
+    "Paolo Palmerini",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2003,
+   "type": "workshop",
+   "venue": "FIMI",
+   "venue_full": "FIMI '03, Frequent Itemset Mining Implementations, Proceedings of the ICDM 2003 Workshop on Frequent Itemset Mining Implementations, 19 December 2003, Melbourne, Florida, USA",
+   "url": "https://ceur-ws.org/Vol-90/palmerini.pdf",
+   "arxiv": "",
+   "topics": [
+    "data-mining"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/pdp/BaragliaDLOPPPV03",
    "title": "AssistConf: a Grid configuration tool for the ASSIST parallel programming environment",
    "authors": [
@@ -5549,23 +5571,22 @@
    "award": ""
   },
   {
-   "key": "conf/www/SilvestriFOPP03",
-   "title": "A Hybrid Strategy for Caching Web Search Engine Results",
+   "key": "conf/icdm/OrlandoPPS02",
+   "title": "Adaptive and Resource-Aware Mining of Frequent Sets",
    "authors": [
-    "Fabrizio Silvestri",
-    "Tiziano Fagni",
     "Salvatore Orlando",
     "Paolo Palmerini",
-    "Raffaele Perego"
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
    ],
-   "year": 2003,
+   "year": 2002,
    "type": "a_conf",
-   "venue": "WWW",
-   "venue_full": "Proceedings of the Twelfth International World Wide Web Conference - Posters, WWW 2003, Budapest, Hungary, May 20-24, 2003",
-   "url": "http://www2003.org/cdrom/papers/poster/p156/p156-silvestri.html",
+   "venue": "ICDM",
+   "venue_full": "Proceedings of the 2002 IEEE International Conference on Data Mining (ICDM 2002), 9-12 December 2002, Maebashi City, Japan",
+   "url": "https://doi.org/10.1109/ICDM.2002.1183921",
    "arxiv": "",
    "topics": [
-    "efficient-ir"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5587,27 +5608,6 @@
    "arxiv": "",
    "topics": [
     "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/icdm/OrlandoPPS02",
-   "title": "Adaptive and Resource-Aware Mining of Frequent Sets",
-   "authors": [
-    "Salvatore Orlando",
-    "Paolo Palmerini",
-    "Raffaele Perego",
-    "Fabrizio Silvestri"
-   ],
-   "year": 2002,
-   "type": "a_conf",
-   "venue": "ICDM",
-   "venue_full": "Proceedings of the 2002 IEEE International Conference on Data Mining (ICDM 2002), 9-12 December 2002, Maebashi City, Japan",
-   "url": "https://doi.org/10.1109/ICDM.2002.1183921",
-   "arxiv": "",
-   "topics": [
-    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5656,26 +5656,6 @@
    "award": ""
   },
   {
-   "key": "conf/evoW/BaragliaHP01",
-   "title": "A Parallel Hybrid Heuristic for the TSP",
-   "authors": [
-    "Ranieri Baraglia",
-    "José Ignacio Hidalgo",
-    "Raffaele Perego"
-   ],
-   "year": 2001,
-   "type": "workshop",
-   "venue": "EVOW",
-   "venue_full": "Applications of Evolutionary Computing, EvoWorkshops 2001: EvoCOP, EvoFlight, EvoIASP, EvoLearn, and EvoSTIM, Como, Italy, April 18-20, 2001, Proceedings",
-   "url": "https://doi.org/10.1007/3-540-45365-2\\_20",
-   "arxiv": "",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "journals/tec/BaragliaHP01",
    "title": "A hybrid heuristic for the traveling salesman problem",
    "authors": [
@@ -5691,6 +5671,26 @@
    "arxiv": "",
    "topics": [
     "misc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/evoW/BaragliaHP01",
+   "title": "A Parallel Hybrid Heuristic for the TSP",
+   "authors": [
+    "Ranieri Baraglia",
+    "José Ignacio Hidalgo",
+    "Raffaele Perego"
+   ],
+   "year": 2001,
+   "type": "workshop",
+   "venue": "EVOW",
+   "venue_full": "Applications of Evolutionary Computing, EvoWorkshops 2001: EvoCOP, EvoFlight, EvoIASP, EvoLearn, and EvoSTIM, Como, Italy, April 18-20, 2001, Proceedings",
+   "url": "https://doi.org/10.1007/3-540-45365-2\\_20",
+   "arxiv": "",
+   "topics": [
+    "hpc"
    ],
    "selected": false,
    "award": ""
@@ -5759,6 +5759,48 @@
    "award": ""
   },
   {
+   "key": "conf/pdpta/CiarpagliniFOPP00",
+   "title": "Integrating task and data parallelism with taskHPF",
+   "authors": [
+    "S. Ciarpaglini",
+    "L. Folchi",
+    "Salvatore Orlando",
+    "Susanna Pelagatti",
+    "Raffaele Perego"
+   ],
+   "year": 2000,
+   "type": "conf",
+   "venue": "PDPTA",
+   "venue_full": "Proceedings of the International Conference on Parallel and Distributed Processing Techniques and Applications, PDPTA 2000, June 24-29, 2000, Las Vegas, Nevada, USA",
+   "url": "",
+   "arxiv": "",
+   "topics": [
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/sac/OrlandoPP00",
+   "title": "Coordinating HPF Programs to Mix Task and Data Parallelism",
+   "authors": [
+    "Salvatore Orlando",
+    "Paolo Palmerini",
+    "Raffaele Perego"
+   ],
+   "year": 2000,
+   "type": "conf",
+   "venue": "SAC",
+   "venue_full": "Applied Computing 2000, Proceedings of the 2000 ACM Symposium on Applied Computing, Villa Olmo, Via Cantoni 1, 22100 Como, Italy, March 19-21, 2000. Volume 1",
+   "url": "https://doi.org/10.1145/335603.335752",
+   "arxiv": "",
+   "topics": [
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/ipps/BaragliaLOPP00",
    "title": "Implementation Issues in the Design of I/O Intensive Data Mining Applications on Clusters of Workstations",
    "authors": [
@@ -5795,48 +5837,6 @@
    "venue": "PDP",
    "venue_full": "Eight Euromicro Workshop on Parallel and Distributed Processing, PDP 2000, 19-12 January 2000, Rhodos, Greece",
    "url": "https://doi.org/10.1109/EMPDP.2000.823408",
-   "arxiv": "",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/pdpta/CiarpagliniFOPP00",
-   "title": "Integrating task and data parallelism with taskHPF",
-   "authors": [
-    "S. Ciarpaglini",
-    "L. Folchi",
-    "Salvatore Orlando",
-    "Susanna Pelagatti",
-    "Raffaele Perego"
-   ],
-   "year": 2000,
-   "type": "conf",
-   "venue": "PDPTA",
-   "venue_full": "Proceedings of the International Conference on Parallel and Distributed Processing Techniques and Applications, PDPTA 2000, June 24-29, 2000, Las Vegas, Nevada, USA",
-   "url": "",
-   "arxiv": "",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/sac/OrlandoPP00",
-   "title": "Coordinating HPF Programs to Mix Task and Data Parallelism",
-   "authors": [
-    "Salvatore Orlando",
-    "Paolo Palmerini",
-    "Raffaele Perego"
-   ],
-   "year": 2000,
-   "type": "conf",
-   "venue": "SAC",
-   "venue_full": "Applied Computing 2000, Proceedings of the 2000 ACM Symposium on Applied Computing, Villa Olmo, Via Cantoni 1, 22100 Como, Italy, March 19-21, 2000. Volume 1",
-   "url": "https://doi.org/10.1145/335603.335752",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -5884,25 +5884,6 @@
    "award": ""
   },
   {
-   "key": "conf/europar/OrlandoP98",
-   "title": "Scheduling Data-Parallel Computations on Heterogeneous and Time-Shared Environments",
-   "authors": [
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 1998,
-   "type": "a_conf",
-   "venue": "Euro-Par",
-   "venue_full": "Euro-Par '98 Parallel Processing, 4th International Euro-Par Conference, Southampton, UK, September 1-4, 1998, Proceedings",
-   "url": "https://doi.org/10.1007/BFB0057874",
-   "arxiv": "",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "journals/jpdc/OrlandoP98",
    "title": "A Comparison of Implementation Strategies for Nonuniform Data-Parallel Computations",
    "authors": [
@@ -5914,6 +5895,25 @@
    "venue": "JPDC",
    "venue_full": "J. Parallel Distributed Comput.",
    "url": "https://doi.org/10.1006/JPDC.1998.1456",
+   "arxiv": "",
+   "topics": [
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/europar/OrlandoP98",
+   "title": "Scheduling Data-Parallel Computations on Heterogeneous and Time-Shared Environments",
+   "authors": [
+    "Salvatore Orlando",
+    "Raffaele Perego"
+   ],
+   "year": 1998,
+   "type": "a_conf",
+   "venue": "Euro-Par",
+   "venue_full": "Euro-Par '98 Parallel Processing, 4th International Euro-Par Conference, Southampton, UK, September 1-4, 1998, Proceedings",
+   "url": "https://doi.org/10.1007/BFB0057874",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -5935,25 +5935,6 @@
    "arxiv": "",
    "topics": [
     "misc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/lcr/OrlandoP98",
-   "title": "A Coordination Layer for Exploiting Task Parallelism with HPF",
-   "authors": [
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 1998,
-   "type": "workshop",
-   "venue": "LCR",
-   "venue_full": "Languages, Compilers, and Run-Time Systems for Scalable Computers, 4th International Workshop, LCR '98, Pittsburgh, PA, USA, May 28-30, 1998, Selected Papers",
-   "url": "https://doi.org/10.1007/3-540-49530-4\\_30",
-   "arxiv": "",
-   "topics": [
-    "hpc"
    ],
    "selected": false,
    "award": ""
@@ -5997,22 +5978,20 @@
    "award": ""
   },
   {
-   "key": "conf/hpcn/BaragliaBCP97",
-   "title": "On Designing Genetic Algorithms for Hypercube Machines",
+   "key": "conf/lcr/OrlandoP98",
+   "title": "A Coordination Layer for Exploiting Task Parallelism with HPF",
    "authors": [
-    "Ranieri Baraglia",
-    "M. Bucci",
-    "D. Circelli",
+    "Salvatore Orlando",
     "Raffaele Perego"
    ],
-   "year": 1997,
+   "year": 1998,
    "type": "workshop",
-   "venue": "HPCN",
-   "venue_full": "High-Performance Computing and Networking, International Conference and Exhibition, HPCN Europe 1997, Vienna, Austria, April 28-30, 1997, Proceedings",
-   "url": "https://doi.org/10.1007/BFB0031675",
+   "venue": "LCR",
+   "venue_full": "Languages, Compilers, and Run-Time Systems for Scalable Computers, 4th International Workshop, LCR '98, Pittsburgh, PA, USA, May 28-30, 1998, Selected Papers",
+   "url": "https://doi.org/10.1007/3-540-49530-4\\_30",
    "arxiv": "",
    "topics": [
-    "misc"
+    "hpc"
    ],
    "selected": false,
    "award": ""
@@ -6037,21 +6016,22 @@
    "award": ""
   },
   {
-   "key": "conf/hpcn/OrlandoP96",
-   "title": "A Load Balancing Strategy for Iterated Parallel Loop Scheduling",
+   "key": "conf/hpcn/BaragliaBCP97",
+   "title": "On Designing Genetic Algorithms for Hypercube Machines",
    "authors": [
-    "Salvatore Orlando",
+    "Ranieri Baraglia",
+    "M. Bucci",
+    "D. Circelli",
     "Raffaele Perego"
    ],
-   "year": 1996,
+   "year": 1997,
    "type": "workshop",
    "venue": "HPCN",
-   "venue_full": "High-Performance Computing and Networking, International Conference and Exhibition, HPCN Europe 1996, Brussels, Belgium, April 15-19, 1996, Proceedings",
-   "url": "https://doi.org/10.1007/3-540-61142-8\\_672",
+   "venue_full": "High-Performance Computing and Networking, International Conference and Exhibition, HPCN Europe 1997, Vienna, Austria, April 28-30, 1997, Proceedings",
+   "url": "https://doi.org/10.1007/BFB0031675",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "hpc"
+    "misc"
    ],
    "selected": false,
    "award": ""
@@ -6089,6 +6069,26 @@
    "url": "https://doi.org/10.1016/0165-6074(96)00002-6",
    "arxiv": "",
    "topics": [
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/hpcn/OrlandoP96",
+   "title": "A Load Balancing Strategy for Iterated Parallel Loop Scheduling",
+   "authors": [
+    "Salvatore Orlando",
+    "Raffaele Perego"
+   ],
+   "year": 1996,
+   "type": "workshop",
+   "venue": "HPCN",
+   "venue_full": "High-Performance Computing and Networking, International Conference and Exhibition, HPCN Europe 1996, Brussels, Belgium, April 15-19, 1996, Proceedings",
+   "url": "https://doi.org/10.1007/3-540-61142-8\\_672",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
     "hpc"
    ],
    "selected": false,
@@ -6136,26 +6136,6 @@
    "award": ""
   },
   {
-   "key": "journals/concurrency/MontaniPS93",
-   "title": "Parallel rendering of volumetric data set on distributed-memory architectures",
-   "authors": [
-    "Claudio Montani",
-    "Raffaele Perego",
-    "Roberto Scopigno"
-   ],
-   "year": 1993,
-   "type": "journal",
-   "venue": "CCPE",
-   "venue_full": "Concurr. Pract. Exp.",
-   "url": "https://doi.org/10.1002/CPE.4330050205",
-   "arxiv": "",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "journals/cgf/CignoniMPS93",
    "title": "Parallel 3D Delauney Triangulation",
    "authors": [
@@ -6169,6 +6149,26 @@
    "venue": "CGF",
    "venue_full": "Comput. Graph. Forum",
    "url": "https://doi.org/10.1111/1467-8659.1230129",
+   "arxiv": "",
+   "topics": [
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/concurrency/MontaniPS93",
+   "title": "Parallel rendering of volumetric data set on distributed-memory architectures",
+   "authors": [
+    "Claudio Montani",
+    "Raffaele Perego",
+    "Roberto Scopigno"
+   ],
+   "year": 1993,
+   "type": "journal",
+   "venue": "CCPE",
+   "venue_full": "Concurr. Pract. Exp.",
+   "url": "https://doi.org/10.1002/CPE.4330050205",
    "arxiv": "",
    "topics": [
     "hpc"

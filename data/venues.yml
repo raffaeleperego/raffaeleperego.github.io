@@ -186,6 +186,35 @@ openalex_venues:
   'Applied Computing|SAC': sac
   'Web and Social Media|ICWSM': icwsm
 
+# Order of publications within a year (most relevant first).
+# type_order: tiers by type; "a+b" puts two types in the same tier.
+type_order: [a_conf+q1, conf+journal, workshop, book+edited, other, preprint]
+
+# Within a tier, these venues come first, in this order (badge names as shown
+# on the site); unlisted venues follow alphabetically.
+venue_priority:
+  - SIGIR
+  - TOIS
+  - KDD
+  - WWW
+  - WSDM
+  - TKDE
+  - CIKM
+  - ICDE
+  - PVLDB
+  - ECIR
+  - RecSys
+  - ICDM
+  - SDM
+  - EDBT
+  - ICWSM
+  - SIGSPATIAL
+  - IP&M
+  - TWEB
+  - TIST
+  - TPDS
+  - JPDC
+
 type_labels:
   a_conf: A/A* Conferences
   q1: Q1 Journals

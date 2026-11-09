@@ -378,9 +378,16 @@ def main() -> int:
             target["arxiv"] = target["arxiv"] or p["arxiv"] or p["url"]
             continue
         kept.append(p)
-    # Newest year first; within a year, alphabetical by venue, then title.
-    # Preprints, then entries with no venue, go to the end of their year.
-    pubs = sorted(kept, key=lambda p: (-p["year"], p["type"] == "preprint", not p["venue"],
+    # Newest year first; within a year, most relevant venue first: by type tier,
+    # then by the venue_priority list in venues.yml, then alphabetically.
+    # Papers within the same venue are alphabetical by title.
+    tier = {}
+    for i, group in enumerate(venues.get("type_order", [])):
+        for t in str(group).split("+"):
+            tier[t.strip()] = i
+    prio = {v.lower(): i for i, v in enumerate(venues.get("venue_priority", []))}
+    pubs = sorted(kept, key=lambda p: (-p["year"], tier.get(p["type"], len(tier)),
+                                       prio.get(p["venue"].lower(), len(prio)), not p["venue"],
                                        p["venue"].lower(), p["title"].lower()))
 
     # Hand-assigned topics replace the automatic ones. Keyed by DBLP key or
