@@ -94,7 +94,7 @@ p { margin: 0 0 1rem; }
 }
 
 /* ---------- hero ---------- */
-.hero { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 56px; align-items: center; padding-top: 72px; padding-bottom: 72px; }
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 64px; align-items: center; padding-top: 72px; padding-bottom: 72px; }
 .hero h1 { font-size: clamp(2.4rem, 5.4vw, 4rem); line-height: 1.05; margin-bottom: 1.5rem; }
 .hero h1 em { font-style: italic; color: var(--accent); }
 .lede { font-size: 1.1rem; color: var(--ink-2); max-width: 40em; }
@@ -114,7 +114,7 @@ p { margin: 0 0 1rem; }
 
 .hero-card {
   margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 20px;
-  overflow: hidden; box-shadow: var(--shadow); max-width: 400px; justify-self: end; width: 100%;
+  overflow: hidden; box-shadow: var(--shadow); max-width: 260px; justify-self: end; width: 100%;
 }
 .hero-card img { aspect-ratio: 1; object-fit: cover; width: 100%; height: auto; background: #fff; }
 .hero-card figcaption { padding: 16px 20px 18px; display: grid; gap: 2px; }
