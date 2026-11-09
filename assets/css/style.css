@@ -134,6 +134,9 @@ p { margin: 0 0 1rem; }
 .theme-papers li { font-size: .88rem; line-height: 1.4; padding-top: 10px; border-top: 1px solid var(--line); }
 .theme-papers .v { display: inline-block; font-size: .7rem; font-weight: 600; color: var(--accent); margin-right: 6px; letter-spacing: .02em; }
 .theme-papers a { color: var(--ink); }
+.earlier { margin: 1.5rem 0 0; color: var(--muted); font-size: .95rem; }
+.area-note { display: inline-flex; align-items: center; gap: 8px; margin-left: 8px; }
+.area-note button { font: inherit; font-size: .8rem; color: var(--accent); background: none; border: 0; cursor: pointer; padding: 0; }
 
 /* ---------- lab ---------- */
 .split { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 48px; align-items: start; }

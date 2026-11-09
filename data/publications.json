@@ -29,27 +29,35 @@
   },
   {
    "slug": "neural-ir",
-   "label": "Neural IR & LLMs"
+   "label": "Neural & Dense Retrieval"
   },
   {
    "slug": "conversational",
    "label": "Conversational Search"
   },
   {
-   "slug": "sustainable-ai",
-   "label": "Sustainable AI & Hardware"
+   "slug": "qpp-eval",
+   "label": "QPP & Evaluation"
   },
   {
-   "slug": "web-mining",
-   "label": "Query Logs & Web Mining"
+   "slug": "query-logs",
+   "label": "Query Logs & Search Behavior"
   },
   {
    "slug": "recsys",
-   "label": "Recommender Systems"
+   "label": "Recommendation & Personalization"
+  },
+  {
+   "slug": "entities",
+   "label": "Entity Linking & Semantic Search"
   },
   {
    "slug": "mobility",
    "label": "Mobility & Spatial Data"
+  },
+  {
+   "slug": "social",
+   "label": "Social Media Analysis"
   },
   {
    "slug": "data-mining",
@@ -57,11 +65,38 @@
   },
   {
    "slug": "hpc",
-   "label": "Parallel & Distributed Systems"
+   "label": "Parallel & Distributed Computing"
   },
   {
    "slug": "misc",
    "label": "Miscellaneous"
+  }
+ ],
+ "areas": [
+  {
+   "slug": "efficient",
+   "label": "Efficient search and ranking",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ]
+  },
+  {
+   "slug": "neural",
+   "label": "Neural and conversational search",
+   "topics": [
+    "neural-ir",
+    "conversational",
+    "qpp-eval"
+   ]
+  },
+  {
+   "slug": "users",
+   "label": "Queries, users and recommendation",
+   "topics": [
+    "query-logs",
+    "recsys"
+   ]
   }
  ],
  "publications": [
@@ -84,6 +119,7 @@
    "arxiv": "",
    "topics": [
     "neural-ir",
+    "qpp-eval",
     "recsys"
    ],
    "selected": false,
@@ -107,7 +143,7 @@
    "url": "https://doi.org/10.48550/ARXIV.2602.14960",
    "arxiv": "2602.14960",
    "topics": [
-    "misc"
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -130,7 +166,8 @@
    "url": "https://doi.org/10.48550/arxiv.2602.14960",
    "arxiv": "",
    "topics": [
-    "efficient-ir"
+    "efficient-ir",
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -152,8 +189,8 @@
    "url": "https://doi.org/10.1145/3799682.3840755",
    "arxiv": "",
    "topics": [
-    "ltr",
-    "neural-ir"
+    "neural-ir",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -173,7 +210,6 @@
    "url": "https://doi.org/10.48550/ARXIV.2609.05110",
    "arxiv": "2609.05110",
    "topics": [
-    "ltr",
     "neural-ir"
    ],
    "selected": false,
@@ -196,7 +232,7 @@
    "url": "https://doi.org/10.48550/ARXIV.2601.23063",
    "arxiv": "2601.23063",
    "topics": [
-    "misc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -238,7 +274,8 @@
    "url": "https://doi.org/10.1145/3793531",
    "arxiv": "https://doi.org/10.48550/ARXIV.2407.04018",
    "topics": [
-    "web-mining"
+    "recsys",
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -259,7 +296,7 @@
    "url": "https://doi.org/10.1145/3799682.3839931",
    "arxiv": "",
    "topics": [
-    "misc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -283,7 +320,8 @@
    "url": "https://doi.org/10.1145/3765617",
    "arxiv": "",
    "topics": [
-    "neural-ir"
+    "neural-ir",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -305,7 +343,8 @@
    "url": "https://doi.org/10.1145/3799682.3839958",
    "arxiv": "",
    "topics": [
-    "misc"
+    "qpp-eval",
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -328,8 +367,7 @@
    "topics": [
     "neural-ir",
     "recsys",
-    "mobility",
-    "data-mining"
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -402,7 +440,8 @@
    "url": "https://ceur-ws.org/Vol-4182/paper27.pdf",
    "arxiv": "",
    "topics": [
-    "neural-ir"
+    "neural-ir",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -493,7 +532,8 @@
    "url": "https://doi.org/10.1145/3726302.3729926",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "neural-ir",
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -616,7 +656,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "ltr"
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -638,8 +678,7 @@
    "url": "https://doi.org/10.48550/ARXIV.2510.16736",
    "arxiv": "2510.16736",
    "topics": [
-    "efficient-ir",
-    "sustainable-ai"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -682,7 +721,8 @@
    "url": "https://ceur-ws.org/Vol-4026/paper1.pdf",
    "arxiv": "https://doi.org/10.48550/ARXIV.2507.13910",
    "topics": [
-    "recsys"
+    "recsys",
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -702,7 +742,8 @@
    "url": "https://doi.org/10.1016/J.IS.2025.102574",
    "arxiv": "",
    "topics": [
-    "recsys"
+    "recsys",
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -724,7 +765,6 @@
    "url": "https://doi.org/10.1109/CCGRID64434.2025.00015",
    "arxiv": "https://doi.org/10.48550/ARXIV.2412.17484",
    "topics": [
-    "sustainable-ai",
     "hpc"
    ],
    "selected": false,
@@ -746,7 +786,8 @@
    "url": "https://doi.org/10.1007/978-3-031-88711-6\\_13",
    "arxiv": "",
    "topics": [
-    "neural-ir"
+    "neural-ir",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -839,7 +880,7 @@
    "url": "https://doi.org/10.1007/978-3-031-56060-6\\_8",
    "arxiv": "https://doi.org/10.48550/ARXIV.2403.13468",
    "topics": [
-    "misc"
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -883,6 +924,7 @@
    "url": "https://doi.org/10.1145/3627673.3679903",
    "arxiv": "https://doi.org/10.48550/ARXIV.2408.04981",
    "topics": [
+    "efficient-ir",
     "neural-ir"
    ],
    "selected": false,
@@ -905,8 +947,7 @@
    "url": "https://ceur-ws.org/Vol-3784/paper4.pdf",
    "arxiv": "",
    "topics": [
-    "neural-ir",
-    "data-mining"
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -926,8 +967,7 @@
    "url": "https://doi.org/10.1145/3664190.3672513",
    "arxiv": "",
    "topics": [
-    "ltr",
-    "hpc"
+    "ltr"
    ],
    "selected": false,
    "award": ""
@@ -1061,7 +1101,7 @@
    "url": "https://doi.org/10.1007/978-3-031-56069-9\\_12",
    "arxiv": "https://doi.org/10.48550/ARXIV.2503.02674",
    "topics": [
-    "misc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -1103,7 +1143,7 @@
    "url": "https://doi.org/10.48550/ARXIV.2407.05335",
    "arxiv": "2407.05335",
    "topics": [
-    "web-mining"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -1125,8 +1165,8 @@
    "url": "https://doi.org/10.1145/3539618.3591625",
    "arxiv": "",
    "topics": [
-    "neural-ir",
-    "conversational"
+    "conversational",
+    "qpp-eval"
    ],
    "selected": true,
    "award": "Best Paper Honorable Mention, SIGIR 2023"
@@ -1172,7 +1212,6 @@
    "url": "https://doi.org/10.1145/3583780.3615225",
    "arxiv": "",
    "topics": [
-    "ltr",
     "neural-ir"
    ],
    "selected": false,
@@ -1196,7 +1235,7 @@
    "arxiv": "",
    "topics": [
     "conversational",
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -1219,6 +1258,7 @@
    "url": "https://doi.org/10.1109/ACCESS.2023.3331088",
    "arxiv": "",
    "topics": [
+    "efficient-ir",
     "ltr"
    ],
    "selected": false,
@@ -1305,8 +1345,7 @@
    "url": "https://doi.org/10.1145/3624918.3625335",
    "arxiv": "https://doi.org/10.48550/ARXIV.2309.11686",
    "topics": [
-    "recsys",
-    "hpc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -1326,8 +1365,7 @@
    "url": "https://doi.org/10.5281/ZENODO.8332748",
    "arxiv": "",
    "topics": [
-    "recsys",
-    "hpc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -1348,8 +1386,7 @@
    "url": "https://doi.org/10.5281/ZENODO.7940964",
    "arxiv": "",
    "topics": [
-    "recsys",
-    "hpc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -1370,8 +1407,7 @@
    "url": "https://doi.org/10.5281/ZENODO.10679181",
    "arxiv": "",
    "topics": [
-    "recsys",
-    "hpc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -1391,7 +1427,7 @@
    "url": "https://doi.org/10.1016/J.OSNEM.2023.100254",
    "arxiv": "https://doi.org/10.48550/ARXIV.2209.14369",
    "topics": [
-    "web-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -1457,7 +1493,8 @@
    "url": "https://doi.org/10.1007/978-3-030-99736-6\\_13",
    "arxiv": "",
    "topics": [
-    "conversational"
+    "conversational",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -1550,9 +1587,7 @@
    "url": "https://ceur-ws.org/Vol-3177/paper9.pdf",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "ltr",
-    "sustainable-ai"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -1575,9 +1610,7 @@
    "url": "https://doi.org/10.1007/978-3-030-99736-6\\_18",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "ltr",
-    "sustainable-ai"
+    "efficient-ir"
    ],
    "selected": true,
    "award": "Best Industry-Impact Paper, ECIR 2022"
@@ -1621,7 +1654,8 @@
    "url": "https://ceur-ws.org/Vol-3194/paper45.pdf",
    "arxiv": "",
    "topics": [
-    "conversational"
+    "conversational",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -1712,8 +1746,7 @@
    "url": "https://doi.org/10.1007/978-3-030-91702-9\\_25",
    "arxiv": "",
    "topics": [
-    "data-mining",
-    "hpc"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -1738,8 +1771,7 @@
    "url": "https://doi.org/10.1145/3412841.3441935",
    "arxiv": "",
    "topics": [
-    "mobility",
-    "data-mining"
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -1851,7 +1883,7 @@
    "arxiv": "https://doi.org/10.48550/ARXIV.1904.07619",
    "topics": [
     "efficient-ir",
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -1872,7 +1904,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -1897,7 +1929,6 @@
    "topics": [
     "efficient-ir",
     "ltr",
-    "sustainable-ai",
     "hpc"
    ],
    "selected": false,
@@ -1942,7 +1973,8 @@
    "url": "https://doi.org/10.1145/3404835.3463090",
    "arxiv": "",
    "topics": [
-    "conversational"
+    "conversational",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -1965,6 +1997,7 @@
    "url": "https://doi.org/10.1145/3404835.3463088",
    "arxiv": "https://doi.org/10.48550/ARXIV.2105.02568",
    "topics": [
+    "efficient-ir",
     "ltr"
    ],
    "selected": false,
@@ -1989,6 +2022,7 @@
    "url": "https://doi.org/10.1016/J.IS.2019.101444",
    "arxiv": "",
    "topics": [
+    "efficient-ir",
     "mobility"
    ],
    "selected": false,
@@ -2011,7 +2045,7 @@
    "url": "https://doi.org/10.1145/3428687",
    "arxiv": "",
    "topics": [
-    "misc"
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -2033,7 +2067,7 @@
    "arxiv": "",
    "topics": [
     "ltr",
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -2057,7 +2091,6 @@
    "arxiv": "https://doi.org/10.48550/ARXIV.2004.14255",
    "topics": [
     "efficient-ir",
-    "ltr",
     "neural-ir"
    ],
    "selected": false,
@@ -2081,7 +2114,7 @@
    "url": "https://doi.org/10.1145/3397271.3401262",
    "arxiv": "https://doi.org/10.48550/ARXIV.2004.14245",
    "topics": [
-    "misc"
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -2103,7 +2136,7 @@
    "arxiv": "",
    "topics": [
     "ltr",
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -2127,7 +2160,7 @@
    "url": "https://doi.org/10.1016/J.ESWA.2019.113128",
    "arxiv": "",
    "topics": [
-    "misc"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -2149,6 +2182,7 @@
    "url": "https://doi.org/10.1145/3397271.3401256",
    "arxiv": "https://doi.org/10.48550/ARXIV.2004.14641",
    "topics": [
+    "efficient-ir",
     "ltr"
    ],
    "selected": false,
@@ -2171,7 +2205,8 @@
    "url": "https://doi.org/10.1016/J.SOFTX.2020.100614",
    "arxiv": "",
    "topics": [
-    "ltr"
+    "ltr",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -2237,8 +2272,7 @@
    "url": "https://doi.org/10.1016/J.IPM.2019.102193",
    "arxiv": "https://doi.org/10.48550/ARXIV.2001.03010",
    "topics": [
-    "efficient-ir",
-    "web-mining"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -2261,7 +2295,7 @@
    "url": "https://doi.org/10.1145/3397271.3401094",
    "arxiv": "https://doi.org/10.48550/ARXIV.2004.14269",
    "topics": [
-    "ltr"
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -2305,7 +2339,7 @@
    "url": "https://doi.org/10.1145/3331184.3331373",
    "arxiv": "",
    "topics": [
-    "misc"
+    "neural-ir"
    ],
    "selected": false,
    "award": ""
@@ -2328,7 +2362,7 @@
    "url": "https://doi.org/10.1016/J.IPM.2018.11.001",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -2352,6 +2386,7 @@
    "url": "https://doi.org/10.1109/TPDS.2018.2860982",
    "arxiv": "",
    "topics": [
+    "efficient-ir",
     "ltr",
     "hpc"
    ],
@@ -2376,7 +2411,6 @@
    "url": "https://doi.org/10.1007/978-3-319-61893-7\\_24",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "recsys",
     "mobility"
    ],
@@ -2400,7 +2434,8 @@
    "url": "https://doi.org/10.1109/TITS.2018.2836395",
    "arxiv": "",
    "topics": [
-    "misc"
+    "recsys",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -2443,9 +2478,8 @@
    "url": "https://doi.org/10.1007/978-1-4939-7131-2\\_110202",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "recsys",
-    "data-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -2466,7 +2500,6 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "data-mining",
     "hpc"
    ],
    "selected": false,
@@ -2490,7 +2523,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -2528,6 +2561,7 @@
    "url": "https://doi.org/10.4230/DAGMAN.7.1.96",
    "arxiv": "",
    "topics": [
+    "qpp-eval",
     "recsys"
    ],
    "selected": false,
@@ -2551,7 +2585,7 @@
    "url": "https://doi.org/10.1016/J.OSNEM.2018.10.002",
    "arxiv": "",
    "topics": [
-    "misc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -2574,7 +2608,7 @@
    "url": "https://doi.org/10.1111/COIN.12147",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -2634,7 +2668,7 @@
    "url": "https://doi.org/10.1145/3274784.3274789",
    "arxiv": "",
    "topics": [
-    "misc"
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -2680,7 +2714,8 @@
    "url": "https://doi.org/10.1145/3019612.3019679",
    "arxiv": "",
    "topics": [
-    "data-mining"
+    "recsys",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -2703,8 +2738,7 @@
    "url": "https://doi.org/10.1145/3110025.3110080",
    "arxiv": "",
    "topics": [
-    "web-mining",
-    "data-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -2749,8 +2783,8 @@
    "url": "https://doi.org/10.1109/HPCS.2017.154",
    "arxiv": "",
    "topics": [
+    "efficient-ir",
     "ltr",
-    "sustainable-ai",
     "hpc"
    ],
    "selected": false,
@@ -2773,7 +2807,7 @@
    "arxiv": "",
    "topics": [
     "ltr",
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -2797,7 +2831,7 @@
    "url": "https://doi.org/10.1016/J.OSNEM.2017.03.001",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -2905,7 +2939,8 @@
    "url": "https://doi.org/10.1145/3077136.3084140",
    "arxiv": "",
    "topics": [
-    "ltr"
+    "ltr",
+    "qpp-eval"
    ],
    "selected": false,
    "award": ""
@@ -2928,7 +2963,7 @@
    "url": "https://doi.org/10.1145/3077136.3084142",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -2994,7 +3029,8 @@
    "url": "",
    "arxiv": "",
    "topics": [
-    "misc"
+    "recsys",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -3035,7 +3071,7 @@
    "url": "https://doi.org/10.1007/978-3-319-43946-4\\_8",
    "arxiv": "",
    "topics": [
-    "data-mining"
+    "misc"
    ],
    "selected": false,
    "award": ""
@@ -3058,8 +3094,8 @@
    "url": "https://doi.org/10.1145/2911451.2914758",
    "arxiv": "",
    "topics": [
-    "ltr",
-    "sustainable-ai"
+    "efficient-ir",
+    "ltr"
    ],
    "selected": false,
    "award": ""
@@ -3156,7 +3192,6 @@
    "topics": [
     "efficient-ir",
     "ltr",
-    "sustainable-ai",
     "hpc"
    ],
    "selected": false,
@@ -3179,7 +3214,7 @@
    "url": "https://doi.org/10.1109/MDM.2016.16",
    "arxiv": "",
    "topics": [
-    "misc"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -3200,7 +3235,7 @@
    "url": "https://doi.org/10.1145/2911451.2914716",
    "arxiv": "https://doi.org/10.48550/ARXIV.1610.08686",
    "topics": [
-    "web-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -3317,8 +3352,7 @@
    "url": "",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "ltr"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -3340,7 +3374,7 @@
    "url": "https://doi.org/10.1145/2960811.2960819",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "entities"
    ],
    "selected": true,
    "award": "Best Student Paper, DocEng 2016"
@@ -3362,7 +3396,8 @@
    "url": "https://ceur-ws.org/Vol-1653/paper\\_10.pdf",
    "arxiv": "",
    "topics": [
-    "ltr"
+    "recsys",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -3386,8 +3421,7 @@
    "url": "https://doi.org/10.1109/ASONAM.2016.7752401",
    "arxiv": "https://doi.org/10.48550/ARXIV.1605.01895",
    "topics": [
-    "web-mining",
-    "data-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -3410,8 +3444,8 @@
    "url": "https://ceur-ws.org/Vol-1653/paper\\_7.pdf",
    "arxiv": "",
    "topics": [
-    "ltr",
-    "sustainable-ai"
+    "efficient-ir",
+    "ltr"
    ],
    "selected": false,
    "award": ""
@@ -3433,7 +3467,8 @@
    "url": "https://doi.org/10.1145/2911451.2911459",
    "arxiv": "",
    "topics": [
-    "ltr"
+    "recsys",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -3455,7 +3490,7 @@
    "url": "https://ceur-ws.org/Vol-1653/paper\\_9.pdf",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -3476,7 +3511,7 @@
    "url": "https://ceur-ws.org/Vol-1404/paper\\_19.pdf",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -3499,7 +3534,7 @@
    "url": "https://ceur-ws.org/Vol-1404/paper\\_22.pdf",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -3658,9 +3693,7 @@
    "url": "https://ceur-ws.org/Vol-1404/paper\\_12.pdf",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "mobility",
-    "data-mining"
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -3682,7 +3715,7 @@
    "url": "https://doi.org/10.1145/2766462.2767776",
    "arxiv": "",
    "topics": [
-    "ltr"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -3767,7 +3800,7 @@
    "url": "https://ceur-ws.org/Vol-1272/paper\\_127.pdf",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -3789,7 +3822,7 @@
    "url": "https://doi.org/10.1145/2661829.2661854",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -3812,9 +3845,7 @@
    "url": "https://doi.org/10.1201/B16413-16",
    "arxiv": "",
    "topics": [
-    "web-mining",
-    "recsys",
-    "data-mining"
+    "recsys"
    ],
    "selected": false,
    "award": ""
@@ -3858,7 +3889,7 @@
    "url": "https://doi.org/10.1145/2513204.2513212",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -3880,8 +3911,7 @@
    "url": "https://doi.org/10.1145/2493175.2493179",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "web-mining"
+    "query-logs"
    ],
    "selected": true,
    "award": "Notable Article in Computing 2013, ACM Computing Reviews"
@@ -3904,6 +3934,7 @@
    "url": "http://ercim-news.ercim.eu/en94/ri/ingeoclouds-a-cloud-based-platform-for-sharing-geodata-across-europe",
    "arxiv": "",
    "topics": [
+    "mobility",
     "hpc"
    ],
    "selected": false,
@@ -3926,7 +3957,7 @@
    "url": "https://doi.org/10.1145/2505515.2505711",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -3950,8 +3981,7 @@
    "url": "https://doi.org/10.1145/2505515.2505699",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "hpc"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -3973,8 +4003,7 @@
    "url": "http://dl.acm.org/citation.cfm?id=2491768",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -3996,7 +4025,7 @@
    "url": "https://ceur-ws.org/Vol-964/paper6.pdf",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -4042,8 +4071,9 @@
    "url": "https://doi.org/10.1145/2480362.2480540",
    "arxiv": "",
    "topics": [
-    "web-mining",
-    "recsys"
+    "query-logs",
+    "recsys",
+    "entities"
    ],
    "selected": false,
    "award": ""
@@ -4088,7 +4118,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "web-mining",
+    "query-logs",
     "recsys"
    ],
    "selected": false,
@@ -4111,7 +4141,8 @@
    "url": "https://doi.org/10.1016/J.IPM.2011.07.005",
    "arxiv": "",
    "topics": [
-    "efficient-ir"
+    "efficient-ir",
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4177,7 +4208,6 @@
    "url": "https://doi.org/10.1145/2396761.2398559",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "recsys"
    ],
    "selected": false,
@@ -4198,7 +4228,7 @@
    "url": "http://eudl.eu/proceedings/INFOSCALE/2008",
    "arxiv": "",
    "topics": [
-    "efficient-ir"
+    "misc"
    ],
    "selected": false,
    "award": ""
@@ -4243,7 +4273,7 @@
    "url": "http://ercim-news.ercim.eu/en86/special/discovering-europeana-users-search-behavior",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4264,8 +4294,7 @@
    "url": "https://doi.org/10.14778/1988776.1988781",
    "arxiv": "https://doi.org/10.48550/ARXIV.1105.4255",
    "topics": [
-    "efficient-ir",
-    "web-mining"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4287,7 +4316,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4309,9 +4338,7 @@
    "url": "https://doi.org/10.1145/1935826.1935875",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "web-mining",
-    "data-mining"
+    "query-logs"
    ],
    "selected": true,
    "award": "Best Paper Runner-up, WSDM 2011"
@@ -4333,6 +4360,7 @@
    "url": "https://doi.org/10.1145/1963192.1963201",
    "arxiv": "",
    "topics": [
+    "query-logs",
     "recsys"
    ],
    "selected": false,
@@ -4353,7 +4381,7 @@
    "url": "https://doi.org/10.1007/978-3-642-20161-5\\_66",
    "arxiv": "",
    "topics": [
-    "misc"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4394,7 +4422,7 @@
    "url": "https://doi.org/10.1109/APWEB.2010.30",
    "arxiv": "",
    "topics": [
-    "misc"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4419,7 +4447,7 @@
    "url": "https://doi.org/10.1007/S11042-009-0339-Z",
    "arxiv": "",
    "topics": [
-    "misc"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4441,7 +4469,7 @@
    "url": "https://doi.org/10.1109/WI-IAT.2010.281",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4486,7 +4514,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "web-mining",
+    "query-logs",
     "recsys"
    ],
    "selected": false,
@@ -4528,7 +4556,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4549,7 +4577,7 @@
    "url": "https://ceur-ws.org/Vol-560/paper21.pdf",
    "arxiv": "",
    "topics": [
-    "web-mining",
+    "query-logs",
     "recsys"
    ],
    "selected": false,
@@ -4572,6 +4600,7 @@
    "url": "https://doi.org/10.1007/978-3-642-15277-1\\_15",
    "arxiv": "",
    "topics": [
+    "efficient-ir",
     "hpc"
    ],
    "selected": false,
@@ -4595,7 +4624,7 @@
    "url": "https://doi.org/10.5555/1937055.1937102",
    "arxiv": "",
    "topics": [
-    "web-mining",
+    "query-logs",
     "recsys"
    ],
    "selected": false,
@@ -4640,7 +4669,7 @@
    "url": "https://doi.org/10.1016/J.IS.2008.02.007",
    "arxiv": "",
    "topics": [
-    "misc"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -4663,7 +4692,7 @@
    "url": "https://doi.org/10.1145/1645953.1646272",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4752,7 +4781,7 @@
    "url": "https://doi.org/10.1007/978-3-642-04409-0\\_50",
    "arxiv": "",
    "topics": [
-    "misc"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4777,8 +4806,6 @@
    "url": "https://ceur-ws.org/Vol-480/paper8.pdf",
    "arxiv": "",
    "topics": [
-    "web-mining",
-    "data-mining",
     "hpc"
    ],
    "selected": false,
@@ -4802,7 +4829,7 @@
    "url": "https://doi.org/10.1145/1507509.1507517",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4826,6 +4853,7 @@
    "url": "https://doi.org/10.1145/1639714.1639729",
    "arxiv": "",
    "topics": [
+    "query-logs",
     "recsys"
    ],
    "selected": false,
@@ -4849,7 +4877,7 @@
    "url": "https://doi.org/10.1145/1526709.1526862",
    "arxiv": "",
    "topics": [
-    "web-mining"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4873,7 +4901,7 @@
    "url": "http://www.dei.unipd.it/\\%7Eagosti/ircdl/atti-ircdl2009-finale.pdf",
    "arxiv": "",
    "topics": [
-    "misc"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4895,7 +4923,7 @@
    "url": "https://doi.org/10.1109/LA-WEB.2008.21",
    "arxiv": "",
    "topics": [
-    "misc"
+    "query-logs"
    ],
    "selected": false,
    "award": ""
@@ -4917,8 +4945,7 @@
    "url": "https://doi.org/10.1145/1458469.1458473",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "hpc"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -4963,7 +4990,7 @@
    "url": "https://doi.org/10.4108/ICST.INFOSCALE2008.3575",
    "arxiv": "",
    "topics": [
-    "efficient-ir"
+    "misc"
    ],
    "selected": false,
    "award": ""
@@ -5006,8 +5033,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "web-mining",
-    "data-mining",
+    "query-logs",
     "hpc"
    ],
    "selected": false,
@@ -5070,8 +5096,7 @@
    "url": "https://doi.org/10.1145/1125857.1125859",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "web-mining"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -5094,7 +5119,7 @@
    "url": "https://doi.org/10.1109/ICDE.2006.42",
    "arxiv": "",
    "topics": [
-    "misc"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5223,8 +5248,7 @@
    "url": "https://doi.org/10.1007/978-0-387-37831-2\\_14",
    "arxiv": "",
    "topics": [
-    "data-mining",
-    "hpc"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5245,7 +5269,6 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "web-mining",
     "hpc"
    ],
    "selected": false,
@@ -5306,8 +5329,7 @@
    "url": "https://doi.org/10.1145/967900.968024",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "web-mining"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -5327,8 +5349,7 @@
    "url": "https://doi.org/10.1145/1008992.1009046",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "data-mining"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -5369,8 +5390,6 @@
    "url": "https://doi.org/10.48550/ARXIV.CS.IR/0407053",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "web-mining",
     "hpc"
    ],
    "selected": false,
@@ -5391,7 +5410,7 @@
    "url": "https://doi.org/10.1145/967900.968009",
    "arxiv": "",
    "topics": [
-    "misc"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5412,6 +5431,7 @@
    "url": "https://doi.org/10.1007/978-3-540-27866-5\\_28",
    "arxiv": "",
    "topics": [
+    "efficient-ir",
     "hpc"
    ],
    "selected": false,
@@ -5432,6 +5452,7 @@
    "url": "https://doi.org/10.1007/978-3-540-24685-5\\_33",
    "arxiv": "",
    "topics": [
+    "efficient-ir",
     "hpc"
    ],
    "selected": false,
@@ -5495,8 +5516,7 @@
    "url": "http://www2003.org/cdrom/papers/poster/p156/p156-silvestri.html",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "web-mining"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -5547,7 +5567,7 @@
    "url": "https://doi.org/10.1007/3-540-45110-2\\_107",
    "arxiv": "",
    "topics": [
-    "sustainable-ai"
+    "efficient-ir"
    ],
    "selected": false,
    "award": ""
@@ -5590,9 +5610,7 @@
    "url": "https://doi.org/10.1109/ICDM.2002.1183921",
    "arxiv": "",
    "topics": [
-    "mobility",
-    "data-mining",
-    "hpc"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5614,6 +5632,7 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
+    "data-mining",
     "hpc"
    ],
    "selected": false,
@@ -5635,8 +5654,6 @@
    "url": "https://doi.org/10.1007/3-540-45706-2\\_49",
    "arxiv": "",
    "topics": [
-    "web-mining",
-    "data-mining",
     "hpc"
    ],
    "selected": false,
@@ -5660,7 +5677,6 @@
    "arxiv": "",
    "topics": [
     "efficient-ir",
-    "sustainable-ai",
     "hpc"
    ],
    "selected": false,
@@ -5721,7 +5737,7 @@
    "url": "https://doi.org/10.1007/3-540-44801-2\\_8",
    "arxiv": "",
    "topics": [
-    "misc"
+    "data-mining"
    ],
    "selected": false,
    "award": ""
@@ -5761,7 +5777,6 @@
    "url": "https://doi.org/10.1145/335603.335752",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "hpc"
    ],
    "selected": false,
@@ -5784,7 +5799,6 @@
    "url": "https://doi.org/10.1007/3-540-45591-4\\_46",
    "arxiv": "",
    "topics": [
-    "data-mining",
     "hpc"
    ],
    "selected": false,
@@ -5807,7 +5821,6 @@
    "url": "",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "hpc"
    ],
    "selected": false,
@@ -5828,7 +5841,6 @@
    "url": "https://doi.org/10.1023/A:1019088405889",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "hpc"
    ],
    "selected": false,
@@ -5870,7 +5882,6 @@
    "url": "https://doi.org/10.1002/(SICI)1096-9128(199907)11:8\\&\\#60;407::AID-CPE435\\&\\#62;3.0.CO;2-0",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "hpc"
    ],
    "selected": false,
@@ -5929,8 +5940,6 @@
    "url": "https://doi.org/10.1007/3-540-49530-4\\_30",
    "arxiv": "",
    "topics": [
-    "efficient-ir",
-    "web-mining",
     "hpc"
    ],
    "selected": false,
@@ -5968,7 +5977,6 @@
    "url": "https://doi.org/10.1007/BFB0056587",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "hpc"
    ],
    "selected": false,
@@ -6066,6 +6074,7 @@
    "url": "https://doi.org/10.1007/3-540-61142-8\\_672",
    "arxiv": "",
    "topics": [
+    "efficient-ir",
     "hpc"
    ],
    "selected": false,
@@ -6145,7 +6154,6 @@
    "url": "https://doi.org/10.1109/EMPDP.1995.389140",
    "arxiv": "",
    "topics": [
-    "web-mining",
     "hpc"
    ],
    "selected": false,

@@ -40,19 +40,23 @@
   const topicLabel = Object.fromEntries(DATA.topics.map((t) => [t.slug, t.label]));
   const research = new Set(["a_conf", "q1", "conf", "journal", "workshop"]);
 
-  /* ---------- research highlights: two recent strong papers per theme ---------- */
+  /* ---------- research highlights: two recent strong papers per area ---------- */
+  const areas = Object.fromEntries((DATA.areas || []).map((a) => [a.slug, a]));
+  const inArea = (p, slug) => areas[slug] && areas[slug].topics.some((t) => p.topics.includes(t));
+  const shownInCards = new Set();
   document.querySelectorAll(".theme-papers").forEach((ul) => {
-    const topic = ul.dataset.topic;
     const picks = pubs
-      .filter((p) => p.topics.includes(topic) && (p.type === "a_conf" || p.type === "q1"))
+      .filter((p) => inArea(p, ul.dataset.area) && (p.type === "a_conf" || p.type === "q1") &&
+        !shownInCards.has(p.key))
       .slice(0, 2);
+    picks.forEach((p) => shownInCards.add(p.key));
     ul.innerHTML = picks.map((p) =>
       `<li><span class="v">${esc(p.venue)} '${String(p.year).slice(2)}</span>` +
       `<a href="${esc(p.url)}">${esc(p.title)}</a></li>`).join("");
   });
 
   /* ---------- publication filters ---------- */
-  const state = { type: "all", topic: "all", q: "", shown: PAGE };
+  const state = { type: "all", topic: "all", area: null, q: "", shown: PAGE };
   const typeOrder = ["selected", "all", "a_conf", "q1", "conf", "journal", "workshop", "book", "edited", "preprint"];
   const typeCount = (t) =>
     t === "all" ? pubs.length :
@@ -82,6 +86,7 @@
   function matches(p) {
     if (state.type === "selected" ? !p.selected : state.type !== "all" && p.type !== state.type) return false;
     if (state.topic !== "all" && !p.topics.includes(state.topic)) return false;
+    if (state.area && !inArea(p, state.area)) return false;
     if (state.q) {
       const hay = norm(`${p.title} ${p.authors.join(" ")} ${p.venue} ${p.venue_full} ${p.year}`);
       return norm(state.q).split(/\s+/).every((w) => hay.includes(w));
@@ -125,13 +130,24 @@
     });
     list.innerHTML = html || `<p class="empty">No publications match these filters.</p>`;
     count.textContent = `${hits.length} publication${hits.length === 1 ? "" : "s"}`;
+    if (state.area) {
+      count.insertAdjacentHTML("beforeend", `<span class="area-note">in “${esc(areas[state.area].label)}”` +
+        `<button type="button" data-clear-area>× clear</button></span>`);
+    }
     more.hidden = hits.length <= state.shown;
     more.textContent = `Show more (${hits.length - shown.length} left)`;
     typeRow.querySelectorAll(".pill").forEach((b) => b.setAttribute("aria-pressed", b.dataset.type === state.type));
     topicRow.querySelectorAll(".pill").forEach((b) => b.setAttribute("aria-pressed", b.dataset.topic === state.topic));
   }
 
-  function setTopic(t) { state.topic = t; state.shown = PAGE; render(); }
+  function setTopic(t) { state.topic = t; state.area = null; state.shown = PAGE; render(); }
+  count.addEventListener("click", (e) => {
+    if (e.target.closest("[data-clear-area]")) { state.area = null; state.shown = PAGE; render(); }
+  });
+  document.querySelectorAll("[data-filter-area]").forEach((a) =>
+    a.addEventListener("click", () => {
+      state.type = "all"; state.topic = "all"; state.area = a.dataset.filterArea; state.shown = PAGE; render();
+    }));
 
   typeRow.addEventListener("click", (e) => {
     const b = e.target.closest("[data-type]"); if (!b) return;

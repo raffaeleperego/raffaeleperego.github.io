@@ -1,123 +1,152 @@
 # Research topics. Each paper is tagged with every topic whose patterns
 # (case-insensitive regex) match its title or venue. A paper matching
 # nothing gets "misc". Order here is the order of the filter chips.
-# Per-paper additions go in data/overrides.yml under `topics:`.
+# Per-paper fixes go in data/overrides.yml under `topics:`.
+#
+# `areas` groups topics into the three research areas shown as cards on
+# the page; a paper belongs to an area if it has any of the area's topics.
+
+areas:
+  - slug: efficient
+    label: Efficient search and ranking
+    topics: [efficient-ir, ltr]
+  - slug: neural
+    label: Neural and conversational search
+    topics: [neural-ir, conversational, qpp-eval]
+  - slug: users
+    label: Queries, users and recommendation
+    topics: [query-logs, recsys]
 
 topics:
   - slug: efficient-ir
     label: Efficient IR
     patterns:
-      - '\bindex(es|ing)?\b'
+      - '\bindex(es|ing|er)?\b'
       - '\bcompress'
-      - '\bcach(e|es|ing)\b'
+      - '\bcach(e|es|ed|ing)\b'
       - '\bquery processing\b'
       - '\befficien'
       - '\bpruning\b'
+      - '\bearly exit'
       - '\bquickscorer\b'
       - '\bfast\b'
-      - '\blatency\b'
-      - '\bscal(able|ability|ing)\b'
-      - '\bdistributed (search|retrieval|ir|web search)'
-      - '\bsearch engines?\b'
-      - '\bpartition'
-      - '\bcollection selection\b'
-      - '\bnearest.neighbo'
-      - '\bhnsw\b|\bvector search\b|\bquantiz'
+      - '\bspeed'
+      - '\btraversal\b'
+      - '\bsimd\b|\bfpgas?\b'
+      - '\benergy'
+      - '\bload.(driven|sensitive|balancing)\b'
+      - '\bcollection selection\b|\bindex partitioning\b'
+      - '\bdocument identifiers?\b|\bidentifiers to documents\b'
+      - '\bk-?nn\b|\bnearest.neighbo'
+      - '\bprecomputing\b'
+      - '\bdiversification\b'
+      - '\bsimilarity search\b|\bby content similarity\b|\binverted file\b|\bdocument lengths\b'
 
   - slug: ltr
     label: Learning to Rank
     patterns:
-      - '\blearning.to.rank\b'
-      - '\branking\b'
-      - '\brank(er|ers)?\b'
-      - '\bregression trees\b|\btree ensembles?\b|\bensembles? of\b|\bforests?\b'
-      - '\blambdamart\b'
+      - '\blearning.to.rank'
+      - '\branking ensembles?\b|\btree ensembles?\b|\bensembles? of\b|\bregression trees\b|\bdecision trees\b|\bforests?\b'
+      - '\blambdamart\b|\bilmart\b|\bgam forest\b'
+      - '\brankers?\b'
+      - '\branking models?\b|\bdocument scoring\b'
+      - '\bistella22\b|\brankeval\b'
 
   - slug: neural-ir
-    label: Neural IR & LLMs
+    label: Neural & Dense Retrieval
     patterns:
-      - '\bneural\b'
       - '\bdense\b'
-      - '\blearned sparse\b|\bsparse (retrieval|representations?)\b|\bsplade\b'
+      - '\bneural\b'
       - '\bembeddings?\b'
-      - '\btransformers?\b|\bbert\b'
-      - '\b(large )?language models?\b|\bllms?\b'
-      - '\bretrieval.augmented\b|\brag\b'
+      - '\btransformers?\b|\bcross.encoders?\b|\bbert\b'
+      - '\b(large )?language models?\b|\bllms?\b|\bchatgpt\b'
+      - '\bdimension importance\b|\bdimes?\b|\bcodime\b'
       - '\brepresentations?\b'
-      - '\bquery performance prediction\b|\bqpp\b'
+      - '\bre-?ranking\b'
+      - '\bmixture.of.experts\b'
+      - '\bexpansion via prediction\b'
+      - '\bpassages?\b'
+      - '\brag\b|\bretrieval.augmented\b'
+      - '\bdomain retrieval\b|\bmulti-domain\b'
 
   - slug: conversational
     label: Conversational Search
     patterns:
       - '\bconversation'
-      - '\butterance'
-      - '\bdialog'
+      - '\butterances?\b'
+      - '\bcast 20'
 
-  - slug: sustainable-ai
-    label: Sustainable AI & Hardware
+  - slug: qpp-eval
+    label: QPP & Evaluation
     patterns:
-      - '\benergy\b'
-      - '\bpower\b'
-      - '\bgreen\b'
-      - '\bsustainab'
-      - '\bfpgas?\b'
-      - '\bgpus?\b'
-      - '\bcarbon\b'
-      - '\bsimd\b|\bmulti.?core\b'
+      - '\bquery performance prediction\b'
+      - '\bevaluation (measures|framework)\b|\bconversational evaluation\b|\branking evaluation\b|\bevaluation and (analysis|investigation)\b|\bevaluating meaning\b'
+      - '\bperformance modeling\b|\bforecasting performance\b'
+      - '\brelevance judgments\b|\bllm.as.a.judge\b'
 
-  - slug: web-mining
-    label: Query Logs & Web Mining
+  - slug: query-logs
+    label: Query Logs & Search Behavior
     patterns:
-      - '\bquery logs?\b'
-      - '\bquery (suggestion|recommendation|reformulation|expansion)'
-      - '\bsessions?\b'
-      - '\btasks?\b'
-      - '\bweb (search|mining|usage)\b'
-      - '\busers?\b'
-      - '\bclick'
-      - '\bentit(y|ies)\b'
-      - '\bsemantic\b'
-      - '\btwitter\b|\btweets?\b|\bsocial\b'
-      - '\bwikipedia\b'
+      - '\bquery logs?\b|\bclick logs?\b'
+      - '\bquery (suggestion|recommendation)s?\b|\bsuggestions for queries\b|\brecommendation of queries\b'
+      - '\bquery flow graphs?\b|\bterm-query graph\b'
+      - '\bsearch shortcuts\b'
+      - '\btask.based (query )?sessions\b|\bdiscovering tasks\b|\btask-by-task\b'
+      - '\bsearch behavior\b|\busers?.? search behavior\b|\buser dynamics?\b'
+      - '\bquery expansion\b'
+      - '\b(query\) )?history teaches\b'
 
   - slug: recsys
-    label: Recommender Systems
+    label: Recommendation & Personalization
     patterns:
       - '\brecommend'
       - '\bpersonali[sz]'
-      - '\btour(s|ism|ist)?\b|\bitinerar|\bpoints? of interest\b|\bpoi\b'
+      - '\btour(s|ism|ist|istic)?\b|\bitinerar|\bpoints?.of.interest\b'
+      - '\bexpert finding\b|\bquestion answering\b'
+      - '\bgroup (formation|finder)\b|\bcarpooling\b|\bride sharing\b'
+      - '\be-commerce\b'
+
+  - slug: entities
+    label: Entity Linking & Semantic Search
+    patterns:
+      - '\bentit(y|ies)\b'
+      - '\bsemantic(ally)? (data|search|enrich)'
+      - '\bknowledge.graphs?\b'
 
   - slug: mobility
     label: Mobility & Spatial Data
     patterns:
       - '\btrajector'
       - '\bmobility\b'
-      - '\bspatio.?temporal\b|\bspatial\b|\bgeo(graph|spatial|tag|locat|-)'
-      - '\btraffic\b|\bvehic|\btaxi\b|\btransport'
-      - '\burban\b|\bcity\b|\bcities\b'
+      - '\bspatial(ly)?\b|\bspatio.?temporal\b|\bgeodata\b'
+      - '\btraffic\b|\bride sharing\b|\bcarpooling\b'
+      - '\burban\b'
+      - '\bphoto location\b'
+
+  - slug: social
+    label: Social Media Analysis
+    patterns:
+      - '\btwitter\b|\bsocial media\b|\bonline social\b|\bsocial (search|relationships|networks?)\b'
+      - '\bevent attendance\b'
 
   - slug: data-mining
     label: Data Mining
     patterns:
-      - '\bfrequent (item ?sets?|patterns?)\b'
+      - '\bfrequent (closed )?(item ?sets?|patterns?|sets?)\b'
       - '\bitemsets?\b'
-      - '\bassociation rules?\b'
-      - '\bpattern mining\b|\bmining\b'
-      - '\bclustering\b'
-      - '\bdata analytics\b|\bbig data\b'
+      - '\bapriori\b'
+      - '\bpattern (mining|discovery)\b|\bpatterns from binary\b|\bbinary (patterns|datasets?|data)\b'
+      - '\bsequence mining\b|\bco-clusters?\b|\btop-?k (approximate )?patterns\b'
+      - '\btransactional databases\b'
+      - '\bfraud'
 
   - slug: hpc
-    label: Parallel & Distributed Systems
+    label: Parallel & Distributed Computing
     patterns:
       - '\bparallel'
-      - '\bdistributed\b'
-      - '\bgrid\b'
-      - '\bcloud\b|\bedge\b|\bfog\b|\bserverless\b'
-      - '\bclusters?\b'
-      - '\bmpi\b|\bhpf\b|\bopenmp\b'
-      - '\bload balanc'
-      - '\bscheduling\b|\borchestrat'
-      - '\bpeer.to.peer\b|\bp2p\b'
-      - '\bmessage passing\b'
-      - '\bdata.parallel\b'
-      - '\bresource'
+      - '\bhpf\b|\bpvm\b|\bmpi\b'
+      - '\bgrid\b|\bcloud\b|\bedge of the internet\b|\bdatacenters?\b'
+      - '\bscheduling\b|\bload balancing\b'
+      - '\bmulti-?core|\bmanycore\b|\bgpu\b'
+      - '\bpeer.to.peer\b'
+      - '\bmulticomputers?\b|\bdistributed.memory\b'

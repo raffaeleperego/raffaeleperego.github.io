@@ -378,6 +378,7 @@ def main() -> int:
         "stats": stats,
         "types": type_labels,
         "topics": topic_meta,
+        "areas": yaml.safe_load(TOPICS.read_text()).get("areas", []),
         "publications": pubs,
     }
     # Keep the old date when nothing changed, so the nightly job commits nothing.
@@ -405,6 +406,9 @@ def main() -> int:
     tc = Counter(t for p in pubs for t in p["topics"])
     for t in topic_meta:
         print(f"  {t['label']:40s} {tc[t['slug']]}")
+    print("areas:")
+    for a in out["areas"]:
+        print(f"  {a['label']:40s} {sum(any(t in p['topics'] for t in a['topics']) for p in pubs)}")
     print("stats:", stats)
     return 0
 
