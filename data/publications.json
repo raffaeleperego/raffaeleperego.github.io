@@ -125,7 +125,7 @@
   },
   {
    "key": "journals/corr/abs-2602-14960",
-   "title": "DRAMA: Domain Retrieval using Adaptive Module Allocation",
+   "title": "EMAR: Efficient Multi-domain Adaptive Retrieval",
    "authors": [
     "Pranav Kasela",
     "Marco Braga",
@@ -141,6 +141,7 @@
    "url": "https://doi.org/10.48550/ARXIV.2602.14960",
    "arxiv": "2602.14960",
    "topics": [
+    "efficient-ir",
     "neural-ir"
    ],
    "selected": false,

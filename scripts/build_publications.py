@@ -349,7 +349,8 @@ def main() -> int:
     for p in added:
         print(f"  + not yet in DBLP ({p['key'].split(':')[0]}): {p['year']} {p['venue']} {p['title']}")
 
-    # The same arXiv paper under two titles (renamed between versions): keep the first (DBLP).
+    # The same arXiv paper under two titles (renamed between versions): keep the
+    # DBLP record, but take OpenAlex's title, which follows the latest arXiv version.
     def arxiv_id(p):
         m = re.search(r"(\d{4}\.\d{4,5})", p["arxiv"] or (p["url"] if "arxiv" in p["url"].lower() else ""))
         return m.group(1) if m else ""
@@ -357,10 +358,14 @@ def main() -> int:
     for p in pubs:
         aid = arxiv_id(p) if p["type"] == "preprint" else ""
         if aid and aid in seen_arxiv:
-            print(f"  = same arXiv {aid}: kept '{seen_arxiv[aid]}', hid '{p['title']}'")
+            kept = seen_arxiv[aid]
+            if p["key"].startswith("openalex:") and norm(p["title"]) != norm(kept["title"]):
+                print(f"  = same arXiv {aid}: '{kept['title']}' renamed to '{p['title']}'")
+                kept["title"] = p["title"]
+                kept["topics"] = p["topics"]
             continue
         if aid:
-            seen_arxiv[aid] = p["title"]
+            seen_arxiv[aid] = p
         unique.append(p)
     pubs = unique
 
