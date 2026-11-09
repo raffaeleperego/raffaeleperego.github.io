@@ -37,3 +37,15 @@ entries in `data/overrides.yml` or tune `data/venues.yml` / `data/topics.yml`.
 python3 -m http.server 8765
 ```
 then open http://localhost:8765.
+
+## Publishing on raffaele.isti.cnr.it
+
+The site is also served from `~/public_html` on `hpc.isti.cnr.it` (the canonical address).
+With the CNR Pisa VPN on, run:
+
+```
+./scripts/deploy_isti.sh
+```
+
+It copies `index.html`, `robots.txt`, `sitemap.xml` and `assets/` with rsync. The previous
+site (2014–2026) is backed up on the server in `~/public_html-backup-20261109`.
