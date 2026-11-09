@@ -441,5 +441,28 @@ def main() -> int:
     return 0
 
 
+# --------------------------------------------------------------------------
+# Cache busting: GitHub Pages lets browsers keep CSS/JS for 10 minutes, so
+# index.html references them as file?v=<content hash>; a changed file gets a
+# new URL and is fetched at once.
+# --------------------------------------------------------------------------
+
+BUSTED = ["assets/css/style.css", "assets/js/site.js", "assets/js/publications-data.js"]
+
+
+def bump_cache_busters() -> None:
+    import hashlib
+    index = ROOT / "index.html"
+    html = original = index.read_text()
+    for asset in BUSTED:
+        digest = hashlib.sha256((ROOT / asset).read_bytes()).hexdigest()[:10]
+        html = re.sub(re.escape(asset) + r'(\?v=[0-9a-f]*)?"', f'{asset}?v={digest}"', html)
+    if html != original:
+        index.write_text(html)
+        print("index.html: asset versions updated")
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    rc = main()
+    bump_cache_busters()
+    sys.exit(rc)
