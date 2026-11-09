@@ -5,7 +5,7 @@
   "use strict";
 
   const ME = "Raffaele Perego";
-  const PAGE = 12;       // shown at first, and added by each "Show more"
+  const PAGE = 20;       // shown at first, and added by each "Show more"
   const root = document.documentElement;
 
   /* ---------- theme ---------- */
