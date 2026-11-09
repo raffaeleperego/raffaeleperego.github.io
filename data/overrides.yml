@@ -22,8 +22,11 @@ awards:
   conf/wsdm/LuccheseOPST11: Best Paper Runner-up, WSDM 2011
   conf/sdm/LuccheseOP10: Best Paper Runner-up, SDM 2010
 
-# Extra topic slugs for a paper (see data/topics.yml).
-topics: {}
+# Topics for a paper, replacing the automatic tags (slugs from data/topics.yml).
+# Key: the DBLP key or the paper title. The research area follows from the
+# topics (areas: in data/topics.yml).
+topics:
+  "Conformal Prediction for Statistically Reliable LLM-as-a-Judge in Recommender Systems": [recsys]
 
 # Papers in neither DBLP nor OpenAlex yet (e.g. just accepted).
 # The build warns when DBLP catches up, so you can delete the entry.

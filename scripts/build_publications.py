@@ -216,9 +216,6 @@ RECENT_YEARS = 2  # only look at the current and previous year
 
 def make_recent(title, authors, year, ptype, venue, venue_full, url, key, topics, ov, selected):
     tags = tag_topics(f"{title} {venue_full}", topics)
-    for t in (ov.get("topics") or {}).get(key, []) or []:
-        if t not in tags:
-            tags.append(t)
     if len(tags) > 1 and "misc" in tags:
         tags.remove("misc")
     award = (ov.get("awards") or {}).get(key, "")
@@ -306,9 +303,6 @@ def main() -> int:
         tags = tag_topics(f'{e["title"]} {full_venue(e)}', topics)
         k = e["key"].removeprefix("DBLP:")
         award = (ov.get("awards") or {}).get(k, "")
-        for t in extra_topics.get(k, []) or []:
-            if t not in tags:
-                tags.append(t)
         if len(tags) > 1 and "misc" in tags:
             tags.remove("misc")
         pubs.append({
@@ -359,6 +353,14 @@ def main() -> int:
             continue
         kept.append(p)
     pubs = sorted(kept, key=lambda p: (-p["year"], p["title"]))
+
+    # Hand-assigned topics replace the automatic ones. Keyed by DBLP key or
+    # by title, so an entry survives a paper moving from OpenAlex to DBLP.
+    fixes = {norm(str(k)): v for k, v in extra_topics.items()}
+    for p in pubs:
+        fix = extra_topics.get(p["key"]) or fixes.get(norm(p["title"]))
+        if fix:
+            p["topics"] = list(fix)
 
     type_labels = venues["type_labels"]
     topic_meta = [{"slug": t["slug"], "label": t["label"]} for t in topics]
