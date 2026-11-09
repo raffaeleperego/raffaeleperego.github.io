@@ -378,8 +378,10 @@ def main() -> int:
             target["arxiv"] = target["arxiv"] or p["arxiv"] or p["url"]
             continue
         kept.append(p)
-    # Newest year first; within a year, alphabetical by venue (no venue last), then title.
-    pubs = sorted(kept, key=lambda p: (-p["year"], not p["venue"], p["venue"].lower(), p["title"].lower()))
+    # Newest year first; within a year, alphabetical by venue, then title.
+    # Preprints, then entries with no venue, go to the end of their year.
+    pubs = sorted(kept, key=lambda p: (-p["year"], p["type"] == "preprint", not p["venue"],
+                                       p["venue"].lower(), p["title"].lower()))
 
     # Hand-assigned topics replace the automatic ones. Keyed by DBLP key or
     # by title, so an entry survives a paper moving from OpenAlex to DBLP.

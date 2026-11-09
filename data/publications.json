@@ -101,30 +101,6 @@
  ],
  "publications": [
   {
-   "key": "journals/corr/abs-2602-14960",
-   "title": "EMAR: Efficient Multi-domain Adaptive Retrieval",
-   "authors": [
-    "Pranav Kasela",
-    "Marco Braga",
-    "Ophir Frieder",
-    "Nazli Goharian",
-    "Gabriella Pasi",
-    "Raffaele Perego"
-   ],
-   "year": 2026,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.2602.14960",
-   "arxiv": "2602.14960",
-   "topics": [
-    "efficient-ir",
-    "neural-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "openalex:W7225077833",
    "title": "Conformal Prediction for Statistically Reliable LLM-as-a-Judge in Recommender Systems",
    "authors": [
@@ -371,91 +347,25 @@
    "award": ""
   },
   {
-   "key": "journals/corr/abs-2510-16393",
-   "title": "Blending Learning to Rank and Dense Representations for Efficient and Effective Cascades",
+   "key": "journals/corr/abs-2602-14960",
+   "title": "EMAR: Efficient Multi-domain Adaptive Retrieval",
    "authors": [
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Nicola Tonellotto",
-    "Salvatore Trani"
+    "Pranav Kasela",
+    "Marco Braga",
+    "Ophir Frieder",
+    "Nazli Goharian",
+    "Gabriella Pasi",
+    "Raffaele Perego"
    ],
-   "year": 2025,
+   "year": 2026,
    "type": "preprint",
    "venue": "arXiv",
    "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.2510.16393",
-   "arxiv": "2510.16393",
+   "url": "https://doi.org/10.48550/ARXIV.2602.14960",
+   "arxiv": "2602.14960",
    "topics": [
     "efficient-ir",
-    "ltr",
     "neural-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/corr/abs-2505-18088",
-   "title": "Early-Exit Graph Neural Networks",
-   "authors": [
-    "Andrea Giuseppe Di Francesco",
-    "Maria Sofia Bucarelli",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Nicola Tonellotto",
-    "Fabrizio Silvestri"
-   ],
-   "year": 2025,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.2505.18088",
-   "arxiv": "2505.18088",
-   "topics": [
-    "neural-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/corr/abs-2510-16736",
-   "title": "Exact Nearest-Neighbor Search on Energy-Efficient FPGA Devices",
-   "authors": [
-    "Patrizio Dazzi",
-    "William Guglielmo",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Salvatore Trani"
-   ],
-   "year": 2025,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.2510.16736",
-   "arxiv": "2510.16736",
-   "topics": [
-    "efficient-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/corr/abs-2512-04790",
-   "title": "Spatially-Enhanced Retrieval-Augmented Generation for Walkability and Urban Discovery",
-   "authors": [
-    "Maddalena Amendola",
-    "Chiara Pugliese",
-    "Raffaele Perego",
-    "Chiara Renso"
-   ],
-   "year": 2025,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.2512.04790",
-   "arxiv": "2512.04790",
-   "topics": [
-    "neural-ir",
-    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -791,22 +701,91 @@
    "award": ""
   },
   {
-   "key": "journals/corr/abs-2407-05335",
-   "title": "Understanding and Addressing Gender Bias in Expert Finding Task",
+   "key": "journals/corr/abs-2510-16393",
+   "title": "Blending Learning to Rank and Dense Representations for Efficient and Effective Cascades",
    "authors": [
-    "Maddalena Amendola",
-    "Carlos Castillo",
-    "Andrea Passarella",
-    "Raffaele Perego"
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Nicola Tonellotto",
+    "Salvatore Trani"
    ],
-   "year": 2024,
+   "year": 2025,
    "type": "preprint",
    "venue": "arXiv",
    "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.2407.05335",
-   "arxiv": "2407.05335",
+   "url": "https://doi.org/10.48550/ARXIV.2510.16393",
+   "arxiv": "2510.16393",
    "topics": [
-    "recsys"
+    "efficient-ir",
+    "ltr",
+    "neural-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/corr/abs-2505-18088",
+   "title": "Early-Exit Graph Neural Networks",
+   "authors": [
+    "Andrea Giuseppe Di Francesco",
+    "Maria Sofia Bucarelli",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Nicola Tonellotto",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2025,
+   "type": "preprint",
+   "venue": "arXiv",
+   "venue_full": "CoRR",
+   "url": "https://doi.org/10.48550/ARXIV.2505.18088",
+   "arxiv": "2505.18088",
+   "topics": [
+    "neural-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/corr/abs-2510-16736",
+   "title": "Exact Nearest-Neighbor Search on Energy-Efficient FPGA Devices",
+   "authors": [
+    "Patrizio Dazzi",
+    "William Guglielmo",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Salvatore Trani"
+   ],
+   "year": 2025,
+   "type": "preprint",
+   "venue": "arXiv",
+   "venue_full": "CoRR",
+   "url": "https://doi.org/10.48550/ARXIV.2510.16736",
+   "arxiv": "2510.16736",
+   "topics": [
+    "efficient-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/corr/abs-2512-04790",
+   "title": "Spatially-Enhanced Retrieval-Augmented Generation for Walkability and Urban Discovery",
+   "authors": [
+    "Maddalena Amendola",
+    "Chiara Pugliese",
+    "Raffaele Perego",
+    "Chiara Renso"
+   ],
+   "year": 2025,
+   "type": "preprint",
+   "venue": "arXiv",
+   "venue_full": "CoRR",
+   "url": "https://doi.org/10.48550/ARXIV.2512.04790",
+   "arxiv": "2512.04790",
+   "topics": [
+    "neural-ir",
+    "mobility"
    ],
    "selected": false,
    "award": ""
@@ -1118,6 +1097,27 @@
    "venue_full": "Companion Proceedings of the ACM on Web Conference 2024, WWW 2024, Singapore, Singapore, May 13-17, 2024",
    "url": "https://doi.org/10.1145/3589335.3651445",
    "arxiv": "2306.16261",
+   "topics": [
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/corr/abs-2407-05335",
+   "title": "Understanding and Addressing Gender Bias in Expert Finding Task",
+   "authors": [
+    "Maddalena Amendola",
+    "Carlos Castillo",
+    "Andrea Passarella",
+    "Raffaele Perego"
+   ],
+   "year": 2024,
+   "type": "preprint",
+   "venue": "arXiv",
+   "venue_full": "CoRR",
+   "url": "https://doi.org/10.48550/ARXIV.2407.05335",
+   "arxiv": "2407.05335",
    "topics": [
     "recsys"
    ],
@@ -4628,30 +4628,6 @@
    "award": ""
   },
   {
-   "key": "journals/corr/abs-0905-4627",
-   "title": "CoPhIR: a Test Collection for Content-Based Image Retrieval",
-   "authors": [
-    "Paolo Bolettieri",
-    "Andrea Esuli",
-    "Fabrizio Falchi",
-    "Claudio Lucchese",
-    "Raffaele Perego",
-    "Tommaso Piccioli",
-    "Fausto Rabitti"
-   ],
-   "year": 2009,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.0905.4627",
-   "arxiv": "0905.4627",
-   "topics": [
-    "misc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/cikm/BaragliaCDNPS09",
    "title": "Aging effects on query flow graphs for query suggestion",
    "authors": [
@@ -4878,6 +4854,30 @@
    "arxiv": "",
    "topics": [
     "query-logs"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/corr/abs-0905-4627",
+   "title": "CoPhIR: a Test Collection for Content-Based Image Retrieval",
+   "authors": [
+    "Paolo Bolettieri",
+    "Andrea Esuli",
+    "Fabrizio Falchi",
+    "Claudio Lucchese",
+    "Raffaele Perego",
+    "Tommaso Piccioli",
+    "Fausto Rabitti"
+   ],
+   "year": 2009,
+   "type": "preprint",
+   "venue": "arXiv",
+   "venue_full": "CoRR",
+   "url": "https://doi.org/10.48550/ARXIV.0905.4627",
+   "arxiv": "0905.4627",
+   "topics": [
+    "misc"
    ],
    "selected": false,
    "award": ""
@@ -5230,26 +5230,6 @@
    "award": ""
   },
   {
-   "key": "journals/corr/cs-IR-0407053",
-   "title": "Design of a Parallel and Distributed Web Search Engine",
-   "authors": [
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Fabrizio Silvestri"
-   ],
-   "year": 2004,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.CS.IR/0407053",
-   "arxiv": "",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/europar/FagniPS04",
    "title": "A Highly Scalable Parallel Caching System for Web Search Engine Results",
    "authors": [
@@ -5471,6 +5451,26 @@
    "arxiv": "",
    "topics": [
     "efficient-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "journals/corr/cs-IR-0407053",
+   "title": "Design of a Parallel and Distributed Web Search Engine",
+   "authors": [
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2004,
+   "type": "preprint",
+   "venue": "arXiv",
+   "venue_full": "CoRR",
+   "url": "https://doi.org/10.48550/ARXIV.CS.IR/0407053",
+   "arxiv": "",
+   "topics": [
+    "hpc"
    ],
    "selected": false,
    "award": ""
