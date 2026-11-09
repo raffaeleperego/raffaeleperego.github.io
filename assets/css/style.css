@@ -212,6 +212,7 @@ p { margin: 0 0 1rem; }
 }
 .pub-topics button:hover { color: var(--accent); border-color: var(--accent); }
 .more-btn { margin: 24px auto 0; display: flex; }
+.more-btn[hidden] { display: none; }
 .empty { color: var(--muted); padding: 24px 0; }
 
 /* ---------- awards ---------- */

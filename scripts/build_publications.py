@@ -323,10 +323,13 @@ def main() -> int:
     def norm(t): return re.sub(r"[^a-z0-9]", "", t.lower())
 
     # Recent papers DBLP has not indexed yet: manual entries first, then OpenAlex.
+    # A published version is added even when DBLP only has the arXiv preprint;
+    # the preprint is folded into it below.
     known = {norm(p["title"]) for p in pubs}
+    known_pub = {norm(p["title"]) for p in pubs if p["type"] != "preprint"}
     added = []
     for m in ov.get("extra", []) or []:
-        if norm(m["title"]) in known:
+        if norm(m["title"]) in known_pub:
             print(f"  note: manual entry now in DBLP, remove it from overrides.yml: {m['title']}")
             continue
         vid = str(m.get("venue", "")).lower()
@@ -335,13 +338,31 @@ def main() -> int:
         p = make_recent(m["title"], m.get("authors", []), int(m["year"]), ptype,
                         venues.get("display", {}).get(vid, vid.upper()), m.get("venue_full", ""),
                         m.get("url", ""), "manual:" + norm(m["title"])[:40], topics, ov, selected)
-        pubs.append(p); added.append(p); known.add(norm(p["title"]))
+        pubs.append(p); added.append(p); known.add(norm(p["title"])); known_pub.add(norm(p["title"]))
     if "--offline" not in sys.argv:
         for p in fetch_openalex_recent(venues, topics, ov, selected):
-            if norm(p["title"]) not in known and p["key"].removeprefix("openalex:") not in drop:
+            seen = known if p["type"] == "preprint" else known_pub
+            if norm(p["title"]) not in seen and p["key"].removeprefix("openalex:") not in drop:
                 pubs.append(p); added.append(p); known.add(norm(p["title"]))
+                if p["type"] != "preprint":
+                    known_pub.add(norm(p["title"]))
     for p in added:
         print(f"  + not yet in DBLP ({p['key'].split(':')[0]}): {p['year']} {p['venue']} {p['title']}")
+
+    # The same arXiv paper under two titles (renamed between versions): keep the first (DBLP).
+    def arxiv_id(p):
+        m = re.search(r"(\d{4}\.\d{4,5})", p["arxiv"] or (p["url"] if "arxiv" in p["url"].lower() else ""))
+        return m.group(1) if m else ""
+    seen_arxiv, unique = {}, []
+    for p in pubs:
+        aid = arxiv_id(p) if p["type"] == "preprint" else ""
+        if aid and aid in seen_arxiv:
+            print(f"  = same arXiv {aid}: kept '{seen_arxiv[aid]}', hid '{p['title']}'")
+            continue
+        if aid:
+            seen_arxiv[aid] = p["title"]
+        unique.append(p)
+    pubs = unique
 
     # A preprint later published elsewhere: hide the arXiv copy, keep the link.
     published = {norm(p["title"]): p for p in pubs if p["type"] != "preprint"}
@@ -349,7 +370,7 @@ def main() -> int:
     for p in pubs:
         if p["type"] == "preprint" and norm(p["title"]) in published:
             target = published[norm(p["title"])]
-            target["arxiv"] = target["arxiv"] or p["url"]
+            target["arxiv"] = target["arxiv"] or p["arxiv"] or p["url"]
             continue
         kept.append(p)
     pubs = sorted(kept, key=lambda p: (-p["year"], p["title"]))

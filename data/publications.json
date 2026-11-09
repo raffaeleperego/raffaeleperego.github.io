@@ -1,8 +1,8 @@
 {
  "generated": "2026-11-09",
  "stats": {
-  "total": 250,
-  "a_conf": 79,
+  "total": 252,
+  "a_conf": 80,
   "q1": 34,
   "first_year": 1992,
   "years_active": 34
@@ -147,30 +147,6 @@
    "award": ""
   },
   {
-   "key": "openalex:W7129675756",
-   "title": "EMAR: Efficient Multi-domain Adaptive Retrieval",
-   "authors": [
-    "Pranav Kasela",
-    "Marco Braga",
-    "Ophir Frieder",
-    "Nazli Goharian",
-    "Gabriella Pasi",
-    "Raffaele Perego"
-   ],
-   "year": 2026,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "arXiv (Cornell University)",
-   "url": "https://doi.org/10.48550/arxiv.2602.14960",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "neural-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "openalex:W7225073442",
    "title": "Effective Re-Ranking with DIMEs using Few Noisy LLM-Generated Relevance Judgments",
    "authors": [
@@ -194,7 +170,7 @@
    "award": ""
   },
   {
-   "key": "journals/corr/abs-2609-05110",
+   "key": "openalex:W7211978749",
    "title": "Embedding Surgery: Localized Updates for Adaptive Ranking Correction in Dense Retrieval",
    "authors": [
     "Maddalena Amendola",
@@ -202,10 +178,10 @@
     "Raffaele Perego"
    ],
    "year": 2026,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.2609.05110",
+   "type": "a_conf",
+   "venue": "CIKM",
+   "venue_full": "ACM International Conference on Information and Knowledge Management (CIKM)",
+   "url": "https://doi.org/10.1145/3799682.3840777",
    "arxiv": "2609.05110",
    "topics": [
     "neural-ir"
@@ -214,8 +190,8 @@
    "award": ""
   },
   {
-   "key": "journals/corr/abs-2601-23063",
-   "title": "Gender Disparities in StackOverflow's Community-Based Question Answering: A Matter of Quantity versus Quality",
+   "key": "openalex:W7162309682",
+   "title": "Gender Disparities in StackOverflow’s Community-Based Question Answering: A Matter of Quantity Versus Quality",
    "authors": [
     "Maddalena Amendola",
     "Cosimo Rulli",
@@ -224,13 +200,14 @@
     "Raffaele Perego"
    ],
    "year": 2026,
-   "type": "preprint",
-   "venue": "arXiv",
-   "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.2601.23063",
+   "type": "conf",
+   "venue": "ICWSM",
+   "venue_full": "Proceedings of the International AAAI Conference on Web and Social Media",
+   "url": "https://doi.org/10.1609/icwsm.v20i1.42627",
    "arxiv": "2601.23063",
    "topics": [
-    "recsys"
+    "recsys",
+    "social"
    ],
    "selected": false,
    "award": ""
@@ -270,7 +247,7 @@
    "venue": "TOIS",
    "venue_full": "ACM Trans. Inf. Syst.",
    "url": "https://doi.org/10.1145/3793531",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2407.04018",
+   "arxiv": "2407.04018",
    "topics": [
     "recsys",
     "social"
@@ -625,7 +602,7 @@
    "venue": "SIGIR",
    "venue_full": "Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18, 2025",
    "url": "https://doi.org/10.1145/3726302.3730186",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2504.21507",
+   "arxiv": "2504.21507",
    "topics": [
     "efficient-ir",
     "neural-ir",
@@ -717,7 +694,7 @@
    "venue": "IIR",
    "venue_full": "Proceedings of the 15th Italian Information Retrieval Workshop (IIR 2025), Cagliari, Italy, September 3-5, 2025",
    "url": "https://ceur-ws.org/Vol-4026/paper1.pdf",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2507.13910",
+   "arxiv": "2507.13910",
    "topics": [
     "recsys",
     "entities"
@@ -761,7 +738,7 @@
    "venue": "CCGRID",
    "venue_full": "25th IEEE International Symposium on Cluster, Cloud and Internet Computing, CCGrid 2025, Tromsø, Norway, 19-22 May 2025",
    "url": "https://doi.org/10.1109/CCGRID64434.2025.00015",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2412.17484",
+   "arxiv": "2412.17484",
    "topics": [
     "hpc"
    ],
@@ -853,7 +830,7 @@
    "venue": "TWEB",
    "venue_full": "ACM Trans. Web",
    "url": "https://doi.org/10.1145/3578519",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2211.14155",
+   "arxiv": "2211.14155",
    "topics": [
     "efficient-ir",
     "neural-ir",
@@ -876,7 +853,7 @@
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24-28, 2024, Proceedings, Part II",
    "url": "https://doi.org/10.1007/978-3-031-56060-6\\_8",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2403.13468",
+   "arxiv": "2403.13468",
    "topics": [
     "neural-ir"
    ],
@@ -920,7 +897,7 @@
    "venue": "CIKM",
    "venue_full": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management, CIKM 2024, Boise, ID, USA, October 21-25, 2024",
    "url": "https://doi.org/10.1145/3627673.3679903",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2408.04981",
+   "arxiv": "2408.04981",
    "topics": [
     "efficient-ir",
     "neural-ir"
@@ -1032,7 +1009,7 @@
    "venue": "WWW",
    "venue_full": "Companion Proceedings of the ACM on Web Conference 2024, WWW 2024, Singapore, Singapore, May 13-17, 2024",
    "url": "https://doi.org/10.1145/3589335.3651445",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2306.16261",
+   "arxiv": "2306.16261",
    "topics": [
     "recsys"
    ],
@@ -1097,7 +1074,7 @@
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24-28, 2024, Proceedings, Part V",
    "url": "https://doi.org/10.1007/978-3-031-56069-9\\_12",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2503.02674",
+   "arxiv": "2503.02674",
    "topics": [
     "recsys"
    ],
@@ -1298,7 +1275,7 @@
    "venue": "CIKM",
    "venue_full": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management, CIKM 2023, Birmingham, United Kingdom, October 21-25, 2023",
    "url": "https://doi.org/10.1145/3583780.3615010",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2306.12165",
+   "arxiv": "2306.12165",
    "topics": [
     "recsys"
    ],
@@ -1320,7 +1297,7 @@
    "venue": "WI",
    "venue_full": "IEEE International Conference on Web Intelligence and Intelligent Agent Technology, WI-IAT 2023, Venice, Italy, October 26-29, 2023",
    "url": "https://doi.org/10.1109/WI-IAT59888.2023.00014",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2410.07797",
+   "arxiv": "2410.07797",
    "topics": [
     "neural-ir",
     "conversational"
@@ -1341,7 +1318,7 @@
    "venue": "SIGIR-AP",
    "venue_full": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region, SIGIR-AP 2023, Beijing, China, November 26-28, 2023",
    "url": "https://doi.org/10.1145/3624918.3625335",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2309.11686",
+   "arxiv": "2309.11686",
    "topics": [
     "recsys"
    ],
@@ -1423,7 +1400,7 @@
    "venue": "OSNEM",
    "venue_full": "Online Soc. Networks Media",
    "url": "https://doi.org/10.1016/J.OSNEM.2023.100254",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2209.14369",
+   "arxiv": "2209.14369",
    "topics": [
     "social"
    ],
@@ -1558,7 +1535,7 @@
    "venue": "JNCA",
    "venue_full": "J. Netw. Comput. Appl.",
    "url": "https://doi.org/10.1016/J.JNCA.2021.103330",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2011.08545",
+   "arxiv": "2011.08545",
    "topics": [
     "efficient-ir",
     "neural-ir",
@@ -1628,7 +1605,7 @@
    "venue": "SIGIR",
    "venue_full": "SIGIR '22: The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval, Madrid, Spain, July 11 - 15, 2022",
    "url": "https://doi.org/10.1145/3477495.3531840",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2206.00473",
+   "arxiv": "2206.00473",
    "topics": [
     "ltr"
    ],
@@ -1878,7 +1855,7 @@
    "venue": "TKDE",
    "venue_full": "IEEE Trans. Knowl. Data Eng.",
    "url": "https://doi.org/10.1109/TKDE.2020.2966609",
-   "arxiv": "https://doi.org/10.48550/ARXIV.1904.07619",
+   "arxiv": "1904.07619",
    "topics": [
     "efficient-ir",
     "entities"
@@ -1993,7 +1970,7 @@
    "venue": "SIGIR",
    "venue_full": "SIGIR '21: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, Virtual Event, Canada, July 11-15, 2021",
    "url": "https://doi.org/10.1145/3404835.3463088",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2105.02568",
+   "arxiv": "2105.02568",
    "topics": [
     "efficient-ir",
     "ltr"
@@ -2086,7 +2063,7 @@
    "venue": "SIGIR",
    "venue_full": "Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval, SIGIR 2020, Virtual Event, China, July 25-30, 2020",
    "url": "https://doi.org/10.1145/3397271.3401093",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2004.14255",
+   "arxiv": "2004.14255",
    "topics": [
     "efficient-ir",
     "neural-ir"
@@ -2110,7 +2087,7 @@
    "venue": "SIGIR",
    "venue_full": "Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval, SIGIR 2020, Virtual Event, China, July 25-30, 2020",
    "url": "https://doi.org/10.1145/3397271.3401262",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2004.14245",
+   "arxiv": "2004.14245",
    "topics": [
     "neural-ir"
    ],
@@ -2178,7 +2155,7 @@
    "venue": "SIGIR",
    "venue_full": "Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval, SIGIR 2020, Virtual Event, China, July 25-30, 2020",
    "url": "https://doi.org/10.1145/3397271.3401256",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2004.14641",
+   "arxiv": "2004.14641",
    "topics": [
     "efficient-ir",
     "ltr"
@@ -2225,7 +2202,7 @@
    "venue": "SIGIR",
    "venue_full": "Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval, SIGIR 2020, Virtual Event, China, July 25-30, 2020",
    "url": "https://doi.org/10.1145/3397271.3401268",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2004.14054",
+   "arxiv": "2004.14054",
    "topics": [
     "conversational"
    ],
@@ -2268,7 +2245,7 @@
    "venue": "IP&M",
    "venue_full": "Inf. Process. Manag.",
    "url": "https://doi.org/10.1016/J.IPM.2019.102193",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2001.03010",
+   "arxiv": "2001.03010",
    "topics": [
     "efficient-ir"
    ],
@@ -2291,7 +2268,7 @@
    "venue": "SIGIR",
    "venue_full": "Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval, SIGIR 2020, Virtual Event, China, July 25-30, 2020",
    "url": "https://doi.org/10.1145/3397271.3401094",
-   "arxiv": "https://doi.org/10.48550/ARXIV.2004.14269",
+   "arxiv": "2004.14269",
    "topics": [
     "neural-ir"
    ],
@@ -3231,7 +3208,7 @@
    "venue": "SIGIR",
    "venue_full": "Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval, SIGIR 2016, Pisa, Italy, July 17-21, 2016",
    "url": "https://doi.org/10.1145/2911451.2914716",
-   "arxiv": "https://doi.org/10.48550/ARXIV.1610.08686",
+   "arxiv": "1610.08686",
    "topics": [
     "social"
    ],
@@ -3417,7 +3394,7 @@
    "venue": "ASONAM",
    "venue_full": "2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, ASONAM 2016, San Francisco, CA, USA, August 18-21, 2016",
    "url": "https://doi.org/10.1109/ASONAM.2016.7752401",
-   "arxiv": "https://doi.org/10.48550/ARXIV.1605.01895",
+   "arxiv": "1605.01895",
    "topics": [
     "social"
    ],
@@ -4290,7 +4267,7 @@
    "venue": "PVLDB",
    "venue_full": "Proc. VLDB Endow.",
    "url": "https://doi.org/10.14778/1988776.1988781",
-   "arxiv": "https://doi.org/10.48550/ARXIV.1105.4255",
+   "arxiv": "1105.4255",
    "topics": [
     "efficient-ir"
    ],

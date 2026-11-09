@@ -117,6 +117,7 @@ display:
   sigir: SIGIR
   sigirforum: SIGIR Forum
   ercim: ERCIM News
+  icwsm: ICWSM
   jsa: JSA
   ci: Comput. Intell.
   tgis: Trans. GIS
@@ -182,6 +183,7 @@ openalex_venues:
   'Future Generation Computer Systems': fgcs
   'Expert Systems with Applications': eswa
   'Applied Computing|SAC': sac
+  'Web and Social Media|ICWSM': icwsm
 
 type_labels:
   a_conf: A/A* Conferences
