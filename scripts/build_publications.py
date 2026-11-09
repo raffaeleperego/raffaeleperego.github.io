@@ -378,7 +378,8 @@ def main() -> int:
             target["arxiv"] = target["arxiv"] or p["arxiv"] or p["url"]
             continue
         kept.append(p)
-    pubs = sorted(kept, key=lambda p: (-p["year"], p["title"]))
+    # Newest year first; within a year, alphabetical by venue (no venue last), then title.
+    pubs = sorted(kept, key=lambda p: (-p["year"], not p["venue"], p["venue"].lower(), p["title"].lower()))
 
     # Hand-assigned topics replace the automatic ones. Keyed by DBLP key or
     # by title, so an entry survives a paper moving from OpenAlex to DBLP.
