@@ -49,3 +49,9 @@ With the CNR Pisa VPN on, run:
 
 It copies `index.html`, `robots.txt`, `sitemap.xml` and `assets/` with rsync. The previous
 site (2014–2026) is backed up on the server in `~/public_html-backup-20261109`.
+
+Automatic sync: a cron job on `hpc.isti.cnr.it` (account `raffaele`, 04:30 UTC every night)
+runs `~/site-src/scripts/update_isti_from_github.sh`, which pulls this repository into
+`~/site-src` and copies the public files into `~/public_html`. Log: `~/site-update.log`.
+So anything pushed to GitHub reaches raffaele.isti.cnr.it by the next morning; run
+`./scripts/deploy_isti.sh` (VPN on) to publish immediately.
