@@ -113,6 +113,7 @@ p { margin: 0 0 1rem; }
 #publications .pill[aria-pressed="true"] { background: var(--ink); }
 #publications .topics .pill[aria-pressed="true"] { background: var(--accent); }
 #projects .tags li { background: var(--surface); border: 1px solid var(--line); }
+#projects .logo-strip a, #projects .logo-strip span { box-shadow: var(--shadow); }
 #awards .timeline li { border-color: color-mix(in srgb, var(--gold) 18%, transparent); }
 .eyebrow {
   font-size: .75rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
@@ -203,6 +204,23 @@ p { margin: 0 0 1rem; }
 .card p { font-size: .9rem; color: var(--ink-2); margin: 0; }
 .tags { list-style: none; padding: 0; margin: 0 0 1rem; display: flex; flex-wrap: wrap; gap: 8px; }
 .tags li { font-size: .85rem; padding: 4px 12px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); }
+/* logos sit on white tiles so they read in dark mode too */
+.logo-tile {
+  display: flex; align-items: center; justify-content: center; height: 76px; margin: -4px -4px 16px;
+  padding: 12px 16px; background: #fff; border-radius: 10px; border: 1px solid var(--line);
+}
+.logo-tile img { max-height: 100%; max-width: 100%; object-fit: contain; }
+a.logo-tile:hover { border-color: var(--accent); }
+.logo-text { font: 600 1.35rem var(--sans); color: #2f6b3a; letter-spacing: -.01em; }
+.logo-text b { color: #c9862b; font-weight: 800; }
+.logo-strip { list-style: none; padding: 0; margin: 0 0 1.25rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+.logo-strip a, .logo-strip span {
+  display: flex; align-items: center; justify-content: center; height: 64px; padding: 10px 14px;
+  background: #fff; border: 1px solid var(--line); border-radius: 10px;
+}
+.logo-strip img { max-height: 100%; max-width: 100%; object-fit: contain; filter: grayscale(1); opacity: .75; transition: filter .2s, opacity .2s; }
+.logo-strip a:hover { border-color: var(--accent); }
+.logo-strip a:hover img, .logo-strip span:hover img { filter: none; opacity: 1; }
 
 /* ---------- publications ---------- */
 .pub-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; }
