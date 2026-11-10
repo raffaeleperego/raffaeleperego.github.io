@@ -211,8 +211,6 @@ p { margin: 0 0 1rem; }
 }
 .logo-tile img { max-height: 100%; max-width: 100%; object-fit: contain; }
 a.logo-tile:hover { border-color: var(--accent); }
-.logo-text { font: 600 1.35rem var(--sans); color: #2f6b3a; letter-spacing: -.01em; }
-.logo-text b { color: #c9862b; font-weight: 800; }
 .logo-strip { list-style: none; padding: 0; margin: 0 0 1.25rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
 .logo-strip a, .logo-strip span {
   display: flex; align-items: center; justify-content: center; height: 64px; padding: 10px 14px;
