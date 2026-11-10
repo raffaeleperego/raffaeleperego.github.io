@@ -7,4 +7,6 @@ cd "$(dirname "$0")/.."
 rsync -av --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r \
   index.html robots.txt sitemap.xml assets \
   raffaele@hpc.isti.cnr.it:public_html/
+# macOS ships openrsync, which ignores --chmod: make the files world-readable explicitly
+ssh raffaele@hpc.isti.cnr.it 'cd public_html && chmod -R u+rwX,go+rX,go-w index.html robots.txt sitemap.xml assets'
 echo "Published: https://raffaele.isti.cnr.it/"
