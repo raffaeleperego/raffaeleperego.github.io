@@ -10,8 +10,10 @@
 #   CoRR / arXiv                                   -> "Preprints"
 #   @proceedings                                   -> "Edited volumes"
 #
-# a_conferences follows CORE 2023 (A* and A); q1_journals follows Scimago
-# Q1 in a Computer Science category. Both are hand-maintained: edit freely.
+# a_conferences follows CORE 2023 (A* and A); q1_journals lists journals whose
+# current SCImago best quartile (any category) is Q1 — checked against SJR 2025.
+# The quartile applies to all papers in the journal, whatever their year.
+# Both are hand-maintained: edit freely.
 
 a_conferences:
   # IR, Web, data mining, databases
@@ -51,7 +53,7 @@ a_conferences:
   - icdcs
   - ppopp
 
-q1_journals:
+q1_journals:      # SJR 2025 best quartile Q1
   - tois
   - tkde
   - ipm
@@ -70,11 +72,13 @@ q1_journals:
   - cgf
   - datamine
   - vldb          # VLDB Journal
-  - tecs
-  - tevc
+  - tec           # IEEE Trans. Evolutionary Computation
   - kbs
   - csur
-  - tors
+  - access        # IEEE Access
+  - cluster       # Cluster Computing
+  - jsa           # J. Systems Architecture (incl. Microprocessing and Microprogramming)
+  - mta           # Multimedia Tools and Applications
 
 # Venues whose papers are workshop papers even when the booktitle does
 # not say so (national workshops and satellite events).

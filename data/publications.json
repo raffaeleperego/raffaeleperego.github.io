@@ -3,7 +3,7 @@
  "stats": {
   "total": 252,
   "a_conf": 81,
-  "q1": 34,
+  "q1": 42,
   "first_year": 1992,
   "years_active": 34,
   "citations": 7645,
@@ -564,6 +564,30 @@
    "award": ""
   },
   {
+   "key": "journals/access/RocchiettiRNMPF25",
+   "title": "ChatGPT Versus Modest Large Language Models: An Extensive Study on Benefits and Drawbacks for Conversational Search",
+   "authors": [
+    "Guido Rocchietti",
+    "Cosimo Rulli",
+    "Franco Maria Nardini",
+    "Cristina Ioana Muntean",
+    "Raffaele Perego",
+    "Ophir Frieder"
+   ],
+   "year": 2025,
+   "type": "q1",
+   "venue": "IEEE Access",
+   "venue_full": "IEEE Access",
+   "url": "https://doi.org/10.1109/ACCESS.2025.3529741",
+   "arxiv": "",
+   "topics": [
+    "neural-ir",
+    "conversational"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "journals/is/KaselaPP25",
    "title": "PARK: Personalized academic retrieval with knowledge-graphs",
    "authors": [
@@ -580,30 +604,6 @@
    "topics": [
     "recsys",
     "entities"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/access/RocchiettiRNMPF25",
-   "title": "ChatGPT Versus Modest Large Language Models: An Extensive Study on Benefits and Drawbacks for Conversational Search",
-   "authors": [
-    "Guido Rocchietti",
-    "Cosimo Rulli",
-    "Franco Maria Nardini",
-    "Cristina Ioana Muntean",
-    "Raffaele Perego",
-    "Ophir Frieder"
-   ],
-   "year": 2025,
-   "type": "journal",
-   "venue": "IEEE Access",
-   "venue_full": "IEEE Access",
-   "url": "https://doi.org/10.1109/ACCESS.2025.3529741",
-   "arxiv": "",
-   "topics": [
-    "neural-ir",
-    "conversational"
    ],
    "selected": false,
    "award": ""
@@ -1238,6 +1238,30 @@
    "award": ""
   },
   {
+   "key": "journals/access/BusolinLNOPT23",
+   "title": "Early Exit Strategies for Learning-to-Rank Cascades",
+   "authors": [
+    "Francesco Busolin",
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Salvatore Trani"
+   ],
+   "year": 2023,
+   "type": "q1",
+   "venue": "IEEE Access",
+   "venue_full": "IEEE Access",
+   "url": "https://doi.org/10.1109/ACCESS.2023.3331088",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "journals/osnm/AmendolaPP23",
    "title": "Social search: Retrieving information in Online Social platforms - A survey",
    "authors": [
@@ -1253,30 +1277,6 @@
    "arxiv": "2209.14369",
    "topics": [
     "social"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/access/BusolinLNOPT23",
-   "title": "Early Exit Strategies for Learning-to-Rank Cascades",
-   "authors": [
-    "Francesco Busolin",
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Salvatore Trani"
-   ],
-   "year": 2023,
-   "type": "journal",
-   "venue": "IEEE Access",
-   "venue_full": "IEEE Access",
-   "url": "https://doi.org/10.1109/ACCESS.2023.3331088",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
    ],
    "selected": false,
    "award": ""
@@ -4408,27 +4408,6 @@
    "award": ""
   },
   {
-   "key": "conf/apweb/LamDPS10",
-   "title": "An Incremental Prefix Filtering Approach for the All Pairs Similarity Search Problem",
-   "authors": [
-    "Hoang Thanh Lam",
-    "Dinh Viet Dung",
-    "Raffaele Perego",
-    "Fabrizio Silvestri"
-   ],
-   "year": 2010,
-   "type": "conf",
-   "venue": "APWEB",
-   "venue_full": "Advances in Web Technologies and Applications, Proceedings of the 12th Asia-Pacific Web Conference, APWeb 2010, Busan, Korea, 6-8 April 2010",
-   "url": "https://doi.org/10.1109/APWEB.2010.30",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "journals/mta/BatkoFLNPRSZ10",
    "title": "Building a web-scale image similarity search system",
    "authors": [
@@ -4442,10 +4421,31 @@
     "Pavel Zezula"
    ],
    "year": 2010,
-   "type": "journal",
+   "type": "q1",
    "venue": "MTAP",
    "venue_full": "Multim. Tools Appl.",
    "url": "https://doi.org/10.1007/S11042-009-0339-Z",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/apweb/LamDPS10",
+   "title": "An Incremental Prefix Filtering Approach for the All Pairs Similarity Search Problem",
+   "authors": [
+    "Hoang Thanh Lam",
+    "Dinh Viet Dung",
+    "Raffaele Perego",
+    "Fabrizio Silvestri"
+   ],
+   "year": 2010,
+   "type": "conf",
+   "venue": "APWEB",
+   "venue_full": "Advances in Web Technologies and Applications, Proceedings of the 12th Asia-Pacific Web Conference, APWeb 2010, Busan, Korea, 6-8 April 2010",
+   "url": "https://doi.org/10.1109/APWEB.2010.30",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -5617,6 +5617,26 @@
    "award": ""
   },
   {
+   "key": "journals/tec/BaragliaHP01",
+   "title": "A hybrid heuristic for the traveling salesman problem",
+   "authors": [
+    "Ranieri Baraglia",
+    "José Ignacio Hidalgo",
+    "Raffaele Perego"
+   ],
+   "year": 2001,
+   "type": "q1",
+   "venue": "IEEE TEVC",
+   "venue_full": "IEEE Trans. Evol. Comput.",
+   "url": "https://doi.org/10.1109/4235.974843",
+   "arxiv": "",
+   "topics": [
+    "misc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/dawak/OrlandoPP01",
    "title": "Enhancing the Apriori Algorithm for Frequent Set Counting",
    "authors": [
@@ -5632,26 +5652,6 @@
    "arxiv": "",
    "topics": [
     "data-mining"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/tec/BaragliaHP01",
-   "title": "A hybrid heuristic for the traveling salesman problem",
-   "authors": [
-    "Ranieri Baraglia",
-    "José Ignacio Hidalgo",
-    "Raffaele Perego"
-   ],
-   "year": 2001,
-   "type": "journal",
-   "venue": "IEEE TEVC",
-   "venue_full": "IEEE Trans. Evol. Comput.",
-   "url": "https://doi.org/10.1109/4235.974843",
-   "arxiv": "",
-   "topics": [
-    "misc"
    ],
    "selected": false,
    "award": ""
@@ -5728,7 +5728,7 @@
     "Raffaele Perego"
    ],
    "year": 2000,
-   "type": "journal",
+   "type": "q1",
    "venue": "Cluster Comput.",
    "venue_full": "Clust. Comput.",
    "url": "https://doi.org/10.1023/A:1019088405889",
@@ -5826,6 +5826,26 @@
    "award": ""
   },
   {
+   "key": "journals/jsa/OrlandoP99",
+   "title": "SUPPLE: An efficient run-time support for non-uniform parallel loops",
+   "authors": [
+    "Salvatore Orlando",
+    "Raffaele Perego"
+   ],
+   "year": 1999,
+   "type": "q1",
+   "venue": "JSA",
+   "venue_full": "J. Syst. Archit.",
+   "url": "https://doi.org/10.1016/S1383-7621(98)00071-X",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "hpc"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "journals/concurrency/OrlandoP99",
    "title": "COLTHPF, a run-time support for the high-level co-ordination of HPF tasks",
    "authors": [
@@ -5839,26 +5859,6 @@
    "url": "https://doi.org/10.1002/(SICI)1096-9128(199907)11:8%3C407::AID-CPE435%3E3.0.CO;2-0",
    "arxiv": "",
    "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "journals/jsa/OrlandoP99",
-   "title": "SUPPLE: An efficient run-time support for non-uniform parallel loops",
-   "authors": [
-    "Salvatore Orlando",
-    "Raffaele Perego"
-   ],
-   "year": 1999,
-   "type": "journal",
-   "venue": "JSA",
-   "venue_full": "J. Syst. Archit.",
-   "url": "https://doi.org/10.1016/S1383-7621(98)00071-X",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
     "hpc"
    ],
    "selected": false,
@@ -5909,7 +5909,7 @@
     "Raffaele Perego"
    ],
    "year": 1998,
-   "type": "journal",
+   "type": "q1",
    "venue": "JSA",
    "venue_full": "J. Syst. Archit.",
    "url": "https://doi.org/10.1016/S1383-7621(97)00073-8",
@@ -6044,7 +6044,7 @@
     "Raffaele Perego"
    ],
    "year": 1996,
-   "type": "journal",
+   "type": "q1",
    "venue": "JSA",
    "venue_full": "Microprocess. Microprogramming",
    "url": "https://doi.org/10.1016/0165-6074(96)00002-6",
