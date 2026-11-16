@@ -6,7 +6,7 @@ works on any web server (ISTI server or GitHub Pages) and also opened from disk.
 ## Layout
 
 ```
-index.html                       page content (bio, research, lab, projects, awards, contact)
+index.html                       page content (bio, research, lab, publications, awards, contact)
 assets/css/style.css             styles (light + dark)
 assets/js/site.js                theme toggle, stats, publication filters
 assets/js/publications-data.js   GENERATED: publication list
