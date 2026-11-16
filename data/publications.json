@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-16",
  "stats": {
   "total": 252,
   "a_conf": 81,
@@ -292,7 +292,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 48th European Conference on Information Retrieval, ECIR 2026, Delft, The Netherlands, March 29 - April 2, 2026, Proceedings, Part I",
-   "url": "https://doi.org/10.1007/978-3-032-21289-4\\_30",
+   "url": "https://doi.org/10.1007/978-3-032-21289-4_30",
    "arxiv": "",
    "topics": [
     "neural-ir"
@@ -507,7 +507,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 47th European Conference on Information Retrieval, ECIR 2025, Lucca, Italy, April 6-10, 2025, Proceedings, Part II",
-   "url": "https://doi.org/10.1007/978-3-031-88711-6\\_13",
+   "url": "https://doi.org/10.1007/978-3-031-88711-6_13",
    "arxiv": "",
    "topics": [
     "neural-ir",
@@ -869,7 +869,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24-28, 2024, Proceedings, Part II",
-   "url": "https://doi.org/10.1007/978-3-031-56060-6\\_8",
+   "url": "https://doi.org/10.1007/978-3-031-56060-6_8",
    "arxiv": "2403.13468",
    "topics": [
     "neural-ir"
@@ -889,7 +889,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 46th European Conference on Information Retrieval, ECIR 2024, Glasgow, UK, March 24-28, 2024, Proceedings, Part V",
-   "url": "https://doi.org/10.1007/978-3-031-56069-9\\_12",
+   "url": "https://doi.org/10.1007/978-3-031-56069-9_12",
    "arxiv": "2503.02674",
    "topics": [
     "recsys"
@@ -1489,7 +1489,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 44th European Conference on IR Research, ECIR 2022, Stavanger, Norway, April 10-14, 2022, Proceedings, Part I",
-   "url": "https://doi.org/10.1007/978-3-030-99736-6\\_13",
+   "url": "https://doi.org/10.1007/978-3-030-99736-6_13",
    "arxiv": "",
    "topics": [
     "conversational",
@@ -1513,7 +1513,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 44th European Conference on IR Research, ECIR 2022, Stavanger, Norway, April 10-14, 2022, Proceedings, Part I",
-   "url": "https://doi.org/10.1007/978-3-030-99736-6\\_18",
+   "url": "https://doi.org/10.1007/978-3-030-99736-6_18",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -1903,7 +1903,7 @@
    "type": "conf",
    "venue": "BRACIS",
    "venue_full": "Intelligent Systems - 10th Brazilian Conference, BRACIS 2021, Virtual Event, November 29 - December 3, 2021, Proceedings, Part I",
-   "url": "https://doi.org/10.1007/978-3-030-91702-9\\_25",
+   "url": "https://doi.org/10.1007/978-3-030-91702-9_25",
    "arxiv": "",
    "topics": [
     "data-mining"
@@ -2640,7 +2640,7 @@
    "type": "book",
    "venue": "SNAM",
    "venue_full": "Encyclopedia of Social Network Analysis and Mining, 2nd Edition",
-   "url": "https://doi.org/10.1007/978-1-4939-7131-2\\_110202",
+   "url": "https://doi.org/10.1007/978-1-4939-7131-2_110202",
    "arxiv": "",
    "topics": [
     "recsys",
@@ -2664,7 +2664,7 @@
    "type": "book",
    "venue": "SP",
    "venue_full": "A Comprehensive Guide Through the Italian Database Research Over the Last 25 Years",
-   "url": "https://doi.org/10.1007/978-3-319-61893-7\\_24",
+   "url": "https://doi.org/10.1007/978-3-319-61893-7_24",
    "arxiv": "",
    "topics": [
     "recsys",
@@ -2894,7 +2894,7 @@
    "type": "conf",
    "venue": "PKDD",
    "venue_full": "Machine Learning and Knowledge Discovery in Databases - European Conference, ECML PKDD 2017, Skopje, Macedonia, September 18-22, 2017, Proceedings, Part III",
-   "url": "https://doi.org/10.1007/978-3-319-71273-4\\_36",
+   "url": "https://doi.org/10.1007/978-3-319-71273-4_36",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -2939,7 +2939,7 @@
    "type": "workshop",
    "venue": "ICTIR",
    "venue_full": "Proceedings of the 1st International Workshop on LEARning Next gEneration Rankers co-located with the 3rd ACM International Conference on the Theory of Information Retrieval (ICTIR 2017), Amsterdam, The Netherlands, October 1, 2017",
-   "url": "https://ceur-ws.org/Vol-2007/LEARNER2017\\_short\\_1.pdf",
+   "url": "https://ceur-ws.org/Vol-2007/LEARNER2017_short_1.pdf",
    "arxiv": "",
    "topics": [
     "ltr"
@@ -3165,7 +3165,7 @@
    "type": "conf",
    "venue": "DAWAK",
    "venue_full": "Big Data Analytics and Knowledge Discovery - 18th International Conference, DaWaK 2016, Porto, Portugal, September 6-8, 2016, Proceedings",
-   "url": "https://doi.org/10.1007/978-3-319-43946-4\\_8",
+   "url": "https://doi.org/10.1007/978-3-319-43946-4_8",
    "arxiv": "",
    "topics": [
     "data-mining"
@@ -3231,7 +3231,7 @@
    "year": 2016,
    "type": "conf",
    "venue": "ICTIR",
-   "venue_full": "Proceedings of the 2016 ACM on International Conference on the Theory of Information Retrieval, ICTIR 2016, Newark, DE, USA, September 12- 6, 2016",
+   "venue_full": "Proceedings of the 2016 ACM on International Conference on the Theory of Information Retrieval, ICTIR 2016, Newark, DE, USA, September 12-6, 2016",
    "url": "https://doi.org/10.1145/2970398.2970433",
    "arxiv": "",
    "topics": [
@@ -3300,7 +3300,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 7th Italian Information Retrieval Workshop, Venezia, Italy, May 30-31, 2016",
-   "url": "https://ceur-ws.org/Vol-1653/paper\\_15.pdf",
+   "url": "https://ceur-ws.org/Vol-1653/paper_15.pdf",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -3325,7 +3325,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 7th Italian Information Retrieval Workshop, Venezia, Italy, May 30-31, 2016",
-   "url": "https://ceur-ws.org/Vol-1653/paper\\_27.pdf",
+   "url": "https://ceur-ws.org/Vol-1653/paper_27.pdf",
    "arxiv": "",
    "topics": [
     "ltr"
@@ -3347,7 +3347,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 7th Italian Information Retrieval Workshop, Venezia, Italy, May 30-31, 2016",
-   "url": "https://ceur-ws.org/Vol-1653/paper\\_10.pdf",
+   "url": "https://ceur-ws.org/Vol-1653/paper_10.pdf",
    "arxiv": "",
    "topics": [
     "recsys",
@@ -3371,7 +3371,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 7th Italian Information Retrieval Workshop, Venezia, Italy, May 30-31, 2016",
-   "url": "https://ceur-ws.org/Vol-1653/paper\\_7.pdf",
+   "url": "https://ceur-ws.org/Vol-1653/paper_7.pdf",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -3394,7 +3394,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 7th Italian Information Retrieval Workshop, Venezia, Italy, May 30-31, 2016",
-   "url": "https://ceur-ws.org/Vol-1653/paper\\_9.pdf",
+   "url": "https://ceur-ws.org/Vol-1653/paper_9.pdf",
    "arxiv": "",
    "topics": [
     "recsys"
@@ -3551,7 +3551,7 @@
    "type": "conf",
    "venue": "DAWAK",
    "venue_full": "Big Data Analytics and Knowledge Discovery - 17th International Conference, DaWaK 2015, Valencia, Spain, September 1-4, 2015, Proceedings",
-   "url": "https://doi.org/10.1007/978-3-319-22729-0\\_7",
+   "url": "https://doi.org/10.1007/978-3-319-22729-0_7",
    "arxiv": "",
    "topics": [
     "data-mining"
@@ -3618,7 +3618,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 6th Italian Information Retrieval Workshop, Cagliari, Italy, May 25-26, 2015",
-   "url": "https://ceur-ws.org/Vol-1404/paper\\_19.pdf",
+   "url": "https://ceur-ws.org/Vol-1404/paper_19.pdf",
    "arxiv": "",
    "topics": [
     "social"
@@ -3641,7 +3641,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 6th Italian Information Retrieval Workshop, Cagliari, Italy, May 25-26, 2015",
-   "url": "https://ceur-ws.org/Vol-1404/paper\\_22.pdf",
+   "url": "https://ceur-ws.org/Vol-1404/paper_22.pdf",
    "arxiv": "",
    "topics": [
     "entities"
@@ -3666,7 +3666,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 6th Italian Information Retrieval Workshop, Cagliari, Italy, May 25-26, 2015",
-   "url": "https://ceur-ws.org/Vol-1404/paper\\_9.pdf",
+   "url": "https://ceur-ws.org/Vol-1404/paper_9.pdf",
    "arxiv": "",
    "topics": [
     "ltr"
@@ -3688,7 +3688,7 @@
    "type": "workshop",
    "venue": "IIR",
    "venue_full": "Proceedings of the 6th Italian Information Retrieval Workshop, Cagliari, Italy, May 25-26, 2015",
-   "url": "https://ceur-ws.org/Vol-1404/paper\\_12.pdf",
+   "url": "https://ceur-ws.org/Vol-1404/paper_12.pdf",
    "arxiv": "",
    "topics": [
     "mobility"
@@ -3718,7 +3718,7 @@
   },
   {
    "key": "journals/tkde/LuccheseOP14",
-   "title": "A Unifying Framework for Mining Approximate Top- \\textbackslash(k\\textbackslash) Binary Patterns",
+   "title": "A Unifying Framework for Mining Approximate Top-k Binary Patterns",
    "authors": [
     "Claudio Lucchese",
     "Salvatore Orlando",
@@ -3772,7 +3772,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 36th European Conference on IR Research, ECIR 2014, Amsterdam, The Netherlands, April 13-16, 2014. Proceedings",
-   "url": "https://doi.org/10.1007/978-3-319-06028-6\\_93",
+   "url": "https://doi.org/10.1007/978-3-319-06028-6_93",
    "arxiv": "",
    "topics": [
     "recsys"
@@ -3817,7 +3817,7 @@
    "type": "conf",
    "venue": "SEMWEB",
    "venue_full": "Proceedings of the ISWC 2014 Posters & Demonstrations Track a track within the 13th International Semantic Web Conference, ISWC 2014, Riva del Garda, Italy, October 21, 2014",
-   "url": "https://ceur-ws.org/Vol-1272/paper\\_127.pdf",
+   "url": "https://ceur-ws.org/Vol-1272/paper_127.pdf",
    "arxiv": "",
    "topics": [
     "entities"
@@ -4024,7 +4024,7 @@
    "type": "conf",
    "venue": "SPIRE",
    "venue_full": "String Processing and Information Retrieval - 20th International Symposium, SPIRE 2013, Jerusalem, Israel, October 7-9, 2013, Proceedings",
-   "url": "https://doi.org/10.1007/978-3-319-02432-5\\_9",
+   "url": "https://doi.org/10.1007/978-3-319-02432-5_9",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -4136,7 +4136,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 34th European Conference on IR Research, ECIR 2012, Barcelona, Spain, April 1-5, 2012. Proceedings",
-   "url": "https://doi.org/10.1007/978-3-642-28997-2\\_17",
+   "url": "https://doi.org/10.1007/978-3-642-28997-2_17",
    "arxiv": "",
    "topics": [
     "recsys"
@@ -4289,7 +4289,7 @@
    "type": "a_conf",
    "venue": "ECIR",
    "venue_full": "Advances in Information Retrieval - 33rd European Conference on IR Research, ECIR 2011, Dublin, Ireland, April 18-21, 2011. Proceedings",
-   "url": "https://doi.org/10.1007/978-3-642-20161-5\\_66",
+   "url": "https://doi.org/10.1007/978-3-642-20161-5_66",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -4417,7 +4417,7 @@
    "type": "a_conf",
    "venue": "Euro-Par",
    "venue_full": "Euro-Par 2010 - Parallel Processing, 16th International Euro-Par Conference, Ischia, Italy, August 31 - September 3, 2010, Proceedings, Part I",
-   "url": "https://doi.org/10.1007/978-3-642-15277-1\\_15",
+   "url": "https://doi.org/10.1007/978-3-642-15277-1_15",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -4530,7 +4530,7 @@
    "type": "conf",
    "venue": "SPIRE",
    "venue_full": "String Processing and Information Retrieval - 17th International Symposium, SPIRE 2010, Los Cabos, Mexico, October 11-13, 2010. Proceedings",
-   "url": "https://doi.org/10.1007/978-3-642-16321-0\\_2",
+   "url": "https://doi.org/10.1007/978-3-642-16321-0_2",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -4759,7 +4759,7 @@
    "type": "conf",
    "venue": "IRCDL",
    "venue_full": "Post-proceedings of the Fifth Italian Research Conference on Digital Libraries - IRCDL 2009, Padova, Italy, 29-30 January 2009",
-   "url": "http://www.dei.unipd.it/\\%7Eagosti/ircdl/atti-ircdl2009-finale.pdf",
+   "url": "http://www.dei.unipd.it/%7Eagosti/ircdl/atti-ircdl2009-finale.pdf",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -4780,7 +4780,7 @@
    "type": "conf",
    "venue": "WISE",
    "venue_full": "Web Information Systems Engineering - WISE 2009, 10th International Conference, Poznan, Poland, October 5-7, 2009. Proceedings",
-   "url": "https://doi.org/10.1007/978-3-642-04409-0\\_50",
+   "url": "https://doi.org/10.1007/978-3-642-04409-0_50",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -5156,7 +5156,7 @@
    "type": "workshop",
    "venue": "KDID",
    "venue_full": "Knowledge Discovery in Inductive Databases, 5th International Workshop, KDID 2006, Berlin, Germany, September 18, 2006, Revised Selected and Invited Papers",
-   "url": "https://doi.org/10.1007/978-3-540-75549-4\\_4",
+   "url": "https://doi.org/10.1007/978-3-540-75549-4_4",
    "arxiv": "",
    "topics": [
     "data-mining"
@@ -5221,7 +5221,7 @@
    "type": "workshop",
    "venue": "COREGRID",
    "venue_full": "First Workshop on Knowledge and Data Management in GRIDs, Poznan, Poland, September 13-14, 2005",
-   "url": "https://doi.org/10.1007/978-0-387-37831-2\\_14",
+   "url": "https://doi.org/10.1007/978-0-387-37831-2_14",
    "arxiv": "",
    "topics": [
     "data-mining"
@@ -5261,7 +5261,7 @@
    "type": "a_conf",
    "venue": "Euro-Par",
    "venue_full": "Euro-Par 2004 Parallel Processing, 10th International Euro-Par Conference, Pisa, Italy, August 31-September 3, 2004, Proceedings",
-   "url": "https://doi.org/10.1007/978-3-540-27866-5\\_45",
+   "url": "https://doi.org/10.1007/978-3-540-27866-5_45",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -5283,7 +5283,7 @@
    "type": "a_conf",
    "venue": "Euro-Par",
    "venue_full": "Euro-Par 2004 Parallel Processing, 10th International Euro-Par Conference, Pisa, Italy, August 31-September 3, 2004, Proceedings",
-   "url": "https://doi.org/10.1007/978-3-540-27866-5\\_28",
+   "url": "https://doi.org/10.1007/978-3-540-27866-5_28",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -5304,7 +5304,7 @@
    "type": "conf",
    "venue": "ICCS",
    "venue_full": "Computational Science - ICCS 2004, 4th International Conference, Kraków, Poland, June 6-9, 2004, Proceedings, Part I",
-   "url": "https://doi.org/10.1007/978-3-540-24685-5\\_33",
+   "url": "https://doi.org/10.1007/978-3-540-24685-5_33",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -5467,7 +5467,7 @@
    "type": "preprint",
    "venue": "arXiv",
    "venue_full": "CoRR",
-   "url": "https://doi.org/10.48550/ARXIV.CS.IR/0407053",
+   "url": "https://arxiv.org/abs/cs/0407053",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -5515,7 +5515,7 @@
    "type": "conf",
    "venue": "GECCO",
    "venue_full": "Genetic and Evolutionary Computation - GECCO 2003, Genetic and Evolutionary Computation Conference, Chicago, IL, USA, July 12-16, 2003. Proceedings, Part II",
-   "url": "https://doi.org/10.1007/3-540-45110-2\\_107",
+   "url": "https://doi.org/10.1007/3-540-45110-2_107",
    "arxiv": "",
    "topics": [
     "efficient-ir"
@@ -5604,7 +5604,7 @@
    "type": "a_conf",
    "venue": "Euro-Par",
    "venue_full": "Euro-Par 2002, Parallel Processing, 8th International Euro-Par Conference Paderborn, Germany, August 27-30, 2002, Proceedings",
-   "url": "https://doi.org/10.1007/3-540-45706-2\\_49",
+   "url": "https://doi.org/10.1007/3-540-45706-2_49",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -5625,7 +5625,7 @@
    "type": "conf",
    "venue": "VECPAR",
    "venue_full": "High Performance Computing for Computational Science - VECPAR 2002, 5th International Conference, Porto, Portugal, June 26-28, 2002, Selected Papers and Invited Talks",
-   "url": "https://doi.org/10.1007/3-540-36569-9\\_28",
+   "url": "https://doi.org/10.1007/3-540-36569-9_28",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -5647,7 +5647,7 @@
    "type": "conf",
    "venue": "DAWAK",
    "venue_full": "Data Warehousing and Knowledge Discovery, Third International Conference, DaWaK 2001, Munich, Germany, September 5-7, 2001, Proceedings",
-   "url": "https://doi.org/10.1007/3-540-44801-2\\_8",
+   "url": "https://doi.org/10.1007/3-540-44801-2_8",
    "arxiv": "",
    "topics": [
     "data-mining"
@@ -5687,7 +5687,7 @@
    "type": "workshop",
    "venue": "EVOW",
    "venue_full": "Applications of Evolutionary Computing, EvoWorkshops 2001: EvoCOP, EvoFlight, EvoIASP, EvoLearn, and EvoSTIM, Como, Italy, April 18-20, 2001, Proceedings",
-   "url": "https://doi.org/10.1007/3-540-45365-2\\_20",
+   "url": "https://doi.org/10.1007/3-540-45365-2_20",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -5814,7 +5814,7 @@
    "type": "workshop",
    "venue": "IPDPS",
    "venue_full": "Parallel and Distributed Processing, 15 IPDPS 2000 Workshops, Cancun, Mexico, May 1-5, 2000, Proceedings",
-   "url": "https://doi.org/10.1007/3-540-45591-4\\_46",
+   "url": "https://doi.org/10.1007/3-540-45591-4_46",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -5855,7 +5855,7 @@
    "type": "journal",
    "venue": "CCPE",
    "venue_full": "Concurr. Pract. Exp.",
-   "url": "https://doi.org/10.1002/(SICI)1096-9128(199907)11:8\\&\\#60;407::AID-CPE435\\&\\#62;3.0.CO;2-0",
+   "url": "https://doi.org/10.1002/(SICI)1096-9128(199907)11:8%3C407::AID-CPE435%3E3.0.CO;2-0",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -5969,7 +5969,7 @@
    "type": "conf",
    "venue": "VECPAR",
    "venue_full": "Vector and Parallel Processing - VECPAR '98, Third International Conference, Porto, Portugal, June 21-23, 1998, Selected Papers and Invited Talks",
-   "url": "https://doi.org/10.1007/10703040\\_52",
+   "url": "https://doi.org/10.1007/10703040_52",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -5988,7 +5988,7 @@
    "type": "workshop",
    "venue": "LCR",
    "venue_full": "Languages, Compilers, and Run-Time Systems for Scalable Computers, 4th International Workshop, LCR '98, Pittsburgh, PA, USA, May 28-30, 1998, Selected Papers",
-   "url": "https://doi.org/10.1007/3-540-49530-4\\_30",
+   "url": "https://doi.org/10.1007/3-540-49530-4_30",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -6007,7 +6007,7 @@
    "type": "conf",
    "venue": "IRREGULAR",
    "venue_full": "Solving Irregularly Structured Problems in Parallel, 4th International Symposium, IRREGULAR '97, Paderborn, Germany, June 12-13, 1997, Proceedings",
-   "url": "https://doi.org/10.1007/3-540-63138-0\\_17",
+   "url": "https://doi.org/10.1007/3-540-63138-0_17",
    "arxiv": "",
    "topics": [
     "hpc"
@@ -6085,7 +6085,7 @@
    "type": "workshop",
    "venue": "HPCN",
    "venue_full": "High-Performance Computing and Networking, International Conference and Exhibition, HPCN Europe 1996, Brussels, Belgium, April 15-19, 1996, Proceedings",
-   "url": "https://doi.org/10.1007/3-540-61142-8\\_672",
+   "url": "https://doi.org/10.1007/3-540-61142-8_672",
    "arxiv": "",
    "topics": [
     "efficient-ir",
@@ -6096,7 +6096,7 @@
   },
   {
    "key": "journals/concurrency/CignoniLPSM95",
-   "title": "Evaluation of parallelization strategies for an incremental Delaunay triangulator in e\\(^\\mbox3\\)",
+   "title": "Evaluation of parallelization strategies for an incremental Delaunay triangulator in e³",
    "authors": [
     "Paolo Cignoni",
     "Domenico Laforenza",

@@ -19,10 +19,12 @@ No dependencies beyond the standard library and PyYAML.
 """
 from __future__ import annotations
 
+import html
 import json
 import re
 import sys
 import unicodedata
+import urllib.parse
 from datetime import date
 from pathlib import Path
 
@@ -112,7 +114,15 @@ LATEX_SYMBOLS = {
 }
 
 
+SUPERSCRIPT = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+
+
 def delatex(s: str) -> str:
+    # Inline math: DBLP writes \(k\) as {\textbackslash}(k{\textbackslash}).
+    s = re.sub(r"\{?\\textbackslash\}?\s*([()])", r"\\\1", s)
+    s = re.sub(r"\\[()]", "", s)
+    s = re.sub(r"(?:\{\})?\^\s*\{?(?:\\mbox\s*)?\{?(\d+)\}?\}?", lambda m: m.group(1).translate(SUPERSCRIPT), s)
+
     def accent(m):
         base = m.group(2).replace("\\i", "i")
         return unicodedata.normalize("NFC", base + LATEX_ACCENTS[m.group(1)])
@@ -123,7 +133,24 @@ def delatex(s: str) -> str:
     s = re.sub(r"\\(emph|textit|textbf|mathrm|texttt)\s*", "", s)
     s = re.sub(r"\$([^$]*)\$", r"\1", s)
     s = s.replace("{", "").replace("}", "")
-    return re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\s+", " ", s).strip()
+    return re.sub(r"(?<=\w)- (?=\w\b)", "-", s)  # "Top- k" -> "Top-k", not "pre- and"
+
+
+def bib_url(s: str) -> str:
+    """BibTeX-escaped url/doi field -> a clean, valid URL fragment."""
+    s = re.sub(r"\\([_&#%$~{}])", r"\1", s)   # \_ -> _ (browsers read \ as /)
+    s = html.unescape(s)                          # &#60; -> <
+    return urllib.parse.quote(s, safe=":/?#[]@!$&'()*+,;=%~-._")
+
+
+def doi_url(doi: str) -> str:
+    # DBLP gives old-style arXiv ids as 10.48550/ARXIV.CS.IR/0407053, which
+    # doi.org does not know; the paper is arXiv cs/0407053.
+    m = re.match(r"10\.48550/arxiv\.([a-z-]+)(?:\.[a-z]{2})?/(\d{7})$", doi, re.I)
+    if m:
+        return f"https://arxiv.org/abs/{m.group(1).lower()}/{m.group(2)}"
+    return "https://doi.org/" + bib_url(doi)
 
 
 def clean_author(name: str) -> str:
@@ -295,10 +322,10 @@ def main() -> int:
             continue
         authors = [clean_author(a) for a in re.split(r"\s+and\s+", e.get("author", "") or e.get("editor", "")) if a.strip()]
         doi = e.get("doi", "")
-        url = f"https://doi.org/{doi}" if doi else e.get("url", "")
+        url = doi_url(doi) if doi else bib_url(e.get("url", ""))
         if url.startswith("db/"):
             url = "https://dblp.org/" + url
-        arxiv = e.get("eprint", "") if e.get("eprinttype", "").lower() == "arxiv" else ""
+        arxiv = bib_url(e.get("eprint", "")) if e.get("eprinttype", "").lower() == "arxiv" else ""
         venue = short_venue(e, venues)
         tags = tag_topics(f'{e["title"]} {full_venue(e)}', topics)
         k = e["key"].removeprefix("DBLP:")
