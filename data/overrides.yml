@@ -8,7 +8,8 @@ scholar:
   as_of: 2026-11-16
 
 # Entries to hide (not papers, duplicates, misattributions).
-drop: []
+drop:
+  - data/10/KaselaPPB23   # SE-PQA v1 on Zenodo; v2 (data/10/KaselaBPP23) is kept
 
 # Force a type: a_conf | q1 | conf | journal | workshop | book | edited | preprint
 type: {}

@@ -1391,27 +1391,6 @@
    "award": ""
   },
   {
-   "key": "data/10/KaselaPPB23",
-   "title": "SE-PQA: a Resource for Personalized Community Question Answering (Version 1)",
-   "authors": [
-    "Pranav Kasela",
-    "Gabriella Pasi",
-    "Raffaele Perego",
-    "Marco Braga"
-   ],
-   "year": 2023,
-   "type": "other",
-   "venue": "Dataset",
-   "venue_full": "Zenodo",
-   "url": "https://doi.org/10.5281/ZENODO.7940964",
-   "arxiv": "",
-   "topics": [
-    "recsys"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "data/10/KaselaBPP23",
    "title": "SE-PQA: a Resource for Personalized Community Question Answering (Version 2)",
    "authors": [
