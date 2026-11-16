@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-16",
  "stats": {
-  "total": 252,
+  "total": 250,
   "a_conf": 81,
   "q1": 42,
   "first_year": 1992,
@@ -542,28 +542,6 @@
    "award": ""
   },
   {
-   "key": "conf/ccgrid/LettichCNPT25",
-   "title": "Power- and Fragmentation-Aware Online Scheduling for GPU Datacenters",
-   "authors": [
-    "Francesco Lettich",
-    "Emanuele Carlini",
-    "Franco Maria Nardini",
-    "Raffaele Perego",
-    "Salvatore Trani"
-   ],
-   "year": 2025,
-   "type": "a_conf",
-   "venue": "CCGRID",
-   "venue_full": "25th IEEE International Symposium on Cluster, Cloud and Internet Computing, CCGrid 2025, Tromsø, Norway, 19-22 May 2025",
-   "url": "https://doi.org/10.1109/CCGRID64434.2025.00015",
-   "arxiv": "2412.17484",
-   "topics": [
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "journals/access/RocchiettiRNMPF25",
    "title": "ChatGPT Versus Modest Large Language Models: An Extensive Study on Benefits and Drawbacks for Conversational Search",
    "authors": [
@@ -604,6 +582,28 @@
    "topics": [
     "recsys",
     "entities"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
+   "key": "conf/ccgrid/LettichCNPT25",
+   "title": "Power- and Fragmentation-Aware Online Scheduling for GPU Datacenters",
+   "authors": [
+    "Francesco Lettich",
+    "Emanuele Carlini",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Salvatore Trani"
+   ],
+   "year": 2025,
+   "type": "conf",
+   "venue": "CCGRID",
+   "venue_full": "25th IEEE International Symposium on Cluster, Cloud and Internet Computing, CCGrid 2025, Tromsø, Norway, 19-22 May 2025",
+   "url": "https://doi.org/10.1109/CCGRID64434.2025.00015",
+   "arxiv": "2412.17484",
+   "topics": [
+    "hpc"
    ],
    "selected": false,
    "award": ""
@@ -2770,6 +2770,30 @@
    "award": ""
   },
   {
+   "key": "conf/pkdd/LuccheseN0PTV17",
+   "title": "QuickScorer: Efficient Traversal of Large Ensembles of Decision Trees",
+   "authors": [
+    "Claudio Lucchese",
+    "Franco Maria Nardini",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Nicola Tonellotto",
+    "Rossano Venturini"
+   ],
+   "year": 2017,
+   "type": "a_conf",
+   "venue": "PKDD",
+   "venue_full": "Machine Learning and Knowledge Discovery in Databases - European Conference, ECML PKDD 2017, Skopje, Macedonia, September 18-22, 2017, Proceedings, Part III",
+   "url": "https://doi.org/10.1007/978-3-319-71273-4_36",
+   "arxiv": "",
+   "topics": [
+    "efficient-ir",
+    "ltr"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/asunam/LiraMOPRT17",
    "title": "Exploring Social Media for Event Attendance",
    "authors": [
@@ -2856,30 +2880,6 @@
    "topics": [
     "efficient-ir",
     "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/pkdd/LuccheseN0PTV17",
-   "title": "QuickScorer: Efficient Traversal of Large Ensembles of Decision Trees",
-   "authors": [
-    "Claudio Lucchese",
-    "Franco Maria Nardini",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Nicola Tonellotto",
-    "Rossano Venturini"
-   ],
-   "year": 2017,
-   "type": "conf",
-   "venue": "PKDD",
-   "venue_full": "Machine Learning and Knowledge Discovery in Databases - European Conference, ECML PKDD 2017, Skopje, Macedonia, September 18-22, 2017, Proceedings, Part III",
-   "url": "https://doi.org/10.1007/978-3-319-71273-4_36",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "ltr"
    ],
    "selected": false,
    "award": ""
@@ -3762,6 +3762,28 @@
    "award": "Best Demo Paper, ECIR 2014"
   },
   {
+   "key": "conf/semweb/CeccarelliLOPT14",
+   "title": "Dexter 2.0 - an Open Source Tool for Semantically Enriching Data",
+   "authors": [
+    "Diego Ceccarelli",
+    "Claudio Lucchese",
+    "Salvatore Orlando",
+    "Raffaele Perego",
+    "Salvatore Trani"
+   ],
+   "year": 2014,
+   "type": "a_conf",
+   "venue": "SEMWEB",
+   "venue_full": "Proceedings of the ISWC 2014 Posters & Demonstrations Track a track within the 13th International Semantic Web Conference, ISWC 2014, Riva del Garda, Italy, October 21, 2014",
+   "url": "https://ceur-ws.org/Vol-1272/paper_127.pdf",
+   "arxiv": "",
+   "topics": [
+    "entities"
+   ],
+   "selected": false,
+   "award": ""
+  },
+  {
    "key": "conf/incos/FrancescoNGOPT14",
    "title": "A SOA Testing Platform on the Cloud: The MIDAS Experience",
    "authors": [
@@ -3780,28 +3802,6 @@
    "arxiv": "",
    "topics": [
     "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
-   "key": "conf/semweb/CeccarelliLOPT14",
-   "title": "Dexter 2.0 - an Open Source Tool for Semantically Enriching Data",
-   "authors": [
-    "Diego Ceccarelli",
-    "Claudio Lucchese",
-    "Salvatore Orlando",
-    "Raffaele Perego",
-    "Salvatore Trani"
-   ],
-   "year": 2014,
-   "type": "conf",
-   "venue": "SEMWEB",
-   "venue_full": "Proceedings of the ISWC 2014 Posters & Demonstrations Track a track within the 13th International Semantic Web Conference, ISWC 2014, Riva del Garda, Italy, October 21, 2014",
-   "url": "https://ceur-ws.org/Vol-1272/paper_127.pdf",
-   "arxiv": "",
-   "topics": [
-    "entities"
    ],
    "selected": false,
    "award": ""
@@ -4383,29 +4383,6 @@
    ],
    "selected": true,
    "award": "Best Paper Runner-up, SDM 2010"
-  },
-  {
-   "key": "conf/europar/YahyapourPDEB10",
-   "title": "Scheduling and Load Balancing",
-   "authors": [
-    "Ramin Yahyapour",
-    "Raffaele Perego",
-    "Frédéric Desprez",
-    "Leah Epstein",
-    "Francesc Guim Bernat"
-   ],
-   "year": 2010,
-   "type": "a_conf",
-   "venue": "Euro-Par",
-   "venue_full": "Euro-Par 2010 - Parallel Processing, 16th International Euro-Par Conference, Ischia, Italy, August 31 - September 3, 2010, Proceedings, Part I",
-   "url": "https://doi.org/10.1007/978-3-642-15277-1_15",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
   },
   {
    "key": "journals/mta/BatkoFLNPRSZ10",
@@ -5252,28 +5229,6 @@
    "award": ""
   },
   {
-   "key": "conf/europar/LuqueCMP04",
-   "title": "Topic 3: Scheduling and Load Balancing",
-   "authors": [
-    "Emilio Luque",
-    "José G. Castaños",
-    "Evangelos P. Markatos",
-    "Raffaele Perego"
-   ],
-   "year": 2004,
-   "type": "a_conf",
-   "venue": "Euro-Par",
-   "venue_full": "Euro-Par 2004 Parallel Processing, 10th International Euro-Par Conference, Pisa, Italy, August 31-September 3, 2004, Proceedings",
-   "url": "https://doi.org/10.1007/978-3-540-27866-5_28",
-   "arxiv": "",
-   "topics": [
-    "efficient-ir",
-    "hpc"
-   ],
-   "selected": false,
-   "award": ""
-  },
-  {
    "key": "conf/iccS/SilvestriOP04",
    "title": "WINGS: A Parallel Indexer for Web Contents",
    "authors": [
@@ -5493,7 +5448,7 @@
     "Oscar Garnica"
    ],
    "year": 2003,
-   "type": "conf",
+   "type": "a_conf",
    "venue": "GECCO",
    "venue_full": "Genetic and Evolutionary Computation - GECCO 2003, Genetic and Evolutionary Computation Conference, Chicago, IL, USA, July 12-16, 2003. Proceedings, Part II",
    "url": "https://doi.org/10.1007/3-540-45110-2_107",

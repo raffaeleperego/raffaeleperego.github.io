@@ -10,6 +10,8 @@ scholar:
 # Entries to hide (not papers, duplicates, misattributions).
 drop:
   - data/10/KaselaPPB23   # SE-PQA v1 on Zenodo; v2 (data/10/KaselaBPP23) is kept
+  - conf/europar/LuqueCMP04          # Euro-Par 2004 topic introduction, not a paper
+  - conf/europar/YahyapourPDEB10    # Euro-Par 2010 topic introduction, not a paper
 
 # Force a type: a_conf | q1 | conf | journal | workshop | book | edited | preprint
 type: {}
