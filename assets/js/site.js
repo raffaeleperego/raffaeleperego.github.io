@@ -30,7 +30,7 @@
 
   /* ---------- stats ---------- */
   document.getElementById("stat-total").textContent = DATA.stats.total;
-  document.getElementById("stat-a").textContent = DATA.stats.a_conf;
+  document.getElementById("stat-a").textContent = DATA.stats.a_conf + DATA.stats.q1;
   document.getElementById("stat-years").textContent = DATA.stats.years_active + "+";
   document.getElementById("pub-updated").textContent = new Date(DATA.generated)
     .toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
