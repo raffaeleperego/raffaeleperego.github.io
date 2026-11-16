@@ -31,6 +31,12 @@ scripts/build_publications.py    dblp.bib -> publications-data.js
 The script prints counts per type and per topic: check them, then fix misclassified
 entries in `data/overrides.yml` or tune `data/venues.yml` / `data/topics.yml`.
 
+## Updating the citation count
+
+The hero shows the Google Scholar citation count, which Scholar does not let scripts
+fetch. Copy the number from https://scholar.google.com/citations?user=T371ouoAAAAJ into
+`scholar:` in `data/overrides.yml` (with today's date in `as_of`), then rebuild.
+
 ## Preview locally
 
 ```

@@ -425,6 +425,14 @@ def main() -> int:
         if fix:
             p["topics"] = list(fix)
 
+    # Hand-fixed links (e.g. a DOI that DBLP has wrong). Keyed by DBLP key.
+    url_fixes = ov.get("url", {}) or {}
+    for p in pubs:
+        if p["key"] in url_fixes:
+            p["url"] = url_fixes[p["key"]]
+    for k in set(url_fixes) - {p["key"] for p in pubs}:
+        print(f"  ! url override for unknown key: {k}", file=sys.stderr)
+
     type_labels = venues["type_labels"]
     topic_meta = [{"slug": t["slug"], "label": t["label"]} for t in topics]
     if any("misc" in p["topics"] for p in pubs):
@@ -438,6 +446,10 @@ def main() -> int:
         "first_year": first,
         "years_active": date.today().year - first,
     }
+    scholar = ov.get("scholar") or {}
+    if scholar.get("citations"):
+        stats["citations"] = int(scholar["citations"])
+        stats["citations_as_of"] = str(scholar.get("as_of", ""))
     out = {
         "generated": date.today().isoformat(),
         "stats": stats,

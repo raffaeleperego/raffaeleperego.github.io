@@ -5,7 +5,9 @@
   "a_conf": 81,
   "q1": 34,
   "first_year": 1992,
-  "years_active": 34
+  "years_active": 34,
+  "citations": 7645,
+  "citations_as_of": "2026-11-16"
  },
  "types": {
   "a_conf": "A/A* Conferences",
@@ -3840,7 +3842,7 @@
    "type": "book",
    "venue": "CRC",
    "venue_full": "Mining User Generated Content",
-   "url": "https://doi.org/10.1201/B16413-16",
+   "url": "https://doi.org/10.1201/b16413-23",
    "arxiv": "",
    "topics": [
     "recsys"
@@ -4487,7 +4489,7 @@
    "type": "conf",
    "venue": "RIAO",
    "venue_full": "Recherche d'Information Assistée par Ordinateur, RIAO 2010: Adaptivity, Personalization and Fusion of Heterogeneous Information, 9th International Conference, Bibliotheque Nationale de France, Paris, France, April 28-30, 2010, Proceedings",
-   "url": "https://doi.org/10.5555/1937055.1937102",
+   "url": "https://dl.acm.org/doi/10.5555/1937055.1937102",
    "arxiv": "",
    "topics": [
     "query-logs",

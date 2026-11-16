@@ -1,6 +1,12 @@
 # Hand fixes applied by scripts/build_publications.py.
 # Keys are DBLP keys without the "DBLP:" prefix (e.g. conf/sigir/LuccheseNOP0V15).
 
+# Google Scholar metrics shown in the hero. Scholar blocks automated fetching,
+# so update these by hand from https://scholar.google.com/citations?user=T371ouoAAAAJ
+scholar:
+  citations: 7645
+  as_of: 2026-11-16
+
 # Entries to hide (not papers, duplicates, misattributions).
 drop: []
 
@@ -21,6 +27,13 @@ awards:
   journals/tois/LuccheseOPST13: Notable Article in Computing 2013, ACM Computing Reviews
   conf/wsdm/LuccheseOPST11: Best Paper Runner-up, WSDM 2011
   conf/sdm/LuccheseOP10: Best Paper Runner-up, SDM 2010
+
+# Link for a paper, replacing the DOI/URL from DBLP (e.g. a DOI doi.org does not know).
+url:
+  # DBLP has b16413-16, which is not registered; the chapter is b16413-23.
+  books/crc/p/LuccheseMPSVV14: https://doi.org/10.1201/b16413-23
+  # 10.5555 is an ACM-internal DOI: it only resolves on the ACM DL.
+  conf/riao/BaragliaNCPDS10: https://dl.acm.org/doi/10.5555/1937055.1937102
 
 # Topics for a paper, replacing the automatic tags (slugs from data/topics.yml).
 # Key: the DBLP key or the paper title. The research area follows from the

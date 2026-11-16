@@ -31,7 +31,14 @@
   /* ---------- stats ---------- */
   document.getElementById("stat-total").textContent = DATA.stats.total;
   document.getElementById("stat-a").textContent = DATA.stats.a_conf + DATA.stats.q1;
-  document.getElementById("stat-years").textContent = DATA.stats.years_active + "+";
+  const cit = document.getElementById("stat-citations");
+  if (DATA.stats.citations) {
+    cit.textContent = DATA.stats.citations.toLocaleString("en-US");
+    if (DATA.stats.citations_as_of) cit.parentElement.title = "Google Scholar, as of " +
+      new Date(DATA.stats.citations_as_of).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  } else {
+    cit.parentElement.hidden = true;
+  }
   document.getElementById("pub-updated").textContent = new Date(DATA.generated)
     .toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
 
