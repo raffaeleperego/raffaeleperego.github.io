@@ -99,12 +99,12 @@ p { margin: 0 0 1rem; }
 /* the HPC Lab mark as a faint watermark, as on hpc.isti.cnr.it */
 #lab::after {
   content: ""; position: absolute; z-index: -1; pointer-events: none;
-  right: -14%; top: 50%; width: min(680px, 58vw); aspect-ratio: 1; transform: translateY(-50%);
+  left: -18%; top: 50%; width: min(680px, 58vw); aspect-ratio: 1; transform: translateY(-50%);
   background: var(--accent); opacity: .11;
   -webkit-mask: url("../img/hpc-mark.svg") center / contain no-repeat;
           mask: url("../img/hpc-mark.svg") center / contain no-repeat;
 }
-@media (max-width: 900px) { #lab::after { top: 24px; right: -20%; width: 80vw; transform: none; opacity: .08; } }
+@media (max-width: 900px) { #lab::after { top: 24px; left: -25%; width: 80vw; transform: none; opacity: .08; } }
 #awards { --band: var(--band-awards); }
 #contact, .footer {
   --band: var(--band-contact);
