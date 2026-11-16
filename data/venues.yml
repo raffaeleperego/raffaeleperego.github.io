@@ -10,7 +10,8 @@
 #   CoRR / arXiv                                   -> "Preprints"
 #   @proceedings                                   -> "Edited volumes"
 #
-# a_conferences follows CORE 2023 (A* and A), checked against the CORE portal;
+# a_conferences follows ICORE 2026 (A* and A; formerly CORE), checked against
+# portal.core.edu.au. Exceptions kept as A on purpose are marked below;
 # every paper there counts, posters and demos included. q1_journals lists journals whose
 # current SCImago best quartile (any category) is Q1 — checked against SJR 2025.
 # The quartile applies to all papers in the journal, whatever their year.
@@ -29,7 +30,8 @@ a_conferences:
   - vldb
   - pvldb
   - sigmod
-  - edbt
+  - edbt         # B in ICORE 2026, but A in every edition up to CORE 2023,
+                 # which covers our EDBT papers (2009-2023): kept as A on purpose
   - icdm
   - sdm
   - gis          # ACM SIGSPATIAL
@@ -49,7 +51,7 @@ a_conferences:
   - gecco
   # Parallel and distributed computing
   - ipps         # IPDPS
-  - europar      # B in CORE 2021/2023, but A in every edition up to CORE 2020,
+  - europar      # B since CORE 2021 (also ICORE 2026), but A in every edition up to CORE 2020,
                  # which covers our Euro-Par papers (1998-2004): kept as A on purpose
   - hpdc
   - ics
