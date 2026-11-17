@@ -48,7 +48,13 @@ topics:
 # The build warns when DBLP catches up, so you can delete the entry.
 # Recent papers that OpenAlex already has are added automatically;
 # hide a wrong one with `drop:` using its id, e.g. W7225073442.
-extra: []
+extra:
+  - title: "AMORe: An Agnostic Multi-Objective Framework for Recommendation"
+    authors: [Vincenzo Paparella, Vito Walter Anelli, Franco Maria Nardini, Raffaele Perego, Tommaso Di Noia]
+    year: 2026
+    venue: tois
+    venue_full: "ACM Trans. Inf. Syst."
+    url: https://doi.org/10.1145/3857349
 #  - title: "My Accepted Paper"
 #    authors: [Raffaele Perego, Someone Else]
 #    year: 2026

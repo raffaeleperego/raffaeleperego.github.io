@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-16",
+ "generated": "2026-11-17",
  "stats": {
-  "total": 250,
+  "total": 251,
   "a_conf": 81,
-  "q1": 42,
+  "q1": 43,
   "first_year": 1992,
   "years_active": 34,
   "citations": 7645,
@@ -102,6 +102,28 @@
   }
  ],
  "publications": [
+  {
+   "key": "manual:amoreanagnosticmultiobjectiveframeworkfo",
+   "title": "AMORe: An Agnostic Multi-Objective Framework for Recommendation",
+   "authors": [
+    "Vincenzo Paparella",
+    "Vito Walter Anelli",
+    "Franco Maria Nardini",
+    "Raffaele Perego",
+    "Tommaso Di Noia"
+   ],
+   "year": 2026,
+   "type": "q1",
+   "venue": "TOIS",
+   "venue_full": "ACM Trans. Inf. Syst.",
+   "url": "https://doi.org/10.1145/3857349",
+   "arxiv": "",
+   "topics": [
+    "recsys"
+   ],
+   "selected": false,
+   "award": ""
+  },
   {
    "key": "journals/tois/FaggioliFPT26",
    "title": "Getting off the DIME: Dimension Pruning via Dimension Importance Estimation for Dense Information Retrieval",
