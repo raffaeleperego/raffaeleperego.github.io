@@ -10,7 +10,7 @@
   --ink-2: #3b3f4a;
   --muted: #646a78;
   --line: #e2dfd6;
-  --accent: #0d5b8a;
+  --accent: #002f5f;  /* CNR institutional blue */
   --accent-soft: #e3eef6;
   --accent-ink: #ffffff;
   --gold: #a35a00;
@@ -27,10 +27,10 @@
   --band-lab: #e6eff6;
   --band-pubs: #ffffff;
   --band-awards: #f7efe2;
-  --band-contact: #0f2b42;
+  --band-contact: #002f5f;
   --radius: 14px;
   --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sans: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme: light;
 }
 
@@ -48,7 +48,7 @@
     --band-lab: #111c27;
     --band-pubs: #14171d;
     --band-awards: #1e1810;
-    --band-contact: #0a1824;
+    --band-contact: #002f5f;
     color-scheme: dark;
   }
 }
@@ -65,7 +65,7 @@
   --band-lab: #111c27;
   --band-pubs: #14171d;
   --band-awards: #1e1810;
-  --band-contact: #0a1824;
+  --band-contact: #002f5f;
   color-scheme: dark;
 }
 
@@ -269,8 +269,12 @@ p { margin: 0 0 1rem; }
 .contact { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 20px; }
 .contact-block { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
 .contact-block h3 { font-family: var(--sans); font-size: .75rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: .75rem; }
-.affil-logo { display: block; width: min(560px, 100%); margin-top: 40px; }
-.affil-logo img { display: block; width: 100%; height: auto; }
+/* CNR logo (official, white negative on the CNR-blue band) + ISTI logo.
+   Clear area >= half the logo height, CNR logo height >= 5mm (CNR visual identity manual 2025). */
+.affil-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 28px 44px; margin-top: 44px; }
+.affil-logos img { display: block; height: 56px; width: auto; }
+.affil-logos a + a img { height: 50px; }
+@media (max-width: 640px) { .affil-logos img { height: 44px; } .affil-logos a + a img { height: 38px; } }
 address { font-style: normal; color: var(--ink-2); line-height: 1.6; }
 .links { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
 
