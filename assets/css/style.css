@@ -269,6 +269,8 @@ p { margin: 0 0 1rem; }
 .contact { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 20px; }
 .contact-block { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
 .contact-block h3 { font-family: var(--sans); font-size: .75rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: .75rem; }
+.affil-logo { display: block; width: min(560px, 100%); margin-top: 40px; }
+.affil-logo img { display: block; width: 100%; height: auto; }
 address { font-style: normal; color: var(--ink-2); line-height: 1.6; }
 .links { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
 
