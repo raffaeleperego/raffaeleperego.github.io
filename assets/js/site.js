@@ -30,7 +30,8 @@
 
   /* ---------- stats ---------- */
   document.getElementById("stat-total").textContent = DATA.stats.total;
-  document.getElementById("stat-a").textContent = DATA.stats.a_conf + DATA.stats.q1;
+  document.getElementById("stat-a").textContent = DATA.stats.a_conf;
+  document.getElementById("stat-q1").textContent = DATA.stats.q1;
   const cit = document.getElementById("stat-citations");
   if (DATA.stats.citations) {
     cit.textContent = DATA.stats.citations.toLocaleString("en-US");
