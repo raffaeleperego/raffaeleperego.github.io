@@ -433,6 +433,21 @@ def main() -> int:
     for k in set(url_fixes) - {p["key"] for p in pubs}:
         print(f"  ! url override for unknown key: {k}", file=sys.stderr)
 
+    # A workshop held at a conference carries the conference's name in DBLP
+    # ("EDBT" for an EDBT workshop): mark it "EDBT (ws)". Stand-alone workshops
+    # (IIR, SEBD, FIMI, Euromicro PDP, ...) keep their own name.
+    ws_own = {str(v).lower() for v in venues.get("workshop_venues", [])}
+    conf_names = {p["venue"] for p in pubs if p["type"] != "workshop"}
+    for p in pubs:
+        if p["type"] != "workshop" or not p["venue"]:
+            continue
+        vid = venue_of(p["key"])[1] if "/" in p["key"] else p["venue"].lower()
+        if vid in ws_own or p["venue"].lower() in ws_own:
+            continue
+        if (p["venue"] in conf_names or vid in venues["a_conferences"]
+                or re.search(r"@|\bworkshops\b", p["venue_full"], re.I)):
+            p["venue"] += " (ws)"
+
     type_labels = venues["type_labels"]
     topic_meta = [{"slug": t["slug"], "label": t["label"]} for t in topics]
     if any("misc" in p["topics"] for p in pubs):
