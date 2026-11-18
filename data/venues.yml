@@ -108,6 +108,7 @@ skip_title_patterns:
 display:
   gis: SIGSPATIAL
   ipps: IPDPS
+  iat: WI-IAT
   europar: Euro-Par
   pvldb: PVLDB
   nips: NeurIPS

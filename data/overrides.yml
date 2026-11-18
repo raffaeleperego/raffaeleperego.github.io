@@ -14,7 +14,8 @@ drop:
   - conf/europar/YahyapourPDEB10    # Euro-Par 2010 topic introduction, not a paper
 
 # Force a type: a_conf | q1 | conf | journal | workshop | book | edited | preprint
-type: {}
+type:
+  conf/iat/LuccheseOPST10: conf   # WI-IAT 2010 paper; DBLP files it under the Workshops volume
 
 # Shown under the "Selected" filter (award papers are selected automatically).
 selected: []
